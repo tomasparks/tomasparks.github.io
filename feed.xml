@@ -1,0 +1,1100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tom Sparks website</title>
+    <description></description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 11 May 2019 23:35:05 +1000</pubDate>
+    <lastBuildDate>Sat, 11 May 2019 23:35:05 +1000</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>My 2018 NY Resolution</title>
+        <description>&lt;h1 id=&quot;my-2018-ny-resolution-list&quot;&gt;My 2018 NY Resolution list&lt;/h1&gt;
+
+&lt;h2 id=&quot;my-website&quot;&gt;My Website&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://indieweb.org/Getting_Started&quot;&gt;Indiewbeb&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;tick off some &lt;a href=&quot;https://indieweb.org/IndieMark&quot;&gt;IndieMarks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Complete website theming&lt;/li&gt;
+  &lt;li&gt;Copy my facebook data to my website&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;internet&quot;&gt;Internet&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;spend less time on youtube&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;myself&quot;&gt;Myself&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Do more Art work&lt;/li&gt;
+  &lt;li&gt;Listen to music/podcast more&lt;/li&gt;
+  &lt;li&gt;Read more books&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 03 Jan 2018 16:30:00 +1000</pubDate>
+        <link>/archive/2018/01/ny-resolution.html</link>
+        <guid isPermaLink="true">/archive/2018/01/ny-resolution.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Rhythmbox scrobbling notes system</title>
+        <description>&lt;p&gt;I’ve just written &lt;a href=&quot;https://en.wikipedia.org/wiki/Rhythmbox&quot;&gt;Rhythmbox&lt;/a&gt; scrobbling system for my notes&lt;/p&gt;
+
+&lt;p&gt;the php script takes rhythmdb.xml located at /home/tom/.local/share/rhythmbox/ and creates a yml file&lt;/p&gt;
+
+&lt;div class=&quot;github-sample-reference&quot;&gt;
+  &lt;div class=&quot;author-info&quot;&gt;
+    &lt;a href=&quot;https://github.com/tomasparks/website/blob/98c350c7f0f100a08637c89f0475b01b8d4c5b3d/_notes/local/2017/r12.yml&quot;&gt;This Github Sample&lt;/a&gt; is by &lt;a href=&quot;https://github.com/tomasparks&quot;&gt;tomasparks&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;meta-info&quot;&gt;
+    _notes/local/2017/r12.yml &lt;a href=&quot;https://github.com/tomasparks/website/blob/98c350c7f0f100a08637c89f0475b01b8d4c5b3d/_notes/local/2017/r12.yml&quot;&gt;view&lt;/a&gt; &lt;a href=&quot;https://raw.githubusercontent.com/tomasparks/website/98c350c7f0f100a08637c89f0475b01b8d4c5b3d/_notes/local/2017/r12.yml&quot;&gt;raw&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;2017-10-16&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;06:21:22&quot;&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;scrobble&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;tags&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title=netic+jazzin+it+up&amp;amp;artist=netic&amp;amp;album=Unknown&amp;amp;play-count=1&lt;/span&gt;
+&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;2017-10-25&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;16:37:29&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;source-code&quot;&gt;Source Code&lt;/h3&gt;
+
+&lt;div class=&quot;github-sample-reference&quot;&gt;
+  &lt;div class=&quot;author-info&quot;&gt;
+    &lt;a href=&quot;https://github.com/tomasparks/website/blob/c2215b2476f200f4e8d289fa55268b716cad07a9/_rake/rhythmdb2notes.php&quot;&gt;This Github Sample&lt;/a&gt; is by &lt;a href=&quot;https://github.com/tomasparks&quot;&gt;tomasparks&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;meta-info&quot;&gt;
+    _rake/rhythmdb2notes.php &lt;a href=&quot;https://github.com/tomasparks/website/blob/c2215b2476f200f4e8d289fa55268b716cad07a9/_rake/rhythmdb2notes.php&quot;&gt;view&lt;/a&gt; &lt;a href=&quot;https://raw.githubusercontent.com/tomasparks/website/c2215b2476f200f4e8d289fa55268b716cad07a9/_rake/rhythmdb2notes.php&quot;&gt;raw&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-php&quot; data-lang=&quot;php&quot;&gt;#!/usr/bin/env php
+&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;file_exists&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'/home/tom/.local/share/rhythmbox/rhythmdb.xml'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+ &lt;span class=&quot;nv&quot;&gt;$xml&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;simplexml_load_file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'/home/tom/.local/share/rhythmbox/rhythmdb.xml'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+ &lt;span class=&quot;c1&quot;&gt;//$json = json_encode($xml);&lt;/span&gt;
+ &lt;span class=&quot;c1&quot;&gt;//$data = json_decode($json,TRUE);&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;getcwd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+
+&lt;span class=&quot;nv&quot;&gt;$notes_path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str_replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;_rake&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;_notes&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;chdir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$notes_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+
+&lt;span class=&quot;k&quot;&gt;foreach&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$xml&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;-----&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;nv&quot;&gt;$json&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;json_encode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;json_decode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;TRUE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;c1&quot;&gt;//print_r($data);&lt;/span&gt;
+	&lt;span class=&quot;c1&quot;&gt;//echo &quot;\n---\n&quot;.json_encode($data).&quot;\n----\n&quot;;&lt;/span&gt;
+
+	&lt;span class=&quot;nv&quot;&gt;$att&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'@attributes'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+	
+	
+		&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$att&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'type'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;song&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'play-count'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		
+		&lt;span class=&quot;nv&quot;&gt;$tags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'title'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'title'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+		&lt;span class=&quot;nv&quot;&gt;$tags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'artist'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'artist'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+		&lt;span class=&quot;nv&quot;&gt;$tags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'album'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'album'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+		&lt;span class=&quot;nv&quot;&gt;$tags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'play-count'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'play-count'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+		&lt;span class=&quot;nv&quot;&gt;$epoch&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'last-played'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+		&lt;span class=&quot;nv&quot;&gt;$date&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;DateTime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;@&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$epoch&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+		&lt;span class=&quot;nv&quot;&gt;$res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'date'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$date&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Y-m-d H:i:s'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; 
+		
+		&lt;span class=&quot;nv&quot;&gt;$res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'type'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;scrobble&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;nv&quot;&gt;$res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'tags'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;http_build_query&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$tags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ret&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;unset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;		
+		&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;--&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+	
+	
+	&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$att&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'type'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;podcast-post&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'play-count'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		
+		&lt;span class=&quot;nv&quot;&gt;$tags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'title'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'title'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+		&lt;span class=&quot;nv&quot;&gt;$tags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'artist'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'artist'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+		&lt;span class=&quot;nv&quot;&gt;$tags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'album'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'album'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+		&lt;span class=&quot;nv&quot;&gt;$tags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'play-count'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'play-count'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+		&lt;span class=&quot;nv&quot;&gt;$epoch&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'last-played'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+		&lt;span class=&quot;nv&quot;&gt;$date&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;DateTime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;@&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$epoch&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+		&lt;span class=&quot;nv&quot;&gt;$res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'date'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$date&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Y-m-d H:i:s'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; 
+		
+		&lt;span class=&quot;nv&quot;&gt;$res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'type'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;scrobble&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;nv&quot;&gt;$res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'tags'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;http_build_query&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$tags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ret&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;unset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;		
+		&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;--&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+
+
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+ 		&lt;span class=&quot;k&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;yaml_emit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$ret&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+ 		  &lt;span class=&quot;nb&quot;&gt;chdir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$notes_path&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/local/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Y&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+ 		&lt;span class=&quot;nb&quot;&gt;yaml_emit_file&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;r&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;m&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;.yml&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$ret&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;exit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Failed to open /home/tom/.local/share/rhythmbox/rhythmdb.xml.'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+
+
+&lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;i’ve updated and cleaned notes.php&lt;/p&gt;
+
+&lt;div class=&quot;github-sample-reference&quot;&gt;
+  &lt;div class=&quot;author-info&quot;&gt;
+    &lt;a href=&quot;https://github.com/tomasparks/website/blob/98c350c7f0f100a08637c89f0475b01b8d4c5b3d/_rake/notes.php&quot;&gt;This Github Sample&lt;/a&gt; is by &lt;a href=&quot;https://github.com/tomasparks&quot;&gt;tomasparks&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;meta-info&quot;&gt;
+    _rake/notes.php &lt;a href=&quot;https://github.com/tomasparks/website/blob/98c350c7f0f100a08637c89f0475b01b8d4c5b3d/_rake/notes.php&quot;&gt;view&lt;/a&gt; &lt;a href=&quot;https://raw.githubusercontent.com/tomasparks/website/98c350c7f0f100a08637c89f0475b01b8d4c5b3d/_rake/notes.php&quot;&gt;raw&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-php&quot; data-lang=&quot;php&quot;&gt;#!/usr/bin/env php
+&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// key: qhNU8kMDrqS2Ryk8ExmyA&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//secret: 1tICNtAofpr0Coycb4eacrf4FcFCWSOzW8novjYL8&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;require_once&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'./php-mf2/Mf2/Parser.php'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;require_once&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'./htmlpurifier/library/HTMLPurifier.auto.php'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;require_once&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'./goodreads-api/GoodReads.php'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;date_default_timezone_set&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'	Australia/Brisbane'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+
+&lt;span class=&quot;k&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;create_notes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$logfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;foreach&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    	&lt;span class=&quot;c1&quot;&gt;//print_r($note);&lt;/span&gt;
+    	
+    	&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;isset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'tags'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;is_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'tags'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]))&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    	&lt;span class=&quot;nv&quot;&gt;$temp&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;urldecode&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'tags'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    	&lt;span class=&quot;nb&quot;&gt;parse_str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$temp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$tag_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    	&lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'tags'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$tag_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//fwrite($logfile,$temp.&quot;\n&quot;);&lt;/span&gt;
+
+    	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  		&lt;span class=&quot;c1&quot;&gt;//$note['tags'] = tags($note['$tags'],$logfile);&lt;/span&gt;
+  		
+    	&lt;span class=&quot;c1&quot;&gt;//echo &quot;\n&quot;;&lt;/span&gt;
+    	&lt;span class=&quot;nv&quot;&gt;$hash&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;hash&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'sha1'&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;json_encode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+    	&lt;span class=&quot;c1&quot;&gt;//fwrite($logfile, $hash.&quot;\n&quot;);&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;//  	echo $hash.&quot;\n&quot;;&lt;/span&gt;
+    	&lt;span class=&quot;nb&quot;&gt;fwrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$logfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;--------------------&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;hash: &quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$hash&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;json_encode: &quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;json_encode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;--------------------&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;  
+    	    	
+    	    	
+    	&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;isset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'url'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]))&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    	&lt;span class=&quot;nv&quot;&gt;$url&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str_ireplace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;www.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;parse_url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'url'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;PHP_URL_HOST&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+    	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    	
+    	&lt;span class=&quot;nv&quot;&gt;$date_split&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;date_parse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'date'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+    	&lt;span class=&quot;nv&quot;&gt;$isodate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;c&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;strtotime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'date'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]));&lt;/span&gt;
+    	&lt;span class=&quot;nv&quot;&gt;$permdate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sprintf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;%04d/%02d/%02d&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$date_split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'year'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$date_split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'month'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$date_split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'day'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+    	
+    	&lt;span class=&quot;nv&quot;&gt;$months&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;array&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'January'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'February'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'March'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    	&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'April'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'May'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'June'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'July'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'August'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    	&lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'September'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'October'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;11&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'November'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'December'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    	&lt;span class=&quot;nb&quot;&gt;unset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$md_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    	
+    	&lt;span class=&quot;nv&quot;&gt;$md_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'layout'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;notes_&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'type'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+    	&lt;span class=&quot;nv&quot;&gt;$md_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'date'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$isodate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    	&lt;span class=&quot;nv&quot;&gt;$md_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'type'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'type'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+    	
+    	&lt;span class=&quot;c1&quot;&gt;//$mdfile = fopen($hash.&quot;.md&quot;, &quot;w&quot;);&lt;/span&gt;
+    	
+    	
+    			&lt;span class=&quot;c1&quot;&gt;//fwrite($mdfile, &quot;---\n&quot;);&lt;/span&gt;
+				&lt;span class=&quot;c1&quot;&gt;//fwrite($mdfile, &quot;layout: notes_&quot;.$note['type'].&quot;\n&quot;);&lt;/span&gt;
+				&lt;span class=&quot;c1&quot;&gt;//fwrite($mdfile, &quot;date: &quot;.$isodate.&quot;\n&quot;);	&lt;/span&gt;
+				&lt;span class=&quot;c1&quot;&gt;//fwrite($mdfile, &quot;type: &quot;.$note['type'].&quot;\n&quot;);&lt;/span&gt;
+				&lt;span class=&quot;c1&quot;&gt;//fwrite($mdfile, &quot;date: &quot;.$isodate.&quot;\n&quot;);&lt;/span&gt;
+				    	&lt;span class=&quot;nb&quot;&gt;unset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$categories_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;			
+				&lt;span class=&quot;nv&quot;&gt;$categories_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'type'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+				&lt;span class=&quot;nv&quot;&gt;$categories_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$months&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$date_split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'month'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]];&lt;/span&gt;
+				&lt;span class=&quot;nv&quot;&gt;$categories_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$date_split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'year'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+				&lt;span class=&quot;nv&quot;&gt;$categories_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$date_split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'day'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+				&lt;span class=&quot;c1&quot;&gt;//fwrite($mdfile, &quot;categories: \n&quot;);&lt;/span&gt;
+				&lt;span class=&quot;c1&quot;&gt;//fwrite($mdfile, &quot; - &quot;.$note['type'].&quot;\n&quot;);&lt;/span&gt;
+				
+				&lt;span class=&quot;c1&quot;&gt;// dates&lt;/span&gt;
+				&lt;span class=&quot;c1&quot;&gt;//fwrite($mdfile, &quot; - &quot;.$date_split['year'].&quot;\n&quot;);&lt;/span&gt;
+				&lt;span class=&quot;c1&quot;&gt;//fwrite($mdfile, &quot; - &quot;.$months[(int)$date_split['month']].&quot;\n&quot;);&lt;/span&gt;
+				&lt;span class=&quot;c1&quot;&gt;//fwrite($mdfile, &quot; - &quot;.$date_split['day'].&quot;\n&quot;);				&lt;/span&gt;
+				
+				&lt;span class=&quot;c1&quot;&gt;// url&lt;/span&gt;
+				&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;isset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+				&lt;span class=&quot;c1&quot;&gt;//	fwrite($mdfile, &quot; - &quot;.$url.&quot;\n&quot;);&lt;/span&gt;
+				&lt;span class=&quot;nv&quot;&gt;$categories_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+				&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+				
+		&lt;span class=&quot;k&quot;&gt;switch&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'type'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// -------------------------------------------------------------------------------------------------------------------------------------&lt;/span&gt;
+		
+&lt;span class=&quot;c1&quot;&gt;// #####################################################################################################################################&lt;/span&gt;
+			&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;scrobble&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+				&lt;span class=&quot;nv&quot;&gt;$categories_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$tag_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'title'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+				&lt;span class=&quot;nv&quot;&gt;$categories_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$tag_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'artist'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+				&lt;span class=&quot;nv&quot;&gt;$categories_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$tag_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'album'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+				
+				&lt;span class=&quot;nv&quot;&gt;$md_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'music-title'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$tag_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'title'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+				&lt;span class=&quot;nv&quot;&gt;$md_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'music-artist'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$tag_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'artist'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+				&lt;span class=&quot;nv&quot;&gt;$md_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'music-album'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$tag_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'album'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+				&lt;span class=&quot;nv&quot;&gt;$md_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'music-play-count'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$tag_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'play-count'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+				&lt;span class=&quot;nv&quot;&gt;$md_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'permalink'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/notes/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'type'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;urlencode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$tag_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'artist'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;urlencode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$tag_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'album'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$hash&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;.html&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+				&lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+				
+&lt;span class=&quot;c1&quot;&gt;// #####################################################################################################################################&lt;/span&gt;
+			&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;twitter&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+				&lt;span class=&quot;nv&quot;&gt;$md_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'permalink'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/notes/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'type'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$permdate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$hash&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;.html&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+				&lt;span class=&quot;c1&quot;&gt;//fwrite($mdfile, &quot;ext-url: &quot;.$note['url'].&quot;\n&quot;);&lt;/span&gt;
+				&lt;span class=&quot;c1&quot;&gt;//fwrite($mdfile, &quot;---\n&quot;);&lt;/span&gt;
+				&lt;span class=&quot;c1&quot;&gt;//fwrite($mdfile, $note['message'].&quot;\n&quot;);&lt;/span&gt;
+				&lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+				
+&lt;span class=&quot;c1&quot;&gt;// #####################################################################################################################################&lt;/span&gt;
+			&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'reply'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+				&lt;span class=&quot;nv&quot;&gt;$md_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'permalink'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/notes/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'type'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$url&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$permdate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$hash&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;.html&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+				&lt;span class=&quot;nv&quot;&gt;$html&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;file_get_contents&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'url'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+				&lt;span class=&quot;nv&quot;&gt;$config&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;HTMLPurifier_Config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;createDefault&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+				&lt;span class=&quot;nv&quot;&gt;$purifier&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;HTMLPurifier&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+				&lt;span class=&quot;nv&quot;&gt;$cleanhtml&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$purifier&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;purify&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$html&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+				&lt;span class=&quot;nv&quot;&gt;$mf&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Mf2\parse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$cleanhtml&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'url'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+				&lt;span class=&quot;nv&quot;&gt;$md_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'ext-url'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'url'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+				&lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+				
+&lt;span class=&quot;c1&quot;&gt;// #####################################################################################################################################&lt;/span&gt;
+				
+			&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;like&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+				&lt;span class=&quot;nv&quot;&gt;$md_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'permalink'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/notes/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'type'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$url&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$permdate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$hash&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;.html&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+				&lt;span class=&quot;nv&quot;&gt;$html&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;file_get_contents&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'url'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+				&lt;span class=&quot;nv&quot;&gt;$config&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;HTMLPurifier_Config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;createDefault&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+				&lt;span class=&quot;nv&quot;&gt;$purifier&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;HTMLPurifier&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+				&lt;span class=&quot;nv&quot;&gt;$cleanhtml&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$purifier&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;purify&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$html&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+				&lt;span class=&quot;nv&quot;&gt;$mf&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Mf2\parse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$cleanhtml&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'url'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+				&lt;span class=&quot;nv&quot;&gt;$md_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'ext-url'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'url'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+				&lt;span class=&quot;nv&quot;&gt;$md_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'title'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Liked a page on &quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;  				
+				&lt;span class=&quot;c1&quot;&gt;//fwrite($mdfile, $note['message'].&quot;\n&quot;);&lt;/span&gt;
+				&lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;	
+				
+&lt;span class=&quot;c1&quot;&gt;// #####################################################################################################################################		&lt;/span&gt;
+			&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;read&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+					&lt;span class=&quot;nv&quot;&gt;$md_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'permalink'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/notes/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'type'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$permdate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$hash&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;.html&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+					&lt;span class=&quot;nv&quot;&gt;$goodreads_api&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;GoodReads&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'qhNU8kMDrqS2Ryk8ExmyA'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'/home/tom/github/blog/website/_rake/tmp/'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+					&lt;span class=&quot;nv&quot;&gt;$urls&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'urls'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+					&lt;span class=&quot;nv&quot;&gt;$tags&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'tags'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+					&lt;span class=&quot;nv&quot;&gt;$page&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$tags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'page'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+					
+					&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$page&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;finshed&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$status&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Finished&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$status&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Currently&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;}&lt;/span&gt;
+					
+					&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;array_key_exists&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;asin&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$urls&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+					&lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$goodreads_api&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getBookByISBN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$urls&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'asin'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+					&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+					&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;array_key_exists&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;ASIN&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$urls&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+					&lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$goodreads_api&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getBookByISBN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$urls&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'ASIN'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+					&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+					
+					&lt;span class=&quot;nv&quot;&gt;$book&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'book'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+					&lt;span class=&quot;nb&quot;&gt;fwrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$logfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;json_encode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$book&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+					&lt;span class=&quot;nv&quot;&gt;$md_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'book-title'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$book&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'title'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+					&lt;span class=&quot;nv&quot;&gt;$md_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'book-image_url'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$book&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'small_image_url'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+					&lt;span class=&quot;nv&quot;&gt;$md_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'book-url'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$book&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'url'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;	
+					&lt;span class=&quot;nv&quot;&gt;$md_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'page'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$page&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;				
+					&lt;span class=&quot;nv&quot;&gt;$md_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'status'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$status&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;				
+			&lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+			
+&lt;span class=&quot;c1&quot;&gt;// #####################################################################################################################################&lt;/span&gt;
+			&lt;span class=&quot;k&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+				&lt;span class=&quot;nv&quot;&gt;$md_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'permalink'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/notes/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'type'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$permdate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$hash&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;.html&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+				&lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+				
+&lt;span class=&quot;c1&quot;&gt;// -------------------------------------------------------------------------------------------------------------------------------------&lt;/span&gt;
+			&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+				&lt;span class=&quot;nv&quot;&gt;$md_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'categories'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$categories_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+				&lt;span class=&quot;nv&quot;&gt;$frontmatter&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;yaml_emit&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$md_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+				&lt;span class=&quot;nv&quot;&gt;$frontmatter&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str_ireplace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;...&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;---&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$frontmatter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+				&lt;span class=&quot;nv&quot;&gt;$mdfile&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;fopen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$hash&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;.md&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;w&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+				&lt;span class=&quot;nb&quot;&gt;fwrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$mdfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$frontmatter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+				&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;array_key_exists&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;message&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+					&lt;span class=&quot;nb&quot;&gt;fwrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$mdfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'message'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+				&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+				&lt;span class=&quot;nb&quot;&gt;fclose&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$mdfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// ================================&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;csv_parse_file&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$logfile&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+ 
+	&lt;span class=&quot;c1&quot;&gt;//echo &quot;opening &quot;.$file.&quot;....&quot;;&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$handle&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;fopen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;r&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!==&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;FALSE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;c1&quot;&gt;//echo &quot;Done\n&quot;;&lt;/span&gt;
+    	&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;fgetcsv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$handle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;,&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!==&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;FALSE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    		&lt;span class=&quot;nb&quot;&gt;fwrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$logfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;json_encode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    		&lt;span class=&quot;cm&quot;&gt;/*
+    		0: type
+    		1: url
+    		2: messages
+    		3: tags
+    		4: date 
+    		*/&lt;/span&gt;
+    		&lt;span class=&quot;nb&quot;&gt;unset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+ 			&lt;span class=&quot;nv&quot;&gt;$res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'type'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'0'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+ 			&lt;span class=&quot;nv&quot;&gt;$tmpdate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;date_create_from_format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'d/m/Y'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'4'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+ 			&lt;span class=&quot;nv&quot;&gt;$res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'date'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;date_format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$tmpdate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Y-m-d'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+ 			&lt;span class=&quot;nv&quot;&gt;$res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'message'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'2'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+			&lt;span class=&quot;nv&quot;&gt;$res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'source'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;csv&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+			&lt;span class=&quot;c1&quot;&gt;// tags ===============================================&lt;/span&gt;
+			    &lt;span class=&quot;nb&quot;&gt;unset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$tags_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+			  &lt;span class=&quot;c1&quot;&gt;//$data['3']  = urldecode ( $data['3'] );&lt;/span&gt;
+			&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;strlen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'3'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;is_null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'3'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]))&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+				
+				
+				&lt;span class=&quot;c1&quot;&gt;//parse_str($data['3'], $tags_array);&lt;/span&gt;
+				
+				
+				&lt;span class=&quot;nv&quot;&gt;$oldtags_array&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;explode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;','&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'3'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+				&lt;span class=&quot;nv&quot;&gt;$tags_array&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	
+				&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$oldtags_array&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+					&lt;span class=&quot;nv&quot;&gt;$key_value&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;explode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;':'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$oldtags_array&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+					&lt;span class=&quot;nv&quot;&gt;$tags_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$key_value&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$key_value&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+				
+				&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+		
+			&lt;span class=&quot;c1&quot;&gt;//echo &quot;tags_array===============================================\n&quot;;&lt;/span&gt;
+		
+    		&lt;span class=&quot;c1&quot;&gt;//print_r($tags_array);&lt;/span&gt;
+    		&lt;span class=&quot;nb&quot;&gt;fwrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$logfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;json_encode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$tags_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    		&lt;span class=&quot;c1&quot;&gt;//echo &quot;===============================================\n&quot;;&lt;/span&gt;
+			&lt;span class=&quot;nv&quot;&gt;$res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'tags'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$tags_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+		&lt;span class=&quot;c1&quot;&gt;// ======================================================	&lt;/span&gt;
+		
+		&lt;span class=&quot;c1&quot;&gt;// url tags	===========================================&lt;/span&gt;
+		&lt;span class=&quot;nb&quot;&gt;unset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$url_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+		
+		&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;strlen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'1'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;is_null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'1'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]))&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		    &lt;span class=&quot;c1&quot;&gt;//print_r($data['1']);&lt;/span&gt;
+		    &lt;span class=&quot;c1&quot;&gt;//echo &quot;\n&quot;;&lt;/span&gt;
+			&lt;span class=&quot;k&quot;&gt;switch&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+			
+				&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;stristr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'1'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'http'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+				&lt;span class=&quot;c1&quot;&gt;//echo &quot;found http\n&quot;;&lt;/span&gt;
+					&lt;span class=&quot;nv&quot;&gt;$res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'url'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'1'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;			
+					&lt;span class=&quot;c1&quot;&gt;//echo &quot;url===============================================\n&quot;;&lt;/span&gt;
+    				&lt;span class=&quot;c1&quot;&gt;//print_r($res['url']);&lt;/span&gt;
+    				&lt;span class=&quot;c1&quot;&gt;//echo &quot;===============================================\n&quot;;&lt;/span&gt;
+					&lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+					
+				&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;parse_url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'1'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;PHP_URL_QUERY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+					&lt;span class=&quot;c1&quot;&gt;//echo &quot;found query\n&quot;;&lt;/span&gt;
+					&lt;span class=&quot;c1&quot;&gt;//print_r(parse_url($url, PHP_URL_QUERY));&lt;/span&gt;
+					&lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+							
+				&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;stristr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'1'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'ASIN'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+					&lt;span class=&quot;c1&quot;&gt;//echo &quot;found asin\n&quot;;	&lt;/span&gt;
+				    &lt;span class=&quot;nv&quot;&gt;$key_value&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;explode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;':'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'1'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+				    &lt;span class=&quot;nv&quot;&gt;$url_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$key_value&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$key_value&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+				    &lt;span class=&quot;nv&quot;&gt;$res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'urls'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$url_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+					&lt;span class=&quot;c1&quot;&gt;//echo &quot;url===============================================\n&quot;;&lt;/span&gt;
+    				&lt;span class=&quot;c1&quot;&gt;//print_r($res['urls']);&lt;/span&gt;
+    				&lt;span class=&quot;c1&quot;&gt;//echo &quot;===============================================\n&quot;;&lt;/span&gt;
+					&lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+					
+				&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;stristr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'1'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'ISBN'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+					&lt;span class=&quot;c1&quot;&gt;//echo &quot;found isbn\n&quot;;	&lt;/span&gt;
+				    &lt;span class=&quot;nv&quot;&gt;$key_value&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;explode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;':'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'1'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+				    &lt;span class=&quot;nv&quot;&gt;$url_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$key_value&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$key_value&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+				    &lt;span class=&quot;nv&quot;&gt;$res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'urls'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$url_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+					&lt;span class=&quot;c1&quot;&gt;//echo &quot;url===============================================\n&quot;;&lt;/span&gt;
+    				&lt;span class=&quot;c1&quot;&gt;//print_r($res['urls']);&lt;/span&gt;
+    				&lt;span class=&quot;c1&quot;&gt;//echo &quot;===============================================\n&quot;;&lt;/span&gt;
+					&lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+						
+				&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;stristr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'1'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'IMDB'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+					&lt;span class=&quot;c1&quot;&gt;//echo &quot;found IMDB\n&quot;;	&lt;/span&gt;
+				    &lt;span class=&quot;nv&quot;&gt;$key_value&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;explode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;':'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'1'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+				    &lt;span class=&quot;nv&quot;&gt;$url_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$key_value&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$key_value&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+				    &lt;span class=&quot;nv&quot;&gt;$res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'urls'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$url_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+					&lt;span class=&quot;c1&quot;&gt;//echo &quot;url===============================================\n&quot;;&lt;/span&gt;
+    				&lt;span class=&quot;c1&quot;&gt;//print_r($res['urls']);&lt;/span&gt;
+    				&lt;span class=&quot;c1&quot;&gt;//echo &quot;===============================================\n&quot;;&lt;/span&gt;
+					&lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+					
+				&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;stristr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'1'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'TVDB'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+					&lt;span class=&quot;c1&quot;&gt;//echo &quot;found TVDB\n&quot;;	&lt;/span&gt;
+				    &lt;span class=&quot;nv&quot;&gt;$key_value&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;explode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;':'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'1'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+				    &lt;span class=&quot;nv&quot;&gt;$url_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$key_value&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$key_value&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+				    &lt;span class=&quot;nv&quot;&gt;$res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'urls'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$url_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+					&lt;span class=&quot;c1&quot;&gt;//echo &quot;url===============================================\n&quot;;&lt;/span&gt;
+    				&lt;span class=&quot;c1&quot;&gt;//print_r($res['urls']);&lt;/span&gt;
+    				&lt;span class=&quot;c1&quot;&gt;//echo &quot;===============================================\n&quot;;&lt;/span&gt;
+					&lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+							
+&lt;span class=&quot;cm&quot;&gt;/*										
+				case strstr($data['1'], ','):
+					$oldurl_array = explode(',', $data['1']);
+					$url_array = &quot;&quot;;
+					for($i=0; $i &amp;lt; count($oldurl_array ); $i++){
+    					$key_value = explode(':', $oldurl_array [$i]);
+    					$url_array[$key_value [0]] = $key_value [1];
+
+					}
+	 				$res['urls'] = $url_array;
+	 				echo &quot;url_array===============================================\n&quot;;
+    				print_r($res['urls']);
+    				echo &quot;===============================================\n&quot;;
+    				$url_array=&quot;&quot;;; 
+			    	break;
+			    	*/&lt;/span&gt;
+ 			&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+ 			
+ 		&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+ 		&lt;span class=&quot;c1&quot;&gt;// ===========================================&lt;/span&gt;
+			&lt;span class=&quot;c1&quot;&gt;//echo &quot;res===============================================\n&quot;;&lt;/span&gt;
+    		&lt;span class=&quot;c1&quot;&gt;//print_r($res);&lt;/span&gt;
+    		&lt;span class=&quot;c1&quot;&gt;//echo &quot;===============================================\n&quot;;	&lt;/span&gt;
+ 		&lt;span class=&quot;nb&quot;&gt;fwrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$logfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;json_encode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+ 		&lt;span class=&quot;nv&quot;&gt;$ret&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+ 			 
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+
+		&lt;span class=&quot;nb&quot;&gt;fclose&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$handle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$ret&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+
+&lt;span class=&quot;k&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;tags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$tags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$logfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$temp&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;urldecode&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$tags&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;parse_str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$temp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$output&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;fwrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$logfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;json_encode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$output&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$output&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
+
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nv&quot;&gt;$path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;getcwd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+
+&lt;span class=&quot;nv&quot;&gt;$logfile&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;fopen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;log.log&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;w&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;global&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$logfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;nv&quot;&gt;$notes_path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str_replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;_rake&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;_notes&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;chdir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$notes_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+
+&lt;span class=&quot;nv&quot;&gt;$notes_dir&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;scandir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$notes_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;nb&quot;&gt;fwrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$logfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;json_encode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$notes_dir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;foreach&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$notes_dir&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$dir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;nb&quot;&gt;fwrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$logfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$dir&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$dir&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;.&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$dir&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;..&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;continue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;}&lt;/span&gt;
+	&lt;span class=&quot;nb&quot;&gt;chdir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$notes_path&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$dir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;  
+	&lt;span class=&quot;nv&quot;&gt;$year_dir&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;scandir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$notes_path&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$dir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;nb&quot;&gt;fwrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$logfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;json_encode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$year_dir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;foreach&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$year_dir&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$ydir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;nb&quot;&gt;fwrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$logfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$ydir&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$ydir&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;.&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$ydir&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;..&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;continue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;}&lt;/span&gt;
+		&lt;span class=&quot;nb&quot;&gt;chdir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$notes_path&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$dir&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$ydir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;  
+		&lt;span class=&quot;k&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;getcwd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;nv&quot;&gt;$filelist&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;scandir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$notes_path&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$dir&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$ydir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+			&lt;span class=&quot;nb&quot;&gt;fwrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$logfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;json_encode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$filelist&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+			
+		&lt;span class=&quot;k&quot;&gt;foreach&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$filelist&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+			&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$file&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;.&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$file&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;..&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;continue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;}&lt;/span&gt;
+			&lt;span class=&quot;k&quot;&gt;switch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+					&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;strstr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;log&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+    					&lt;span class=&quot;c1&quot;&gt;//echo $file.&quot; skipping log file\n&quot;;&lt;/span&gt;
+    					&lt;span class=&quot;nb&quot;&gt;fwrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$logfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$file&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot; skipping log file&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    					&lt;span class=&quot;k&quot;&gt;continue&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+					&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;strstr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;md&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+    					&lt;span class=&quot;c1&quot;&gt;//echo $file.&quot; skipping md file\n&quot;;&lt;/span&gt;
+    					&lt;span class=&quot;nb&quot;&gt;fwrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$logfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$file&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot; skipping md file&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    					&lt;span class=&quot;k&quot;&gt;continue&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+					&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;strstr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;yml&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+    					&lt;span class=&quot;c1&quot;&gt;//echo $file.&quot;yml file\n&quot;;&lt;/span&gt;
+    					&lt;span class=&quot;nb&quot;&gt;fwrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$logfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$file&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot; yml file :) &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    					&lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;yaml_parse_file&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$file&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+						&lt;span class=&quot;c1&quot;&gt;//fwrite($logfile,&quot;\n-------------------\n&quot;.json_encode($data).&quot;\n-------------------\n&quot;);&lt;/span&gt;
+    					&lt;span class=&quot;nx&quot;&gt;create_notes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$logfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    					&lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+					&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;strstr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;csv&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+    					&lt;span class=&quot;c1&quot;&gt;//echo $file.&quot; CSV file\n&quot;;&lt;/span&gt;
+    					&lt;span class=&quot;nb&quot;&gt;fwrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$logfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$file&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot; csv file :) &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    					&lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;csv_parse_file&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$logfile&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+    					&lt;span class=&quot;nx&quot;&gt;create_notes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$logfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+						&lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+					&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+			&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    	&lt;span class=&quot;nb&quot;&gt;fclose&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$logfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+</description>
+        <pubDate>Sun, 31 Dec 2017 00:00:00 +1000</pubDate>
+        <link>/archive/2017/12/rhythmbox-notes-system.html</link>
+        <guid isPermaLink="true">/archive/2017/12/rhythmbox-notes-system.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>custom indieweb note system</title>
+        <description>&lt;p&gt;I am curently writing a custom indieweb &lt;a href=&quot;https://indieweb.org/note&quot;&gt;note&lt;/a&gt; system for my webiste, my requirements are different to most/all indieweb implementation as I need three different way of creating notes Text-editor, Browser and Offline&lt;/p&gt;
+
+&lt;h3 id=&quot;text-editor&quot;&gt;text-editor&lt;/h3&gt;
+
+&lt;p&gt;I use a text editor to add entries to &lt;a href=&quot;https://en.wikipedia.org/wiki/YAML&quot;&gt;YAML&lt;/a&gt; file&lt;/p&gt;
+
+&lt;div class=&quot;github-sample-reference&quot;&gt;
+  &lt;div class=&quot;author-info&quot;&gt;
+    &lt;a href=&quot;https://github.com/tomasparks/website/blob/07641044ff952012604941d9fb8f759365ba6280/_notes/local/2017/10.yml&quot;&gt;This Github Sample&lt;/a&gt; is by &lt;a href=&quot;https://github.com/tomasparks&quot;&gt;tomasparks&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;meta-info&quot;&gt;
+    _notes/local/2017/10.yml &lt;a href=&quot;https://github.com/tomasparks/website/blob/07641044ff952012604941d9fb8f759365ba6280/_notes/local/2017/10.yml&quot;&gt;view&lt;/a&gt; &lt;a href=&quot;https://raw.githubusercontent.com/tomasparks/website/07641044ff952012604941d9fb8f759365ba6280/_notes/local/2017/10.yml&quot;&gt;raw&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;2017-10-19&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;twitter&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;message&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;I've&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;been&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;watching&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Donald&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Trump&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;and&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'little&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;rocket&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;man'&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Kim&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Jong-un&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;and&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;it&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;reminds&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;me&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;of&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;[Team&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;America:&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;World&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Police](https://en.wikipedia.org/wiki/Team_America:_World_Police)&quot;&lt;/span&gt;
+&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;2017-10-19&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;like&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;web-browser--mircopub&quot;&gt;web Browser / mircopub&lt;/h3&gt;
+
+&lt;p&gt;Unimplementated because I have not found a browser plugin/addon that support my wishlist&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; yet, the closest i’ve found is &lt;a href=&quot;https://indieweb.org/Omnibear&quot;&gt;Omnibear&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;offline--csv&quot;&gt;Offline / CSV&lt;/h3&gt;
+
+&lt;p&gt;I use a PDA&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;, when I away from my computers, the PDA has good database software witch can export &lt;a href=&quot;https://en.wikipedia.org/wiki/Comma-separated_values&quot;&gt;CSV&lt;/a&gt; files&lt;/p&gt;
+
+&lt;div class=&quot;github-sample-reference&quot;&gt;
+  &lt;div class=&quot;author-info&quot;&gt;
+    &lt;a href=&quot;https://github.com/tomasparks/website/blob/07641044ff952012604941d9fb8f759365ba6280/_notes/pda/2017/12.csv&quot;&gt;This Github Sample&lt;/a&gt; is by &lt;a href=&quot;https://github.com/tomasparks&quot;&gt;tomasparks&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;meta-info&quot;&gt;
+    _notes/pda/2017/12.csv &lt;a href=&quot;https://github.com/tomasparks/website/blob/07641044ff952012604941d9fb8f759365ba6280/_notes/pda/2017/12.csv&quot;&gt;view&lt;/a&gt; &lt;a href=&quot;https://raw.githubusercontent.com/tomasparks/website/07641044ff952012604941d9fb8f759365ba6280/_notes/pda/2017/12.csv&quot;&gt;raw&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-csv&quot; data-lang=&quot;csv&quot;&gt;&quot;twitter&quot;,,&quot;its been 12 months sinceth glenfliet fire&quot;,,&quot;15/12/2017&quot;
+&quot;read&quot;,&quot;ASIN:B073GDQFJ2&quot;,,&quot;page: 213&quot;,&quot;15/12/2017&quot;
+&quot;read&quot;,&quot;ASIN:B073GDQFJ2&quot;,&quot;minitel ads were hated just as much as todays internet ads&quot;,&quot;page: 216-217&quot;,&quot;15/12/2017&quot;
+&quot;bookmark&quot;,&quot;journey 1 and 2&quot;,,,&quot;15/12/2017&quot;
+&quot;read&quot;,&quot;ASIN:B073GDQFJ2&quot;,,&quot;page: 251&quot;,&quot;16/12/2017&quot;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;data-format&quot;&gt;data format&lt;/h3&gt;
+
+&lt;p&gt;I am using the SQL format to demonstrate the data format&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;CREATE&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;TABLE&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;date&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;CHAR&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;CHAR&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;tags&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;CHAR&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;url&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;CHAR&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;message&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;TEXT&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;type is for the &lt;a href=&quot;https://indieweb.org/posts#Kinds_of_Posts&quot;&gt;post type&lt;/a&gt; excluding articles&lt;/li&gt;
+  &lt;li&gt;tags are a csv encoded key:value pairs&lt;/li&gt;
+  &lt;li&gt;url are for &lt;a href=&quot;https://en.wikipedia.org/wiki/Uniform_Resource_Identifier&quot;&gt;Uniform Resource Identifier&lt;/a&gt;, I am currently using CSV encoded key:value pairs, I am looking at using the &lt;a href=&quot;https://en.wikipedia.org/wiki/Query_string&quot;&gt;Url Query&lt;/a&gt; format in the future&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;NOTE: data fomrat MUST be human editable&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;No &lt;a href=&quot;https://en.wikipedia.org/wiki/Percent-encoding&quot;&gt;url encoding&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;source-code&quot;&gt;Source Code&lt;/h3&gt;
+
+&lt;div class=&quot;github-sample-reference&quot;&gt;
+  &lt;div class=&quot;author-info&quot;&gt;
+    &lt;a href=&quot;https://github.com/tomasparks/website/blob/07641044ff952012604941d9fb8f759365ba6280/_rake/notes.php&quot;&gt;This Github Sample&lt;/a&gt; is by &lt;a href=&quot;https://github.com/tomasparks&quot;&gt;tomasparks&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;meta-info&quot;&gt;
+    _rake/notes.php &lt;a href=&quot;https://github.com/tomasparks/website/blob/07641044ff952012604941d9fb8f759365ba6280/_rake/notes.php&quot;&gt;view&lt;/a&gt; &lt;a href=&quot;https://raw.githubusercontent.com/tomasparks/website/07641044ff952012604941d9fb8f759365ba6280/_rake/notes.php&quot;&gt;raw&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-php&quot; data-lang=&quot;php&quot;&gt;#!/usr/bin/env php
+&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// key: qhNU8kMDrqS2Ryk8ExmyA&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//secret: 1tICNtAofpr0Coycb4eacrf4FcFCWSOzW8novjYL8&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;require_once&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'./php-mf2/Mf2/Parser.php'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;require_once&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'./htmlpurifier/library/HTMLPurifier.auto.php'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;require_once&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'./goodreads-api/GoodReads.php'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+
+
+&lt;span class=&quot;k&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;create_notes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;foreach&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    	&lt;span class=&quot;nb&quot;&gt;print_r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    	&lt;span class=&quot;k&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    	&lt;span class=&quot;nv&quot;&gt;$hash&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;hash&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'sha1'&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;json_encode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+    	&lt;span class=&quot;k&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$hash&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    	&lt;span class=&quot;nv&quot;&gt;$date_split&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;date_parse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'date'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+    	&lt;span class=&quot;nv&quot;&gt;$isodate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sprintf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;%04d-%02d-%02d&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$date_split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'year'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$date_split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'month'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$date_split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'day'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+    	&lt;span class=&quot;nv&quot;&gt;$permdate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sprintf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;%04d/%02d/%02d&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$date_split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'year'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$date_split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'month'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$date_split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'day'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+    	&lt;span class=&quot;nv&quot;&gt;$mdfile&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;fopen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$hash&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;.md&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;w&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    	
+    	
+    			&lt;span class=&quot;nb&quot;&gt;fwrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$mdfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;---&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+				&lt;span class=&quot;nb&quot;&gt;fwrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$mdfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;layout: notes_&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'type'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+				&lt;span class=&quot;nb&quot;&gt;fwrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$mdfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;date: &quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$isodate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;	
+				&lt;span class=&quot;nb&quot;&gt;fwrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$mdfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;type: &quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'type'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+				&lt;span class=&quot;c1&quot;&gt;//fwrite($mdfile, &quot;date: &quot;.$isodate.&quot;\n&quot;);&lt;/span&gt;
+			
+				&lt;span class=&quot;nb&quot;&gt;fwrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$mdfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;permalink: /notes/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'type'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$permdate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$hash&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;.html&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+				
+		&lt;span class=&quot;k&quot;&gt;switch&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'type'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		
+			&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;twitter&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+
+				&lt;span class=&quot;c1&quot;&gt;//fwrite($mdfile, &quot;ext-url: &quot;.$note['url'].&quot;\n&quot;);&lt;/span&gt;
+				&lt;span class=&quot;nb&quot;&gt;fwrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$mdfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;---&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+				&lt;span class=&quot;nb&quot;&gt;fwrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$mdfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'message'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+				&lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+				
+			&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;like&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+				&lt;span class=&quot;nv&quot;&gt;$html&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;file_get_contents&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'url'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+				&lt;span class=&quot;nv&quot;&gt;$config&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;HTMLPurifier_Config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;createDefault&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+				&lt;span class=&quot;nv&quot;&gt;$purifier&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;HTMLPurifier&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+				&lt;span class=&quot;nv&quot;&gt;$cleanhtml&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$purifier&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;purify&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$html&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+				&lt;span class=&quot;nv&quot;&gt;$mf&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Mf2\parse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$cleanhtml&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'url'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+				&lt;span class=&quot;nb&quot;&gt;fwrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$mdfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;ext-url: &quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'url'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+				&lt;span class=&quot;nb&quot;&gt;fwrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$mdfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;---&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+				&lt;span class=&quot;c1&quot;&gt;//fwrite($mdfile, $note['message'].&quot;\n&quot;);&lt;/span&gt;
+				&lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;	
+				
+			&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;read&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+					&lt;span class=&quot;nv&quot;&gt;$goodreads_api&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;GoodReads&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'qhNU8kMDrqS2Ryk8ExmyA'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'/home/tom/github/blog/website/_rake/tmp/'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+					&lt;span class=&quot;nv&quot;&gt;$tags&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'tags'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+					&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;array_key_exists&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;asin&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$tags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+					&lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$goodreads_api&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getBookByISBN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$tags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'asin'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+					&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+					&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;array_key_exists&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;ASIN&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$tags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+					&lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$goodreads_api&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getBookByISBN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$tags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'ASIN'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+					&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+					
+					&lt;span class=&quot;nv&quot;&gt;$book&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'book'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+					&lt;span class=&quot;nb&quot;&gt;fwrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$mdfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;book-title: &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$book&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'title'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&quot;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+					&lt;span class=&quot;nb&quot;&gt;fwrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$mdfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;book-image_url: &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$book&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'small_image_url'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&quot;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+					&lt;span class=&quot;nb&quot;&gt;fwrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$mdfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;book-url: &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$book&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'url'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&quot;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;					
+					
+				    &lt;span class=&quot;c1&quot;&gt;//foreach($note['tags'] as $tagkey =&amp;gt; $tag_value) {&lt;/span&gt;
+				    &lt;span class=&quot;c1&quot;&gt;//fwrite($mdfile, &quot;tags-&quot;.$tagkey.&quot;: &quot;.$tag_value.&quot;\n&quot;);&lt;/span&gt;
+				    &lt;span class=&quot;c1&quot;&gt;//}&lt;/span&gt;
+				    
+				    &lt;span class=&quot;c1&quot;&gt;//foreach($note['urls'] as $urlkey =&amp;gt; $url_value) {&lt;/span&gt;
+				    &lt;span class=&quot;c1&quot;&gt;//fwrite($mdfile, &quot;urls-&quot;.$urlkey.&quot;: &quot;.$url_value.&quot;\n&quot;);&lt;/span&gt;
+				    &lt;span class=&quot;c1&quot;&gt;//}&lt;/span&gt;
+				&lt;span class=&quot;nb&quot;&gt;fwrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$mdfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;---&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+				&lt;span class=&quot;nb&quot;&gt;fwrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$mdfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'message'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+				&lt;span class=&quot;c1&quot;&gt;//fwrite($mdfile,json_encode($book).&quot;\n&quot;);&lt;/span&gt;
+			&lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+			
+			
+			&lt;span class=&quot;k&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+				&lt;span class=&quot;nb&quot;&gt;fwrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$mdfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;---&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+				&lt;span class=&quot;nb&quot;&gt;fwrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$mdfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'message'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+				&lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+			&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+			
+    	&lt;span class=&quot;nb&quot;&gt;fclose&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$mdfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+
+&lt;span class=&quot;k&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;csv_parse_file&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$file&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;opening &quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$file&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;....&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$handle&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;fopen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;r&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!==&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;FALSE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Done&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;fgetcsv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$handle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;,&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!==&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;FALSE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;print_r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+ 			 &lt;span class=&quot;nv&quot;&gt;$res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'type'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'0'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+ 			 &lt;span class=&quot;nv&quot;&gt;$tmpdate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;date_create_from_format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'d/m/Y'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'4'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+ 			 &lt;span class=&quot;nv&quot;&gt;$res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'date'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;date_format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$tmpdate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Y-m-d'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+ 			 &lt;span class=&quot;nv&quot;&gt;$res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'message'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'2'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// 			 $res['tag'] = $data['1'];&lt;/span&gt;
+ 			 
+ &lt;span class=&quot;c1&quot;&gt;//			 $my_string = &quot;key0:value0,key1:value1,key2:value2&quot;;&lt;/span&gt;
+
+
+&lt;span class=&quot;c1&quot;&gt;// tags&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$oldtags_array&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;explode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;','&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'1'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$tags_array&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$oldtags_array&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+    &lt;span class=&quot;nv&quot;&gt;$key_value&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;explode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;':'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$oldtags_array&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+   &lt;span class=&quot;nv&quot;&gt;$tags_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$key_value&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$key_value&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'tags'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$tags_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+
+&lt;span class=&quot;c1&quot;&gt;// url tags&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;strpos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'3'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'http'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!==&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'url'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'3'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+ 	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+ 	
+		&lt;span class=&quot;nv&quot;&gt;$oldurl_array&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;explode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;','&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'3'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+		&lt;span class=&quot;nv&quot;&gt;$url_array&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+		&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$oldurl_array&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+    			&lt;span class=&quot;nv&quot;&gt;$key_value&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;explode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;':'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$oldurl_array&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+    			&lt;span class=&quot;nv&quot;&gt;$url_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$key_value&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$key_value&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+		&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+		&lt;span class=&quot;nv&quot;&gt;$res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'urls'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$url_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+ 		&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+ 			 &lt;span class=&quot;nv&quot;&gt;$ret&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+		&lt;span class=&quot;nb&quot;&gt;fclose&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$handle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$ret&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+
+&lt;span class=&quot;nv&quot;&gt;$path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;getcwd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+
+&lt;span class=&quot;nv&quot;&gt;$notes_path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str_replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;_rake&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;_notes&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;chdir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$notes_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;nv&quot;&gt;$notes_dir&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;scandir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$notes_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;foreach&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$notes_dir&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$dir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$dir&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;.&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$dir&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;..&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;continue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;}&lt;/span&gt;
+	&lt;span class=&quot;nb&quot;&gt;chdir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$notes_path&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$dir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;  
+	&lt;span class=&quot;nv&quot;&gt;$year_dir&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;scandir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$notes_path&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$dir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	
+	&lt;span class=&quot;k&quot;&gt;foreach&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$year_dir&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$ydir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$ydir&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;.&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$ydir&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;..&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;continue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;}&lt;/span&gt;
+		&lt;span class=&quot;nb&quot;&gt;chdir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$notes_path&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$dir&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$ydir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;  
+		&lt;span class=&quot;k&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;getcwd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;nv&quot;&gt;$filelist&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;scandir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$notes_path&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$dir&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$ydir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+			
+		&lt;span class=&quot;k&quot;&gt;foreach&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$filelist&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+			&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$file&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;.&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$file&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;..&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;continue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;}&lt;/span&gt;
+			&lt;span class=&quot;k&quot;&gt;switch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+					&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;strstr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;md&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+    					&lt;span class=&quot;k&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;skipping md file&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    					&lt;span class=&quot;k&quot;&gt;continue&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+					&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;strstr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;yml&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+    					&lt;span class=&quot;k&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;yml file&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    					&lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;yaml_parse_file&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$file&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    					&lt;span class=&quot;nx&quot;&gt;create_notes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    					&lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+					&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;strstr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;csv&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;
+    					&lt;span class=&quot;k&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;CSV file&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    					&lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;csv_parse_file&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$file&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    					&lt;span class=&quot;nx&quot;&gt;create_notes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+						&lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+					&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+			&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Support like/comments, UPDATE: I found &lt;a href=&quot;https://github.com/barnabywalters/own-your-comments&quot;&gt;own your comments&lt;/a&gt; and &lt;a href=&quot;https://github.com/barnabywalters/IndieWeb-Reply-Browser-Extension&quot;&gt;IndieWeb Reply Browser-Extension&lt;/a&gt;, but they seam like they have code rot :( &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;It’s as psion 5mx Pro &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Tue, 26 Dec 2017 00:00:00 +1000</pubDate>
+        <link>/archive/2017/12/notes-system.html</link>
+        <guid isPermaLink="true">/archive/2017/12/notes-system.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>is Amiga inc a Shell corporation?</title>
+        <description>&lt;p&gt;I’ve been reading &lt;a href=&quot;https://sites.google.com/site/amigadocuments/&quot;&gt;Amiga Documents&lt;/a&gt;,&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Could it be that as it morphed from Amiga, Inc. I to Amiga, Inc. III, the “Amiga” facade was used to protect something that had less to do with products and community, and more with some type of financial operations?
+&lt;a href=&quot;https://sites.google.com/site/amigadocuments/#TOC-From-100-to-86-956-522:-Amiga-as-in...-Friendly-Investors-&quot;&gt;1.6 From $100 to $86,956,522: “Amiga” as in… “Friendly” Investors?&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Could it be that by 2004 a noisy Amiga community, with its colored web sites, its fanatical discussion forums and its charming Mr. Bill McEwen had become the perfect facade for matters that had to do more with “friendship” than with technology, in a world where nobody really cared about the difference between Amiga OS and Amiga DE? 
+&lt;a href=&quot;https://sites.google.com/site/amigadocuments/#TOC-Tapul&quot;&gt;1.7 Tapul&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;if you had an $87M business to run, who would you put in charge? Would you leave him there for 10 years? On the other hand, if it wasn’t a true business, but an $87M “fraud”, who might be a good public man for the job?
+&lt;a href=&quot;https://sites.google.com/site/amigadocuments/#TOC-Mr.-Bill-McEwen&quot;&gt;1.16 Mr. Bill McEwen&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Amiga inc seams like a front to a shell corpation, Bill McEwen looks like the current figurehead.&lt;/p&gt;
+
+&lt;h1 id=&quot;missed-opportunities&quot;&gt;missed Opportunities&lt;/h1&gt;
+&lt;h2 id=&quot;amiga-de-digital-environment--amiga-anywhere-aa&quot;&gt;Amiga DE (“Digital Environment”) / Amiga Anywhere (“AA”)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;it could have been a java&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;/flash beater :(&lt;/li&gt;
+  &lt;li&gt;it could be were Android is today :(&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;amithlon&quot;&gt;amithlon&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;X86 native amiga, why not, we have AROS now&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;UPDATE it is sun java based according to &lt;a href=&quot;https://docs.google.com/file/d/0BxlY9g_OfLqDM2U1NjFjOWItNzRjNS00YTAzLTlkMDgtYjI4MjYzYTk0NGQ0/edit&quot;&gt;https://docs.google.com/file/d/0BxlY9g_OfLqDM2U1NjFjOWItNzRjNS00YTAzLTlkMDgtYjI4MjYzYTk0NGQ0/edit&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Wed, 04 Jan 2017 00:00:00 +1000</pubDate>
+        <link>/archive/2017/01/amiga-inc-shell-company.html</link>
+        <guid isPermaLink="true">/archive/2017/01/amiga-inc-shell-company.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Amazon EC2 and Art work</title>
+        <description>&lt;p&gt;I been wanting to get back into do digital art again :) &lt;br /&gt;
+But I don’t have the Patience for programs that max out my CPU for too long&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;to render images&lt;/li&gt;
+  &lt;li&gt;to process the polygon meshs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;so I have started to looking into Amazon EC2 services  &lt;br /&gt;
+Here are some working project that use Amazom EC2&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;&quot;&gt;Blender on EC2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;I may have the cpu time on my desktop computer, but I rearly turn it on unless I need to use some windows software. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Wed, 05 Oct 2016 00:00:00 +1000</pubDate>
+        <link>/archive/2016/10/amazon-ec2.html</link>
+        <guid isPermaLink="true">/archive/2016/10/amazon-ec2.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>usenet update news.mozilla.org</title>
+        <description>&lt;p&gt;I have been trying unsucessfully to download news.mozilla.org with nget &lt;br /&gt;
+it keeps redownload the same articles (Could be a bug with the news.mozilla.org server as new.povray.org and news.alaska-software.com works)&lt;/p&gt;
+</description>
+        <pubDate>Sat, 10 Sep 2016 00:00:00 +1000</pubDate>
+        <link>/archive/2016/09/usenet-update-news-mozilla-org.html</link>
+        <guid isPermaLink="true">/archive/2016/09/usenet-update-news-mozilla-org.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>My opinion on the NBN (AU)</title>
+        <description>&lt;p&gt;I have a problem with the NBN network it is out-of-date!!!  &lt;br /&gt;
+It Should be Called “Nation Broadcast Network” NOT the “Nation Broadband Network” because the Network is following the “Broadcast” model of thinking.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The fibre to the X works like an Express train network.&lt;/li&gt;
+  &lt;li&gt;Wireless works like the Radio/TV broadcast.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;the next generation of Internet will be ….&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;peer2peer based&lt;/li&gt;
+  &lt;li&gt;Decentralized&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;…. Witch the NBN is incappale of supporting.&lt;/p&gt;
+
+&lt;h3 id=&quot;other-the-other-hand&quot;&gt;other the other hand&lt;/h3&gt;
+
+&lt;p&gt;I agree with:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;fibre to the premises (FTTP)&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Wed, 31 Aug 2016 00:00:00 +1000</pubDate>
+        <link>/archive/2016/08/my-opinion-on-the-nbn.html</link>
+        <guid isPermaLink="true">/archive/2016/08/my-opinion-on-the-nbn.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Usenet Archiving Update</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;I have given thunderbird the middle finger for download usenet articles&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;I found &lt;a href=&quot;http://nget.sourceforge.net/&quot;&gt;nget&lt;/a&gt;, its an old program, but still works :)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;nget -dfim --host $url \n
+ --no-decode -m yes \n
+ -P '$folder' \n
+ -g $group \n
+ -r &quot;&quot;
+
+$url is the nttp server
+$folder is were you want the articles saved
+$group is the group you want to download
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;I still need to use it to create the group list :( &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Tue, 23 Aug 2016 00:00:00 +1000</pubDate>
+        <link>/archive/2016/08/usenet-update.html</link>
+        <guid isPermaLink="true">/archive/2016/08/usenet-update.html</guid>
+        
+        <category>ZPAQ</category>
+        
+        <category>zpaq</category>
+        
+        <category>backup</category>
+        
+        <category>archive</category>
+        
+        <category>archiving</category>
+        
+        <category>dtn</category>
+        
+        <category>usenet</category>
+        
+        
+        <category>compression</category>
+        
+        <category>archiving</category>
+        
+        <category>dtn</category>
+        
+      </item>
+    
+      <item>
+        <title>Pov-Ray Usenet Archiving Completed</title>
+        <description>&lt;p&gt;I’ve completed the archive of &lt;a href=&quot;http://news.povray.org/groups/&quot;&gt;Pov-ray’s Usenet&lt;/a&gt; :)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://archive.org/details/pov-ray-usenet-archive_20160812&quot;&gt;Download it at archive.org&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;I am doing a roll-archive of the usenet archive group&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 19 Aug 2016 00:00:00 +1000</pubDate>
+        <link>/archive/2016/08/pov-ray-usenet-archive-complete.html</link>
+        <guid isPermaLink="true">/archive/2016/08/pov-ray-usenet-archive-complete.html</guid>
+        
+        <category>ZPAQ</category>
+        
+        <category>zpaq</category>
+        
+        <category>backup</category>
+        
+        <category>archive</category>
+        
+        <category>archiving</category>
+        
+        <category>dtn</category>
+        
+        <category>usenet</category>
+        
+        
+        <category>compression</category>
+        
+        <category>archiving</category>
+        
+        <category>dtn</category>
+        
+      </item>
+    
+      <item>
+        <title>Me and the Internet ca 1997</title>
+        <description>&lt;h1 id=&quot;get-the-modem&quot;&gt;Get the modem&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;I went down to the local computer realiter to get a modem with my father&lt;/li&gt;
+  &lt;li&gt;I remeber pick up a US-Robotics 56k modem reading the description it include RealVideo&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; software&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;getting-online&quot;&gt;Getting Online&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Realizing I did not get any starter kits with the modem, doh&lt;/li&gt;
+  &lt;li&gt;I got online with AOL&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; (100 hour free), OzEmail (prepaid or free hours, not sure), Bigpond (pre-paid), Optus (pre-paid)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;I remeber read a dead-tree maganize: it had a article about Real’s New &lt;a href=&quot;https://en.wikipedia.org/wiki/RealVideo&quot;&gt;RealVideo&lt;/a&gt; Fractal Codec, I must of been in a trace &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;When my mother got the telphone bill, the shit hit the fan as it was long distance phone call (charged by the mintue). &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Wed, 10 Aug 2016 00:00:00 +1000</pubDate>
+        <link>/archive/2016/08/me-and-the-internet-ca-1997.html</link>
+        <guid isPermaLink="true">/archive/2016/08/me-and-the-internet-ca-1997.html</guid>
+        
+        <category>personal</category>
+        
+        <category>history</category>
+        
+        <category>internet</category>
+        
+        <category>aol</category>
+        
+        <category>ozemail</category>
+        
+        <category>bigpond</category>
+        
+        <category>australia</category>
+        
+        <category>56k</category>
+        
+        <category>modem</category>
+        
+        
+        <category>personal</category>
+        
+        <category>history</category>
+        
+        <category>internet</category>
+        
+      </item>
+    
+  </channel>
+</rss>
