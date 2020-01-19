@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <link rel="icon" href=""> 
+    <link href="/assets/css/bootstrap.css" rel="stylesheet" media="screen">
+
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Rhythmbox scrobbling notes system | Tom Sparks website</title>
+<meta name="generator" content="Jekyll v3.8.6" />
+<meta property="og:title" content="Rhythmbox scrobbling notes system" />
+<meta name="author" content="Tom Sparks" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I’ve just written Rhythmbox scrobbling system for my notes" />
+<meta property="og:description" content="I’ve just written Rhythmbox scrobbling system for my notes" />
+<meta property="og:site_name" content="Tom Sparks website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2017-12-31T00:00:00+10:00" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"Rhythmbox scrobbling notes system","dateModified":"2019-06-28T14:40:15+10:00","datePublished":"2017-12-31T00:00:00+10:00","author":{"@type":"Person","name":"Tom Sparks"},"mainEntityOfPage":{"@type":"WebPage","@id":"/archive/2017/12/rhythmbox-notes-system.html"},"description":"I’ve just written Rhythmbox scrobbling system for my notes","url":"/archive/2017/12/rhythmbox-notes-system.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+<!-- IndieAuth -->
+<link rel="authorization_endpoint" href="https://indieauth.com/auth">
+<link rel="token_endpoint" href="https://tokens.indieauth.com/token">
+<link href="https://github.com/tomasparks" rel="me"><link href="https://www.facebook.com/tom.sparks.106" rel="me">
+<link rel="webmention" href="https://webmention.io/tomasparks.name/webmention" /><link rel="pingback" href="https://webmention.io/tomasparks.name/xmlrpc" />
+<!-- webmentions_head -->
+<link rel="micropub" href="http://localhost/micropub/micropub.php">
+<link rel="feed" type="text/html" title="gobal feed" href="/gobal-feed.html" />
+</head>
+<body>
+<header>
+<table>
+<tr>
+<td class="text-left">
+<script type="text/javascript"><!--
+var now = new Date();
+var Month = new Array("JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC");
+document.write(now.getDate()+" "+Month[now.getMonth()]+" "+now.getFullYear());
+//--></script></td>
+<td class="text-center"><a rel="me" href="">Tom Sparks website</a></td>
+<td class="text-right" ><script type="text/javascript"><!--
+var date_format = '12'; /* FORMAT CAN BE 12 hour (12) OR 24 hour (24)*/
+var d 		= new Date();
+var hour 	= d.getHours();  /* Returns the hour (from 0-23) */
+var minutes     = d.getMinutes();  /* Returns the minutes (from 0-59) */
+var result 	= hour;
+var ext 	= '';
+if(date_format == '12'){
+	if(hour > 12){
+		ext = 'PM';
+		hour = (hour - 12);
+	
+		if(hour < 10){
+			result = "0" + hour;
+		}else if(hour == 12){
+			hour = "00";
+			ext = 'AM';
+		}
+	}
+	else if(hour < 12){
+		result = ((hour < 10) ? "0" + hour : hour);
+		ext = 'AM';
+	}else if(hour == 12){
+		ext = 'PM';
+	}
+}
+if(minutes < 10){
+	minutes = "0" + minutes; 
+}
+result = result + ":" + minutes + ' ' + ext; 
+document.write(result);
+//--></script></td></tr>
+</table>
+</header>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<!--<link rel="stylesheet" type="text/css" href="/assets/ext/jqueryui/jquery-ui.css"> -->
+
+
+<!-- start of post -->
+<main role="main">
+	<div class="container">
+		<!-- h-entry -->  
+		<div class="h-entry">
+			
+				<header class="jumbotron subhead" id="overview">
+					<div class="container">
+						<h1 class="lead p-name">Rhythmbox scrobbling notes system</h1>
+					</div>
+				</header>
+			
+
+	  <ul class="" role="navigation" >
+	    <li class="active"><a  href="#home">Main (F2)</a></li>
+    	<li><a  href="#menu1">Meta (F3)</a></li>
+    	<li><a  href="#menu2">Comments (F4)</a></li>
+    	<li><a  href="#menu3">Webmention (F5)</a></li>
+  	</ul>
+
+
+    	<div id="home" class="e-content">
+    	  				
+
+					<p>I’ve just written <a href="https://en.wikipedia.org/wiki/Rhythmbox">Rhythmbox</a> scrobbling system for my notes</p>
+
+<p>the php script takes rhythmdb.xml located at /home/tom/.local/share/rhythmbox/ and creates a yml file</p>
+
+<div class="github-sample-reference">
+  <div class="author-info">
+    <a href="https://github.com/tomasparks/website/blob/98c350c7f0f100a08637c89f0475b01b8d4c5b3d/_notes/local/2017/r12.yml">This Github Sample</a> is by <a href="https://github.com/tomasparks">tomasparks</a>
+  </div>
+  <div class="meta-info">
+    _notes/local/2017/r12.yml <a href="https://github.com/tomasparks/website/blob/98c350c7f0f100a08637c89f0475b01b8d4c5b3d/_notes/local/2017/r12.yml">view</a> <a href="https://raw.githubusercontent.com/tomasparks/website/98c350c7f0f100a08637c89f0475b01b8d4c5b3d/_notes/local/2017/r12.yml">raw</a>
+  </div>
+</div>
+
+<figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="nn">---</span>
+<span class="pi">-</span> <span class="na">date</span><span class="pi">:</span> <span class="s2">"</span><span class="s">2017-10-16</span><span class="nv"> </span><span class="s">06:21:22"</span>
+  <span class="na">type</span><span class="pi">:</span> <span class="s">scrobble</span>
+  <span class="na">tags</span><span class="pi">:</span> <span class="s">title=netic+jazzin+it+up&amp;artist=netic&amp;album=Unknown&amp;play-count=1</span>
+<span class="pi">-</span> <span class="na">date</span><span class="pi">:</span> <span class="s2">"</span><span class="s">2017-10-25</span><span class="nv"> </span><span class="s">16:37:29"</span></code></pre></figure>
+
+<h3 id="source-code">Source Code</h3>
+
+<div class="github-sample-reference">
+  <div class="author-info">
+    <a href="https://github.com/tomasparks/website/blob/c2215b2476f200f4e8d289fa55268b716cad07a9/_rake/rhythmdb2notes.php">This Github Sample</a> is by <a href="https://github.com/tomasparks">tomasparks</a>
+  </div>
+  <div class="meta-info">
+    _rake/rhythmdb2notes.php <a href="https://github.com/tomasparks/website/blob/c2215b2476f200f4e8d289fa55268b716cad07a9/_rake/rhythmdb2notes.php">view</a> <a href="https://raw.githubusercontent.com/tomasparks/website/c2215b2476f200f4e8d289fa55268b716cad07a9/_rake/rhythmdb2notes.php">raw</a>
+  </div>
+</div>
+
+<figure class="highlight"><pre><code class="language-php" data-lang="php">#!/usr/bin/env php
+<span class="cp">&lt;?php</span>
+<span class="k">if</span> <span class="p">(</span><span class="nb">file_exists</span><span class="p">(</span><span class="s1">'/home/tom/.local/share/rhythmbox/rhythmdb.xml'</span><span class="p">))</span> <span class="p">{</span>
+ <span class="nv">$xml</span> <span class="o">=</span> <span class="nb">simplexml_load_file</span><span class="p">(</span><span class="s1">'/home/tom/.local/share/rhythmbox/rhythmdb.xml'</span><span class="p">);</span>
+ <span class="c1">//$json = json_encode($xml);</span>
+ <span class="c1">//$data = json_decode($json,TRUE);</span>
+<span class="nv">$path</span> <span class="o">=</span> <span class="nb">getcwd</span><span class="p">();</span>
+
+<span class="nv">$notes_path</span> <span class="o">=</span> <span class="nb">str_replace</span><span class="p">(</span><span class="s2">"_rake"</span><span class="p">,</span><span class="s2">"_notes"</span><span class="p">,</span><span class="nv">$path</span><span class="p">);</span>
+<span class="nb">chdir</span><span class="p">(</span><span class="nv">$notes_path</span><span class="p">);</span>
+
+
+<span class="k">foreach</span> <span class="p">(</span><span class="nv">$xml</span> <span class="k">as</span> <span class="nv">$value</span><span class="p">){</span>
+		<span class="k">echo</span> <span class="s2">"-----</span><span class="se">\n</span><span class="s2">"</span><span class="p">;</span>
+	<span class="nv">$json</span> <span class="o">=</span> <span class="nb">json_encode</span><span class="p">(</span><span class="nv">$value</span><span class="p">);</span>
+	<span class="nv">$data</span> <span class="o">=</span> <span class="nb">json_decode</span><span class="p">(</span><span class="nv">$json</span><span class="p">,</span><span class="k">TRUE</span><span class="p">);</span>
+	<span class="c1">//print_r($data);</span>
+	<span class="c1">//echo "\n---\n".json_encode($data)."\n----\n";</span>
+
+	<span class="nv">$att</span> <span class="o">=</span> <span class="nv">$data</span><span class="p">[</span><span class="s1">'@attributes'</span><span class="p">];</span>
+	
+	
+		<span class="k">if</span> <span class="p">(</span><span class="nv">$att</span><span class="p">[</span><span class="s1">'type'</span><span class="p">]</span><span class="o">==</span> <span class="s2">"song"</span><span class="p">)</span> <span class="p">{</span>
+		<span class="k">if</span> <span class="p">(</span><span class="nv">$data</span><span class="p">[</span><span class="s1">'play-count'</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="s2">"1"</span><span class="p">)</span> <span class="p">{</span>
+		
+		<span class="nv">$tags</span><span class="p">[</span><span class="s1">'title'</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$data</span><span class="p">[</span><span class="s1">'title'</span><span class="p">];</span>
+		<span class="nv">$tags</span><span class="p">[</span><span class="s1">'artist'</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$data</span><span class="p">[</span><span class="s1">'artist'</span><span class="p">];</span>
+		<span class="nv">$tags</span><span class="p">[</span><span class="s1">'album'</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$data</span><span class="p">[</span><span class="s1">'album'</span><span class="p">];</span>
+		<span class="nv">$tags</span><span class="p">[</span><span class="s1">'play-count'</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$data</span><span class="p">[</span><span class="s1">'play-count'</span><span class="p">];</span>
+		<span class="nv">$epoch</span> <span class="o">=</span> <span class="nv">$data</span><span class="p">[</span><span class="s1">'last-played'</span><span class="p">];</span>
+		<span class="nv">$date</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">DateTime</span><span class="p">(</span><span class="s2">"@</span><span class="nv">$epoch</span><span class="s2">"</span><span class="p">);</span>
+		<span class="nv">$res</span><span class="p">[</span><span class="s1">'date'</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$date</span><span class="o">-&gt;</span><span class="na">format</span><span class="p">(</span><span class="s1">'Y-m-d H:i:s'</span><span class="p">);</span> 
+		
+		<span class="nv">$res</span><span class="p">[</span><span class="s1">'type'</span><span class="p">]</span> <span class="o">=</span> <span class="s2">"scrobble"</span><span class="p">;</span>
+		<span class="nv">$res</span><span class="p">[</span><span class="s1">'tags'</span><span class="p">]</span> <span class="o">=</span> <span class="nb">http_build_query</span><span class="p">(</span><span class="nv">$tags</span><span class="p">);</span>
+<span class="nv">$ret</span><span class="p">[]</span> <span class="o">=</span><span class="nv">$res</span><span class="p">;</span>
+<span class="nb">unset</span><span class="p">(</span><span class="nv">$res</span><span class="p">);</span>		
+		<span class="p">}</span>
+		<span class="k">echo</span> <span class="s2">"--</span><span class="se">\n</span><span class="s2">"</span><span class="p">;</span>
+	<span class="p">}</span>
+	
+	
+	<span class="k">if</span> <span class="p">(</span><span class="nv">$att</span><span class="p">[</span><span class="s1">'type'</span><span class="p">]</span><span class="o">==</span> <span class="s2">"podcast-post"</span><span class="p">)</span> <span class="p">{</span>
+		<span class="k">if</span> <span class="p">(</span><span class="nv">$data</span><span class="p">[</span><span class="s1">'play-count'</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="s2">"1"</span><span class="p">)</span> <span class="p">{</span>
+		
+		<span class="nv">$tags</span><span class="p">[</span><span class="s1">'title'</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$data</span><span class="p">[</span><span class="s1">'title'</span><span class="p">];</span>
+		<span class="nv">$tags</span><span class="p">[</span><span class="s1">'artist'</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$data</span><span class="p">[</span><span class="s1">'artist'</span><span class="p">];</span>
+		<span class="nv">$tags</span><span class="p">[</span><span class="s1">'album'</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$data</span><span class="p">[</span><span class="s1">'album'</span><span class="p">];</span>
+		<span class="nv">$tags</span><span class="p">[</span><span class="s1">'play-count'</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$data</span><span class="p">[</span><span class="s1">'play-count'</span><span class="p">];</span>
+		<span class="nv">$epoch</span> <span class="o">=</span> <span class="nv">$data</span><span class="p">[</span><span class="s1">'last-played'</span><span class="p">];</span>
+		<span class="nv">$date</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">DateTime</span><span class="p">(</span><span class="s2">"@</span><span class="nv">$epoch</span><span class="s2">"</span><span class="p">);</span>
+		<span class="nv">$res</span><span class="p">[</span><span class="s1">'date'</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$date</span><span class="o">-&gt;</span><span class="na">format</span><span class="p">(</span><span class="s1">'Y-m-d H:i:s'</span><span class="p">);</span> 
+		
+		<span class="nv">$res</span><span class="p">[</span><span class="s1">'type'</span><span class="p">]</span> <span class="o">=</span> <span class="s2">"scrobble"</span><span class="p">;</span>
+		<span class="nv">$res</span><span class="p">[</span><span class="s1">'tags'</span><span class="p">]</span> <span class="o">=</span> <span class="nb">http_build_query</span><span class="p">(</span><span class="nv">$tags</span><span class="p">);</span>
+<span class="nv">$ret</span><span class="p">[]</span> <span class="o">=</span><span class="nv">$res</span><span class="p">;</span>
+<span class="nb">unset</span><span class="p">(</span><span class="nv">$res</span><span class="p">);</span>		
+		<span class="p">}</span>
+		<span class="k">echo</span> <span class="s2">"--</span><span class="se">\n</span><span class="s2">"</span><span class="p">;</span>
+	<span class="p">}</span>
+
+
+
+<span class="p">}</span>
+ 		<span class="k">echo</span> <span class="nb">yaml_emit</span><span class="p">(</span><span class="nv">$ret</span><span class="p">)</span><span class="o">.</span><span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">;</span>
+ 		  <span class="nb">chdir</span><span class="p">(</span><span class="nv">$notes_path</span><span class="o">.</span><span class="s2">"/local/"</span><span class="o">.</span><span class="nb">date</span><span class="p">(</span><span class="s2">"Y"</span><span class="p">));</span>
+ 		<span class="nb">yaml_emit_file</span> <span class="p">(</span><span class="s2">"r"</span><span class="o">.</span><span class="nb">date</span><span class="p">(</span><span class="s2">"m"</span><span class="p">)</span><span class="o">.</span><span class="s2">".yml"</span> <span class="p">,</span> <span class="nv">$ret</span><span class="p">);</span>
+<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+    <span class="k">exit</span><span class="p">(</span><span class="s1">'Failed to open /home/tom/.local/share/rhythmbox/rhythmdb.xml.'</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+
+<span class="cp">?&gt;</span></code></pre></figure>
+
+<p>i’ve updated and cleaned notes.php</p>
+
+<div class="github-sample-reference">
+  <div class="author-info">
+    <a href="https://github.com/tomasparks/website/blob/98c350c7f0f100a08637c89f0475b01b8d4c5b3d/_rake/notes.php">This Github Sample</a> is by <a href="https://github.com/tomasparks">tomasparks</a>
+  </div>
+  <div class="meta-info">
+    _rake/notes.php <a href="https://github.com/tomasparks/website/blob/98c350c7f0f100a08637c89f0475b01b8d4c5b3d/_rake/notes.php">view</a> <a href="https://raw.githubusercontent.com/tomasparks/website/98c350c7f0f100a08637c89f0475b01b8d4c5b3d/_rake/notes.php">raw</a>
+  </div>
+</div>
+
+<figure class="highlight"><pre><code class="language-php" data-lang="php">#!/usr/bin/env php
+<span class="cp">&lt;?php</span>
+<span class="c1">// key: qhNU8kMDrqS2Ryk8ExmyA</span>
+<span class="c1">//secret: 1tICNtAofpr0Coycb4eacrf4FcFCWSOzW8novjYL8</span>
+<span class="k">require_once</span> <span class="s1">'./php-mf2/Mf2/Parser.php'</span><span class="p">;</span>
+<span class="k">require_once</span> <span class="s1">'./htmlpurifier/library/HTMLPurifier.auto.php'</span><span class="p">;</span>
+<span class="k">require_once</span> <span class="s1">'./goodreads-api/GoodReads.php'</span><span class="p">;</span>
+<span class="nb">date_default_timezone_set</span><span class="p">(</span><span class="s1">'	Australia/Brisbane'</span><span class="p">);</span>
+
+
+<span class="k">function</span> <span class="nf">create_notes</span><span class="p">(</span><span class="nv">$data</span><span class="p">,</span><span class="nv">$logfile</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">foreach</span> <span class="p">(</span><span class="nv">$data</span> <span class="k">as</span> <span class="nv">$note</span><span class="p">)</span> <span class="p">{</span>
+    	<span class="c1">//print_r($note);</span>
+    	
+    	<span class="k">if</span> <span class="p">(</span><span class="nb">isset</span><span class="p">(</span><span class="nv">$note</span><span class="p">[</span><span class="s1">'tags'</span><span class="p">])</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="nb">is_array</span><span class="p">(</span><span class="nv">$note</span><span class="p">[</span><span class="s1">'tags'</span><span class="p">]))</span> <span class="p">{</span>
+    	<span class="nv">$temp</span>  <span class="o">=</span> <span class="nb">urldecode</span> <span class="p">(</span> <span class="nv">$note</span><span class="p">[</span><span class="s1">'tags'</span><span class="p">]</span> <span class="p">);</span>
+    	<span class="nb">parse_str</span><span class="p">(</span><span class="nv">$temp</span><span class="p">,</span> <span class="nv">$tag_array</span><span class="p">);</span>
+    	<span class="nv">$note</span><span class="p">[</span><span class="s1">'tags'</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$tag_array</span><span class="p">;</span>
+<span class="c1">//fwrite($logfile,$temp."\n");</span>
+
+    	<span class="p">}</span>
+  		<span class="c1">//$note['tags'] = tags($note['$tags'],$logfile);</span>
+  		
+    	<span class="c1">//echo "\n";</span>
+    	<span class="nv">$hash</span> <span class="o">=</span> <span class="nb">hash</span> <span class="p">(</span><span class="s1">'sha1'</span> <span class="p">,</span><span class="nb">json_encode</span><span class="p">(</span><span class="nv">$note</span><span class="p">));</span>
+    	<span class="c1">//fwrite($logfile, $hash."\n");</span>
+  <span class="c1">//  	echo $hash."\n";</span>
+    	<span class="nb">fwrite</span><span class="p">(</span><span class="nv">$logfile</span><span class="p">,</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">--------------------</span><span class="se">\n</span><span class="s2">hash: "</span><span class="o">.</span><span class="nv">$hash</span><span class="o">.</span><span class="s2">"</span><span class="se">\n</span><span class="s2">json_encode: "</span><span class="o">.</span><span class="nb">json_encode</span><span class="p">(</span><span class="nv">$note</span><span class="p">)</span><span class="o">.</span><span class="s2">"</span><span class="se">\n</span><span class="s2">--------------------</span><span class="se">\n</span><span class="s2">"</span><span class="p">);</span>  
+    	    	
+    	    	
+    	<span class="k">if</span> <span class="p">(</span><span class="nb">isset</span><span class="p">(</span><span class="nv">$note</span><span class="p">[</span><span class="s1">'url'</span><span class="p">]))</span> <span class="p">{</span>
+    	<span class="nv">$url</span> <span class="o">=</span> <span class="nb">str_ireplace</span><span class="p">(</span><span class="s2">"www."</span><span class="p">,</span><span class="s2">""</span><span class="p">,</span><span class="nb">parse_url</span><span class="p">(</span><span class="nv">$note</span><span class="p">[</span><span class="s1">'url'</span><span class="p">],</span> <span class="nx">PHP_URL_HOST</span><span class="p">));</span>
+    	<span class="p">}</span>
+    	
+    	<span class="nv">$date_split</span> <span class="o">=</span> <span class="nb">date_parse</span><span class="p">(</span><span class="nv">$note</span><span class="p">[</span><span class="s1">'date'</span><span class="p">]);</span>
+    	<span class="nv">$isodate</span> <span class="o">=</span> <span class="nb">date</span><span class="p">(</span><span class="s2">"c"</span><span class="p">,</span> <span class="nb">strtotime</span><span class="p">(</span><span class="nv">$note</span><span class="p">[</span><span class="s1">'date'</span><span class="p">]));</span>
+    	<span class="nv">$permdate</span> <span class="o">=</span> <span class="nb">sprintf</span><span class="p">(</span><span class="s2">"%04d/%02d/%02d"</span><span class="p">,</span> <span class="nv">$date_split</span><span class="p">[</span><span class="s1">'year'</span><span class="p">],</span> <span class="nv">$date_split</span><span class="p">[</span><span class="s1">'month'</span><span class="p">],</span> <span class="nv">$date_split</span><span class="p">[</span><span class="s1">'day'</span><span class="p">]);</span>
+    	
+    	<span class="nv">$months</span> <span class="o">=</span> <span class="k">array</span> <span class="p">(</span><span class="mi">1</span><span class="o">=&gt;</span><span class="s1">'January'</span><span class="p">,</span><span class="mi">2</span><span class="o">=&gt;</span><span class="s1">'February'</span><span class="p">,</span><span class="mi">3</span><span class="o">=&gt;</span><span class="s1">'March'</span><span class="p">,</span>
+    	<span class="mi">4</span><span class="o">=&gt;</span><span class="s1">'April'</span><span class="p">,</span><span class="mi">5</span><span class="o">=&gt;</span><span class="s1">'May'</span><span class="p">,</span><span class="mi">6</span><span class="o">=&gt;</span><span class="s1">'June'</span><span class="p">,</span><span class="mi">7</span><span class="o">=&gt;</span><span class="s1">'July'</span><span class="p">,</span><span class="mi">8</span><span class="o">=&gt;</span><span class="s1">'August'</span><span class="p">,</span>
+    	<span class="mi">9</span><span class="o">=&gt;</span><span class="s1">'September'</span><span class="p">,</span><span class="mi">10</span><span class="o">=&gt;</span><span class="s1">'October'</span><span class="p">,</span><span class="mi">11</span><span class="o">=&gt;</span><span class="s1">'November'</span><span class="p">,</span><span class="mi">12</span><span class="o">=&gt;</span><span class="s1">'December'</span><span class="p">);</span>
+    	<span class="nb">unset</span><span class="p">(</span><span class="nv">$md_array</span><span class="p">);</span>
+    	
+    	<span class="nv">$md_array</span><span class="p">[</span><span class="s1">'layout'</span><span class="p">]</span> <span class="o">=</span> <span class="s2">"notes_"</span><span class="o">.</span><span class="nv">$note</span><span class="p">[</span><span class="s1">'type'</span><span class="p">];</span>
+    	<span class="nv">$md_array</span><span class="p">[</span><span class="s1">'date'</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$isodate</span><span class="p">;</span>
+    	<span class="nv">$md_array</span><span class="p">[</span><span class="s1">'type'</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$note</span><span class="p">[</span><span class="s1">'type'</span><span class="p">];</span>
+    	
+    	<span class="c1">//$mdfile = fopen($hash.".md", "w");</span>
+    	
+    	
+    			<span class="c1">//fwrite($mdfile, "---\n");</span>
+				<span class="c1">//fwrite($mdfile, "layout: notes_".$note['type']."\n");</span>
+				<span class="c1">//fwrite($mdfile, "date: ".$isodate."\n");	</span>
+				<span class="c1">//fwrite($mdfile, "type: ".$note['type']."\n");</span>
+				<span class="c1">//fwrite($mdfile, "date: ".$isodate."\n");</span>
+				    	<span class="nb">unset</span><span class="p">(</span><span class="nv">$categories_array</span><span class="p">);</span>			
+				<span class="nv">$categories_array</span><span class="p">[]</span> <span class="o">=</span> <span class="nv">$note</span><span class="p">[</span><span class="s1">'type'</span><span class="p">];</span>
+				<span class="nv">$categories_array</span><span class="p">[]</span> <span class="o">=</span> <span class="nv">$months</span><span class="p">[(</span><span class="nx">int</span><span class="p">)</span><span class="nv">$date_split</span><span class="p">[</span><span class="s1">'month'</span><span class="p">]];</span>
+				<span class="nv">$categories_array</span><span class="p">[]</span> <span class="o">=</span> <span class="nv">$date_split</span><span class="p">[</span><span class="s1">'year'</span><span class="p">];</span>
+				<span class="nv">$categories_array</span><span class="p">[]</span> <span class="o">=</span> <span class="nv">$date_split</span><span class="p">[</span><span class="s1">'day'</span><span class="p">];</span>
+				<span class="c1">//fwrite($mdfile, "categories: \n");</span>
+				<span class="c1">//fwrite($mdfile, " - ".$note['type']."\n");</span>
+				
+				<span class="c1">// dates</span>
+				<span class="c1">//fwrite($mdfile, " - ".$date_split['year']."\n");</span>
+				<span class="c1">//fwrite($mdfile, " - ".$months[(int)$date_split['month']]."\n");</span>
+				<span class="c1">//fwrite($mdfile, " - ".$date_split['day']."\n");				</span>
+				
+				<span class="c1">// url</span>
+				<span class="k">if</span> <span class="p">(</span><span class="nb">isset</span><span class="p">(</span><span class="nv">$url</span><span class="p">))</span> <span class="p">{</span>
+				<span class="c1">//	fwrite($mdfile, " - ".$url."\n");</span>
+				<span class="nv">$categories_array</span><span class="p">[]</span> <span class="o">=</span> <span class="nv">$url</span><span class="p">;</span>
+				<span class="p">}</span>
+				
+		<span class="k">switch</span> <span class="p">(</span><span class="nv">$note</span><span class="p">[</span><span class="s1">'type'</span><span class="p">])</span> <span class="p">{</span>
+<span class="c1">// -------------------------------------------------------------------------------------------------------------------------------------</span>
+		
+<span class="c1">// #####################################################################################################################################</span>
+			<span class="k">case</span> <span class="s2">"scrobble"</span><span class="o">:</span>
+				<span class="nv">$categories_array</span><span class="p">[]</span> <span class="o">=</span> <span class="nv">$tag_array</span><span class="p">[</span><span class="s1">'title'</span><span class="p">];</span>
+				<span class="nv">$categories_array</span><span class="p">[]</span> <span class="o">=</span> <span class="nv">$tag_array</span><span class="p">[</span><span class="s1">'artist'</span><span class="p">];</span>
+				<span class="nv">$categories_array</span><span class="p">[]</span> <span class="o">=</span> <span class="nv">$tag_array</span><span class="p">[</span><span class="s1">'album'</span><span class="p">];</span>
+				
+				<span class="nv">$md_array</span><span class="p">[</span><span class="s1">'music-title'</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$tag_array</span><span class="p">[</span><span class="s1">'title'</span><span class="p">];</span>
+				<span class="nv">$md_array</span><span class="p">[</span><span class="s1">'music-artist'</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$tag_array</span><span class="p">[</span><span class="s1">'artist'</span><span class="p">];</span>
+				<span class="nv">$md_array</span><span class="p">[</span><span class="s1">'music-album'</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$tag_array</span><span class="p">[</span><span class="s1">'album'</span><span class="p">];</span>
+				<span class="nv">$md_array</span><span class="p">[</span><span class="s1">'music-play-count'</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$tag_array</span><span class="p">[</span><span class="s1">'play-count'</span><span class="p">];</span>
+				<span class="nv">$md_array</span><span class="p">[</span><span class="s1">'permalink'</span><span class="p">]</span> <span class="o">=</span><span class="s2">"/notes/"</span><span class="o">.</span><span class="nv">$note</span><span class="p">[</span><span class="s1">'type'</span><span class="p">]</span><span class="o">.</span><span class="s2">"/"</span><span class="o">.</span><span class="nb">urlencode</span><span class="p">(</span><span class="nv">$tag_array</span><span class="p">[</span><span class="s1">'artist'</span><span class="p">])</span><span class="o">.</span><span class="s2">"/"</span><span class="o">.</span><span class="nb">urlencode</span><span class="p">(</span><span class="nv">$tag_array</span><span class="p">[</span><span class="s1">'album'</span><span class="p">])</span><span class="o">.</span><span class="s2">"/"</span><span class="o">.</span><span class="nv">$hash</span><span class="o">.</span><span class="s2">".html"</span><span class="p">;</span>
+				<span class="k">break</span><span class="p">;</span>
+				
+<span class="c1">// #####################################################################################################################################</span>
+			<span class="k">case</span> <span class="s2">"twitter"</span><span class="o">:</span>
+				<span class="nv">$md_array</span><span class="p">[</span><span class="s1">'permalink'</span><span class="p">]</span> <span class="o">=</span><span class="s2">"/notes/"</span><span class="o">.</span><span class="nv">$note</span><span class="p">[</span><span class="s1">'type'</span><span class="p">]</span><span class="o">.</span><span class="s2">"/"</span><span class="o">.</span><span class="nv">$permdate</span><span class="o">.</span><span class="s2">"/"</span><span class="o">.</span><span class="nv">$hash</span><span class="o">.</span><span class="s2">".html"</span><span class="p">;</span>
+				<span class="c1">//fwrite($mdfile, "ext-url: ".$note['url']."\n");</span>
+				<span class="c1">//fwrite($mdfile, "---\n");</span>
+				<span class="c1">//fwrite($mdfile, $note['message']."\n");</span>
+				<span class="k">break</span><span class="p">;</span>
+				
+<span class="c1">// #####################################################################################################################################</span>
+			<span class="k">case</span> <span class="s1">'reply'</span><span class="o">:</span>
+				<span class="nv">$md_array</span><span class="p">[</span><span class="s1">'permalink'</span><span class="p">]</span> <span class="o">=</span><span class="s2">"/notes/"</span><span class="o">.</span><span class="nv">$note</span><span class="p">[</span><span class="s1">'type'</span><span class="p">]</span><span class="o">.</span><span class="s2">"/"</span><span class="o">.</span><span class="nv">$url</span><span class="o">.</span><span class="s2">"/"</span><span class="o">.</span><span class="nv">$permdate</span><span class="o">.</span><span class="s2">"/"</span><span class="o">.</span><span class="nv">$hash</span><span class="o">.</span><span class="s2">".html"</span><span class="p">;</span>
+				<span class="nv">$html</span> <span class="o">=</span> <span class="nb">file_get_contents</span><span class="p">(</span><span class="nv">$note</span><span class="p">[</span><span class="s1">'url'</span><span class="p">]);</span>
+				<span class="nv">$config</span> <span class="o">=</span> <span class="nx">HTMLPurifier_Config</span><span class="o">::</span><span class="na">createDefault</span><span class="p">();</span>
+				<span class="nv">$purifier</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">HTMLPurifier</span><span class="p">(</span><span class="nv">$config</span><span class="p">);</span>
+				<span class="nv">$cleanhtml</span> <span class="o">=</span> <span class="nv">$purifier</span><span class="o">-&gt;</span><span class="na">purify</span><span class="p">(</span><span class="nv">$html</span><span class="p">);</span>
+				<span class="nv">$mf</span> <span class="o">=</span> <span class="nx">Mf2\parse</span><span class="p">(</span><span class="nv">$cleanhtml</span><span class="p">,</span> <span class="nv">$note</span><span class="p">[</span><span class="s1">'url'</span><span class="p">]);</span>
+				<span class="nv">$md_array</span><span class="p">[</span><span class="s1">'ext-url'</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$note</span><span class="p">[</span><span class="s1">'url'</span><span class="p">];</span>
+				<span class="k">break</span><span class="p">;</span>
+				
+<span class="c1">// #####################################################################################################################################</span>
+				
+			<span class="k">case</span> <span class="s2">"like"</span><span class="o">:</span>
+				<span class="nv">$md_array</span><span class="p">[</span><span class="s1">'permalink'</span><span class="p">]</span> <span class="o">=</span><span class="s2">"/notes/"</span><span class="o">.</span><span class="nv">$note</span><span class="p">[</span><span class="s1">'type'</span><span class="p">]</span><span class="o">.</span><span class="s2">"/"</span><span class="o">.</span><span class="nv">$url</span><span class="o">.</span><span class="s2">"/"</span><span class="o">.</span><span class="nv">$permdate</span><span class="o">.</span><span class="s2">"/"</span><span class="o">.</span><span class="nv">$hash</span><span class="o">.</span><span class="s2">".html"</span><span class="p">;</span>
+				<span class="nv">$html</span> <span class="o">=</span> <span class="nb">file_get_contents</span><span class="p">(</span><span class="nv">$note</span><span class="p">[</span><span class="s1">'url'</span><span class="p">]);</span>
+				<span class="nv">$config</span> <span class="o">=</span> <span class="nx">HTMLPurifier_Config</span><span class="o">::</span><span class="na">createDefault</span><span class="p">();</span>
+				<span class="nv">$purifier</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">HTMLPurifier</span><span class="p">(</span><span class="nv">$config</span><span class="p">);</span>
+				<span class="nv">$cleanhtml</span> <span class="o">=</span> <span class="nv">$purifier</span><span class="o">-&gt;</span><span class="na">purify</span><span class="p">(</span><span class="nv">$html</span><span class="p">);</span>
+				<span class="nv">$mf</span> <span class="o">=</span> <span class="nx">Mf2\parse</span><span class="p">(</span><span class="nv">$cleanhtml</span><span class="p">,</span> <span class="nv">$note</span><span class="p">[</span><span class="s1">'url'</span><span class="p">]);</span>
+				<span class="nv">$md_array</span><span class="p">[</span><span class="s1">'ext-url'</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$note</span><span class="p">[</span><span class="s1">'url'</span><span class="p">];</span>
+				<span class="nv">$md_array</span><span class="p">[</span><span class="s1">'title'</span><span class="p">]</span> <span class="o">=</span> <span class="s2">"Liked a page on "</span><span class="o">.</span><span class="nv">$url</span><span class="p">;</span>  				
+				<span class="c1">//fwrite($mdfile, $note['message']."\n");</span>
+				<span class="k">break</span><span class="p">;</span>	
+				
+<span class="c1">// #####################################################################################################################################		</span>
+			<span class="k">case</span> <span class="s2">"read"</span><span class="p">;</span>
+					<span class="nv">$md_array</span><span class="p">[</span><span class="s1">'permalink'</span><span class="p">]</span> <span class="o">=</span><span class="s2">"/notes/"</span><span class="o">.</span><span class="nv">$note</span><span class="p">[</span><span class="s1">'type'</span><span class="p">]</span><span class="o">.</span><span class="s2">"/"</span><span class="o">.</span><span class="nv">$permdate</span><span class="o">.</span><span class="s2">"/"</span><span class="o">.</span><span class="nv">$hash</span><span class="o">.</span><span class="s2">".html"</span><span class="p">;</span>
+					<span class="nv">$goodreads_api</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">GoodReads</span><span class="p">(</span><span class="s1">'qhNU8kMDrqS2Ryk8ExmyA'</span><span class="p">,</span> <span class="s1">'/home/tom/github/blog/website/_rake/tmp/'</span><span class="p">);</span>
+					<span class="nv">$urls</span> <span class="o">=</span> <span class="nv">$note</span><span class="p">[</span><span class="s1">'urls'</span><span class="p">];</span>
+					<span class="nv">$tags</span> <span class="o">=</span> <span class="nv">$note</span><span class="p">[</span><span class="s1">'tags'</span><span class="p">];</span>
+					<span class="nv">$page</span> <span class="o">=</span> <span class="nv">$tags</span><span class="p">[</span><span class="s1">'page'</span><span class="p">];</span>
+					
+					<span class="k">if</span> <span class="p">(</span><span class="nv">$page</span> <span class="o">==</span><span class="s2">"finshed"</span><span class="p">)</span> <span class="p">{</span><span class="nv">$status</span> <span class="o">=</span><span class="s2">"Finished"</span><span class="p">;}</span> <span class="k">else</span> <span class="p">{</span><span class="nv">$status</span> <span class="o">=</span><span class="s2">"Currently"</span><span class="p">;}</span>
+					
+					<span class="k">if</span> <span class="p">(</span><span class="nb">array_key_exists</span><span class="p">(</span><span class="s2">"asin"</span><span class="p">,</span><span class="nv">$urls</span><span class="p">))</span> <span class="p">{</span>
+					<span class="nv">$data</span> <span class="o">=</span> <span class="nv">$goodreads_api</span><span class="o">-&gt;</span><span class="na">getBookByISBN</span><span class="p">(</span><span class="nv">$urls</span><span class="p">[</span><span class="s1">'asin'</span><span class="p">]);</span>
+					<span class="p">}</span>
+					<span class="k">if</span> <span class="p">(</span><span class="nb">array_key_exists</span><span class="p">(</span><span class="s2">"ASIN"</span><span class="p">,</span><span class="nv">$urls</span><span class="p">))</span> <span class="p">{</span>
+					<span class="nv">$data</span> <span class="o">=</span> <span class="nv">$goodreads_api</span><span class="o">-&gt;</span><span class="na">getBookByISBN</span><span class="p">(</span><span class="nv">$urls</span><span class="p">[</span><span class="s1">'ASIN'</span><span class="p">]);</span>
+					<span class="p">}</span>
+					
+					<span class="nv">$book</span> <span class="o">=</span> <span class="nv">$data</span><span class="p">[</span><span class="s1">'book'</span><span class="p">];</span>
+					<span class="nb">fwrite</span><span class="p">(</span><span class="nv">$logfile</span><span class="p">,</span><span class="nb">json_encode</span><span class="p">(</span><span class="nv">$book</span><span class="p">)</span><span class="o">.</span><span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">);</span>
+					<span class="nv">$md_array</span><span class="p">[</span><span class="s1">'book-title'</span><span class="p">]</span> <span class="o">=</span><span class="nv">$book</span><span class="p">[</span><span class="s1">'title'</span><span class="p">];</span>
+					<span class="nv">$md_array</span><span class="p">[</span><span class="s1">'book-image_url'</span><span class="p">]</span> <span class="o">=</span><span class="nv">$book</span><span class="p">[</span><span class="s1">'small_image_url'</span><span class="p">];</span>
+					<span class="nv">$md_array</span><span class="p">[</span><span class="s1">'book-url'</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$book</span><span class="p">[</span><span class="s1">'url'</span><span class="p">];</span>	
+					<span class="nv">$md_array</span><span class="p">[</span><span class="s1">'page'</span><span class="p">]</span> <span class="o">=</span><span class="nv">$page</span><span class="p">;</span>				
+					<span class="nv">$md_array</span><span class="p">[</span><span class="s1">'status'</span><span class="p">]</span> <span class="o">=</span><span class="nv">$status</span><span class="p">;</span>				
+			<span class="k">break</span><span class="p">;</span>
+			
+<span class="c1">// #####################################################################################################################################</span>
+			<span class="k">default</span><span class="o">:</span>
+				<span class="nv">$md_array</span><span class="p">[</span><span class="s1">'permalink'</span><span class="p">]</span> <span class="o">=</span><span class="s2">"/notes/"</span><span class="o">.</span><span class="nv">$note</span><span class="p">[</span><span class="s1">'type'</span><span class="p">]</span><span class="o">.</span><span class="s2">"/"</span><span class="o">.</span><span class="nv">$permdate</span><span class="o">.</span><span class="s2">"/"</span><span class="o">.</span><span class="nv">$hash</span><span class="o">.</span><span class="s2">".html"</span><span class="p">;</span>
+				<span class="k">break</span><span class="p">;</span>
+				
+<span class="c1">// -------------------------------------------------------------------------------------------------------------------------------------</span>
+			<span class="p">}</span>
+
+				<span class="nv">$md_array</span><span class="p">[</span><span class="s1">'categories'</span><span class="p">]</span><span class="o">=</span><span class="nv">$categories_array</span><span class="p">;</span>
+				<span class="nv">$frontmatter</span> <span class="o">=</span> <span class="nb">yaml_emit</span> <span class="p">(</span><span class="nv">$md_array</span><span class="p">);</span>
+				<span class="nv">$frontmatter</span> <span class="o">=</span> <span class="nb">str_ireplace</span><span class="p">(</span><span class="s2">"..."</span><span class="p">,</span><span class="s2">"---"</span><span class="p">,</span><span class="nv">$frontmatter</span><span class="p">);</span>
+				<span class="nv">$mdfile</span> <span class="o">=</span> <span class="nb">fopen</span><span class="p">(</span><span class="nv">$hash</span><span class="o">.</span><span class="s2">".md"</span><span class="p">,</span> <span class="s2">"w"</span><span class="p">);</span>
+				<span class="nb">fwrite</span><span class="p">(</span><span class="nv">$mdfile</span><span class="p">,</span> <span class="nv">$frontmatter</span><span class="p">);</span>
+				<span class="k">if</span> <span class="p">(</span><span class="nb">array_key_exists</span><span class="p">(</span><span class="s2">"message"</span><span class="p">,</span><span class="nv">$note</span><span class="p">))</span> <span class="p">{</span>
+					<span class="nb">fwrite</span><span class="p">(</span><span class="nv">$mdfile</span><span class="p">,</span> <span class="nv">$note</span><span class="p">[</span><span class="s1">'message'</span><span class="p">]</span><span class="o">.</span><span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">);</span>
+				<span class="p">}</span>
+				<span class="nb">fclose</span><span class="p">(</span><span class="nv">$mdfile</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="c1">// ================================</span>
+<span class="k">function</span> <span class="nf">csv_parse_file</span> <span class="p">(</span> <span class="nv">$file</span><span class="p">,</span><span class="nv">$logfile</span> <span class="p">)</span> <span class="p">{</span>
+ 
+	<span class="c1">//echo "opening ".$file."....";</span>
+	<span class="k">if</span> <span class="p">((</span><span class="nv">$handle</span> <span class="o">=</span> <span class="nb">fopen</span><span class="p">(</span><span class="nv">$file</span><span class="p">,</span> <span class="s2">"r"</span><span class="p">))</span> <span class="o">!==</span> <span class="k">FALSE</span><span class="p">)</span> <span class="p">{</span>
+		<span class="c1">//echo "Done\n";</span>
+    	<span class="k">while</span> <span class="p">((</span><span class="nv">$data</span> <span class="o">=</span> <span class="nb">fgetcsv</span><span class="p">(</span><span class="nv">$handle</span><span class="p">,</span> <span class="mi">1000</span><span class="p">,</span> <span class="s2">","</span><span class="p">))</span> <span class="o">!==</span> <span class="k">FALSE</span><span class="p">)</span> <span class="p">{</span>
+    		<span class="nb">fwrite</span><span class="p">(</span><span class="nv">$logfile</span><span class="p">,</span><span class="nb">json_encode</span><span class="p">(</span><span class="nv">$data</span><span class="p">)</span><span class="o">.</span><span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">);</span>
+    		<span class="cm">/*
+    		0: type
+    		1: url
+    		2: messages
+    		3: tags
+    		4: date 
+    		*/</span>
+    		<span class="nb">unset</span><span class="p">(</span><span class="nv">$res</span><span class="p">);</span>
+ 			<span class="nv">$res</span><span class="p">[</span><span class="s1">'type'</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$data</span><span class="p">[</span><span class="s1">'0'</span><span class="p">];</span>
+ 			<span class="nv">$tmpdate</span> <span class="o">=</span> <span class="nb">date_create_from_format</span><span class="p">(</span><span class="s1">'d/m/Y'</span><span class="p">,</span> <span class="nv">$data</span><span class="p">[</span><span class="s1">'4'</span><span class="p">]);</span>
+ 			<span class="nv">$res</span><span class="p">[</span><span class="s1">'date'</span><span class="p">]</span> <span class="o">=</span> <span class="nb">date_format</span><span class="p">(</span><span class="nv">$tmpdate</span><span class="p">,</span> <span class="s1">'Y-m-d'</span><span class="p">);</span>
+ 			<span class="nv">$res</span><span class="p">[</span><span class="s1">'message'</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$data</span><span class="p">[</span><span class="s1">'2'</span><span class="p">];</span>
+			<span class="nv">$res</span><span class="p">[</span><span class="s1">'source'</span><span class="p">]</span><span class="o">=</span><span class="s2">"csv"</span><span class="p">;</span>
+
+			<span class="c1">// tags ===============================================</span>
+			    <span class="nb">unset</span><span class="p">(</span><span class="nv">$tags_array</span><span class="p">);</span>
+			  <span class="c1">//$data['3']  = urldecode ( $data['3'] );</span>
+			<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nb">strlen</span><span class="p">(</span><span class="nv">$data</span><span class="p">[</span><span class="s1">'3'</span><span class="p">])</span> <span class="o">==</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="nb">is_null</span><span class="p">(</span><span class="nv">$data</span><span class="p">[</span><span class="s1">'3'</span><span class="p">]))</span> <span class="p">{</span>
+				
+				
+				<span class="c1">//parse_str($data['3'], $tags_array);</span>
+				
+				
+				<span class="nv">$oldtags_array</span> <span class="o">=</span> <span class="nb">explode</span><span class="p">(</span><span class="s1">','</span><span class="p">,</span> <span class="nv">$data</span><span class="p">[</span><span class="s1">'3'</span><span class="p">]);</span>
+				<span class="nv">$tags_array</span> <span class="o">=</span> <span class="s2">""</span><span class="p">;</span>
+	
+				<span class="k">for</span><span class="p">(</span><span class="nv">$i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="nv">$i</span> <span class="o">&lt;</span> <span class="nb">count</span><span class="p">(</span><span class="nv">$oldtags_array</span> <span class="p">);</span> <span class="nv">$i</span><span class="o">++</span><span class="p">){</span>
+					<span class="nv">$key_value</span> <span class="o">=</span> <span class="nb">explode</span><span class="p">(</span><span class="s1">':'</span><span class="p">,</span> <span class="nv">$oldtags_array</span> <span class="p">[</span><span class="nv">$i</span><span class="p">]);</span>
+					<span class="nv">$tags_array</span><span class="p">[</span><span class="nv">$key_value</span> <span class="p">[</span><span class="mi">0</span><span class="p">]]</span> <span class="o">=</span> <span class="nv">$key_value</span> <span class="p">[</span><span class="mi">1</span><span class="p">];</span>
+				
+				<span class="p">}</span>
+		
+			<span class="c1">//echo "tags_array===============================================\n";</span>
+		
+    		<span class="c1">//print_r($tags_array);</span>
+    		<span class="nb">fwrite</span><span class="p">(</span><span class="nv">$logfile</span><span class="p">,</span><span class="nb">json_encode</span><span class="p">(</span><span class="nv">$tags_array</span><span class="p">)</span><span class="o">.</span><span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">);</span>
+    		<span class="c1">//echo "===============================================\n";</span>
+			<span class="nv">$res</span><span class="p">[</span><span class="s1">'tags'</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$tags_array</span><span class="p">;</span>
+		<span class="p">}</span>
+		<span class="c1">// ======================================================	</span>
+		
+		<span class="c1">// url tags	===========================================</span>
+		<span class="nb">unset</span><span class="p">(</span><span class="nv">$url_array</span><span class="p">);</span>
+		
+		<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nb">strlen</span><span class="p">(</span><span class="nv">$data</span><span class="p">[</span><span class="s1">'1'</span><span class="p">])</span> <span class="o">==</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="nb">is_null</span><span class="p">(</span><span class="nv">$data</span><span class="p">[</span><span class="s1">'1'</span><span class="p">]))</span> <span class="p">{</span>
+		    <span class="c1">//print_r($data['1']);</span>
+		    <span class="c1">//echo "\n";</span>
+			<span class="k">switch</span> <span class="p">(</span><span class="kc">true</span><span class="p">)</span> <span class="p">{</span>
+			
+				<span class="k">case</span> <span class="nb">stristr</span><span class="p">(</span><span class="nv">$data</span><span class="p">[</span><span class="s1">'1'</span><span class="p">],</span> <span class="s1">'http'</span><span class="p">)</span><span class="o">:</span>
+				<span class="c1">//echo "found http\n";</span>
+					<span class="nv">$res</span><span class="p">[</span><span class="s1">'url'</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$data</span><span class="p">[</span><span class="s1">'1'</span><span class="p">];</span>			
+					<span class="c1">//echo "url===============================================\n";</span>
+    				<span class="c1">//print_r($res['url']);</span>
+    				<span class="c1">//echo "===============================================\n";</span>
+					<span class="k">break</span><span class="p">;</span>
+					
+				<span class="k">case</span> <span class="nb">parse_url</span><span class="p">(</span><span class="nv">$data</span><span class="p">[</span><span class="s1">'1'</span><span class="p">],</span> <span class="nx">PHP_URL_QUERY</span><span class="p">);</span>
+					<span class="c1">//echo "found query\n";</span>
+					<span class="c1">//print_r(parse_url($url, PHP_URL_QUERY));</span>
+					<span class="k">break</span><span class="p">;</span>
+							
+				<span class="k">case</span> <span class="nb">stristr</span><span class="p">(</span><span class="nv">$data</span><span class="p">[</span><span class="s1">'1'</span><span class="p">],</span> <span class="s1">'ASIN'</span><span class="p">)</span><span class="o">:</span>
+					<span class="c1">//echo "found asin\n";	</span>
+				    <span class="nv">$key_value</span> <span class="o">=</span> <span class="nb">explode</span><span class="p">(</span><span class="s1">':'</span><span class="p">,</span> <span class="nv">$data</span><span class="p">[</span><span class="s1">'1'</span><span class="p">]);</span>
+				    <span class="nv">$url_array</span><span class="p">[</span><span class="nv">$key_value</span> <span class="p">[</span><span class="mi">0</span><span class="p">]]</span> <span class="o">=</span> <span class="nv">$key_value</span> <span class="p">[</span><span class="mi">1</span><span class="p">];</span>
+				    <span class="nv">$res</span><span class="p">[</span><span class="s1">'urls'</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$url_array</span><span class="p">;</span>
+					<span class="c1">//echo "url===============================================\n";</span>
+    				<span class="c1">//print_r($res['urls']);</span>
+    				<span class="c1">//echo "===============================================\n";</span>
+					<span class="k">break</span><span class="p">;</span>
+					
+				<span class="k">case</span> <span class="nb">stristr</span><span class="p">(</span><span class="nv">$data</span><span class="p">[</span><span class="s1">'1'</span><span class="p">],</span> <span class="s1">'ISBN'</span><span class="p">)</span><span class="o">:</span>
+					<span class="c1">//echo "found isbn\n";	</span>
+				    <span class="nv">$key_value</span> <span class="o">=</span> <span class="nb">explode</span><span class="p">(</span><span class="s1">':'</span><span class="p">,</span> <span class="nv">$data</span><span class="p">[</span><span class="s1">'1'</span><span class="p">]);</span>
+				    <span class="nv">$url_array</span><span class="p">[</span><span class="nv">$key_value</span> <span class="p">[</span><span class="mi">0</span><span class="p">]]</span> <span class="o">=</span> <span class="nv">$key_value</span> <span class="p">[</span><span class="mi">1</span><span class="p">];</span>
+				    <span class="nv">$res</span><span class="p">[</span><span class="s1">'urls'</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$url_array</span><span class="p">;</span>
+					<span class="c1">//echo "url===============================================\n";</span>
+    				<span class="c1">//print_r($res['urls']);</span>
+    				<span class="c1">//echo "===============================================\n";</span>
+					<span class="k">break</span><span class="p">;</span>
+						
+				<span class="k">case</span> <span class="nb">stristr</span><span class="p">(</span><span class="nv">$data</span><span class="p">[</span><span class="s1">'1'</span><span class="p">],</span> <span class="s1">'IMDB'</span><span class="p">)</span><span class="o">:</span>
+					<span class="c1">//echo "found IMDB\n";	</span>
+				    <span class="nv">$key_value</span> <span class="o">=</span> <span class="nb">explode</span><span class="p">(</span><span class="s1">':'</span><span class="p">,</span> <span class="nv">$data</span><span class="p">[</span><span class="s1">'1'</span><span class="p">]);</span>
+				    <span class="nv">$url_array</span><span class="p">[</span><span class="nv">$key_value</span> <span class="p">[</span><span class="mi">0</span><span class="p">]]</span> <span class="o">=</span> <span class="nv">$key_value</span> <span class="p">[</span><span class="mi">1</span><span class="p">];</span>
+				    <span class="nv">$res</span><span class="p">[</span><span class="s1">'urls'</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$url_array</span><span class="p">;</span>
+					<span class="c1">//echo "url===============================================\n";</span>
+    				<span class="c1">//print_r($res['urls']);</span>
+    				<span class="c1">//echo "===============================================\n";</span>
+					<span class="k">break</span><span class="p">;</span>
+					
+				<span class="k">case</span> <span class="nb">stristr</span><span class="p">(</span><span class="nv">$data</span><span class="p">[</span><span class="s1">'1'</span><span class="p">],</span> <span class="s1">'TVDB'</span><span class="p">)</span><span class="o">:</span>
+					<span class="c1">//echo "found TVDB\n";	</span>
+				    <span class="nv">$key_value</span> <span class="o">=</span> <span class="nb">explode</span><span class="p">(</span><span class="s1">':'</span><span class="p">,</span> <span class="nv">$data</span><span class="p">[</span><span class="s1">'1'</span><span class="p">]);</span>
+				    <span class="nv">$url_array</span><span class="p">[</span><span class="nv">$key_value</span> <span class="p">[</span><span class="mi">0</span><span class="p">]]</span> <span class="o">=</span> <span class="nv">$key_value</span> <span class="p">[</span><span class="mi">1</span><span class="p">];</span>
+				    <span class="nv">$res</span><span class="p">[</span><span class="s1">'urls'</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$url_array</span><span class="p">;</span>
+					<span class="c1">//echo "url===============================================\n";</span>
+    				<span class="c1">//print_r($res['urls']);</span>
+    				<span class="c1">//echo "===============================================\n";</span>
+					<span class="k">break</span><span class="p">;</span>
+							
+<span class="cm">/*										
+				case strstr($data['1'], ','):
+					$oldurl_array = explode(',', $data['1']);
+					$url_array = "";
+					for($i=0; $i &lt; count($oldurl_array ); $i++){
+    					$key_value = explode(':', $oldurl_array [$i]);
+    					$url_array[$key_value [0]] = $key_value [1];
+
+					}
+	 				$res['urls'] = $url_array;
+	 				echo "url_array===============================================\n";
+    				print_r($res['urls']);
+    				echo "===============================================\n";
+    				$url_array="";; 
+			    	break;
+			    	*/</span>
+ 			<span class="p">}</span>
+ 			
+ 		<span class="p">}</span>
+ 		<span class="c1">// ===========================================</span>
+			<span class="c1">//echo "res===============================================\n";</span>
+    		<span class="c1">//print_r($res);</span>
+    		<span class="c1">//echo "===============================================\n";	</span>
+ 		<span class="nb">fwrite</span><span class="p">(</span><span class="nv">$logfile</span><span class="p">,</span><span class="nb">json_encode</span><span class="p">(</span><span class="nv">$res</span><span class="p">)</span><span class="o">.</span><span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">);</span>
+ 		<span class="nv">$ret</span><span class="p">[]</span> <span class="o">=</span> <span class="nv">$res</span><span class="p">;</span>
+ 			 
+	<span class="p">}</span>
+<span class="p">}</span>
+
+
+		<span class="nb">fclose</span><span class="p">(</span><span class="nv">$handle</span><span class="p">);</span>
+		<span class="k">return</span> <span class="nv">$ret</span><span class="p">;</span>
+<span class="p">}</span>
+
+
+<span class="k">function</span> <span class="nf">tags</span><span class="p">(</span><span class="nv">$tags</span><span class="p">,</span><span class="nv">$logfile</span><span class="p">)</span> <span class="p">{</span>
+<span class="nv">$temp</span>  <span class="o">=</span> <span class="nb">urldecode</span> <span class="p">(</span> <span class="nv">$tags</span> <span class="p">);</span>
+<span class="nb">parse_str</span><span class="p">(</span><span class="nv">$temp</span><span class="p">,</span> <span class="nv">$output</span><span class="p">);</span>
+<span class="nb">fwrite</span><span class="p">(</span><span class="nv">$logfile</span><span class="p">,</span><span class="nb">json_encode</span><span class="p">(</span><span class="nv">$output</span><span class="p">)</span><span class="o">.</span><span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">);</span>
+
+<span class="k">return</span> <span class="nv">$output</span><span class="p">;</span> 
+
+<span class="p">}</span>
+
+<span class="nv">$path</span> <span class="o">=</span> <span class="nb">getcwd</span><span class="p">();</span>
+
+<span class="nv">$logfile</span> <span class="o">=</span> <span class="nb">fopen</span><span class="p">(</span><span class="s2">"log.log"</span><span class="p">,</span> <span class="s2">"w"</span><span class="p">);</span>
+<span class="k">global</span> <span class="nv">$logfile</span><span class="p">;</span>
+
+<span class="nv">$notes_path</span> <span class="o">=</span> <span class="nb">str_replace</span><span class="p">(</span><span class="s2">"_rake"</span><span class="p">,</span><span class="s2">"_notes"</span><span class="p">,</span><span class="nv">$path</span><span class="p">);</span>
+<span class="nb">chdir</span><span class="p">(</span><span class="nv">$notes_path</span><span class="p">);</span>
+
+
+<span class="nv">$notes_dir</span> <span class="o">=</span> <span class="nb">scandir</span><span class="p">(</span><span class="nv">$notes_path</span><span class="p">);</span>
+
+<span class="nb">fwrite</span><span class="p">(</span><span class="nv">$logfile</span><span class="p">,</span><span class="nb">json_encode</span><span class="p">(</span><span class="nv">$notes_dir</span><span class="p">)</span><span class="o">.</span><span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">);</span>
+<span class="k">foreach</span> <span class="p">(</span><span class="nv">$notes_dir</span> <span class="k">as</span> <span class="nv">$dir</span><span class="p">)</span> <span class="p">{</span>
+	<span class="nb">fwrite</span><span class="p">(</span><span class="nv">$logfile</span><span class="p">,</span><span class="nv">$dir</span><span class="o">.</span><span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">);</span>
+	<span class="k">if</span> <span class="p">(</span><span class="nv">$dir</span> <span class="o">===</span> <span class="s2">"."</span> <span class="k">or</span> <span class="nv">$dir</span> <span class="o">===</span> <span class="s2">".."</span> <span class="p">)</span> <span class="p">{</span><span class="k">continue</span><span class="p">;}</span>
+	<span class="nb">chdir</span><span class="p">(</span><span class="nv">$notes_path</span><span class="o">.</span><span class="s2">"/"</span><span class="o">.</span><span class="nv">$dir</span><span class="p">);</span>  
+	<span class="nv">$year_dir</span> <span class="o">=</span> <span class="nb">scandir</span><span class="p">(</span><span class="nv">$notes_path</span><span class="o">.</span><span class="s2">"/"</span><span class="o">.</span><span class="nv">$dir</span><span class="p">);</span>
+	<span class="nb">fwrite</span><span class="p">(</span><span class="nv">$logfile</span><span class="p">,</span><span class="nb">json_encode</span><span class="p">(</span><span class="nv">$year_dir</span><span class="p">)</span><span class="o">.</span><span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">);</span>
+	<span class="k">foreach</span> <span class="p">(</span><span class="nv">$year_dir</span> <span class="k">as</span> <span class="nv">$ydir</span><span class="p">)</span> <span class="p">{</span>
+		<span class="nb">fwrite</span><span class="p">(</span><span class="nv">$logfile</span><span class="p">,</span><span class="nv">$ydir</span><span class="o">.</span><span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">);</span>
+		<span class="k">if</span> <span class="p">(</span><span class="nv">$ydir</span> <span class="o">===</span> <span class="s2">"."</span> <span class="k">or</span> <span class="nv">$ydir</span> <span class="o">===</span> <span class="s2">".."</span><span class="p">)</span> <span class="p">{</span><span class="k">continue</span><span class="p">;}</span>
+		<span class="nb">chdir</span><span class="p">(</span><span class="nv">$notes_path</span><span class="o">.</span><span class="s2">"/"</span><span class="o">.</span><span class="nv">$dir</span><span class="o">.</span><span class="s2">"/"</span><span class="o">.</span><span class="nv">$ydir</span><span class="p">);</span>  
+		<span class="k">echo</span> <span class="nb">getcwd</span><span class="p">()</span><span class="o">.</span><span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">;</span>
+		<span class="nv">$filelist</span> <span class="o">=</span> <span class="nb">scandir</span><span class="p">(</span><span class="nv">$notes_path</span><span class="o">.</span><span class="s2">"/"</span><span class="o">.</span><span class="nv">$dir</span><span class="o">.</span><span class="s2">"/"</span><span class="o">.</span><span class="nv">$ydir</span><span class="p">);</span>
+			<span class="nb">fwrite</span><span class="p">(</span><span class="nv">$logfile</span><span class="p">,</span><span class="nb">json_encode</span><span class="p">(</span><span class="nv">$filelist</span><span class="p">)</span><span class="o">.</span><span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">);</span>
+			
+		<span class="k">foreach</span> <span class="p">(</span><span class="nv">$filelist</span> <span class="k">as</span> <span class="nv">$file</span><span class="p">)</span> <span class="p">{</span>
+			<span class="k">if</span> <span class="p">(</span><span class="nv">$file</span> <span class="o">===</span> <span class="s2">"."</span> <span class="k">or</span> <span class="nv">$file</span> <span class="o">===</span> <span class="s2">".."</span><span class="p">)</span> <span class="p">{</span><span class="k">continue</span><span class="p">;}</span>
+			<span class="k">switch</span><span class="p">(</span><span class="kc">true</span><span class="p">)</span> <span class="p">{</span>
+					<span class="k">case</span> <span class="nb">strstr</span><span class="p">(</span><span class="nv">$file</span><span class="p">,</span> <span class="s2">"log"</span><span class="p">)</span><span class="o">:</span>
+    					<span class="c1">//echo $file." skipping log file\n";</span>
+    					<span class="nb">fwrite</span><span class="p">(</span><span class="nv">$logfile</span><span class="p">,</span><span class="nv">$file</span><span class="o">.</span><span class="s2">" skipping log file</span><span class="se">\n</span><span class="s2">"</span><span class="p">);</span>
+    					<span class="k">continue</span> <span class="mi">2</span><span class="p">;</span>
+					<span class="k">case</span> <span class="nb">strstr</span><span class="p">(</span><span class="nv">$file</span><span class="p">,</span> <span class="s2">"md"</span><span class="p">)</span><span class="o">:</span>
+    					<span class="c1">//echo $file." skipping md file\n";</span>
+    					<span class="nb">fwrite</span><span class="p">(</span><span class="nv">$logfile</span><span class="p">,</span><span class="nv">$file</span><span class="o">.</span><span class="s2">" skipping md file</span><span class="se">\n</span><span class="s2">"</span><span class="p">);</span>
+    					<span class="k">continue</span> <span class="mi">2</span><span class="p">;</span>
+					<span class="k">case</span> <span class="nb">strstr</span><span class="p">(</span><span class="nv">$file</span><span class="p">,</span> <span class="s2">"yml"</span><span class="p">)</span><span class="o">:</span>
+    					<span class="c1">//echo $file."yml file\n";</span>
+    					<span class="nb">fwrite</span><span class="p">(</span><span class="nv">$logfile</span><span class="p">,</span><span class="nv">$file</span><span class="o">.</span><span class="s2">" yml file :) </span><span class="se">\n</span><span class="s2">"</span><span class="p">);</span>
+    					<span class="nv">$data</span> <span class="o">=</span> <span class="nb">yaml_parse_file</span> <span class="p">(</span> <span class="nv">$file</span> <span class="p">);</span>
+						<span class="c1">//fwrite($logfile,"\n-------------------\n".json_encode($data)."\n-------------------\n");</span>
+    					<span class="nx">create_notes</span><span class="p">(</span><span class="nv">$data</span><span class="p">,</span> <span class="nv">$logfile</span><span class="p">);</span>
+    					<span class="k">break</span><span class="p">;</span>
+					<span class="k">case</span> <span class="nb">strstr</span><span class="p">(</span><span class="nv">$file</span><span class="p">,</span> <span class="s2">"csv"</span><span class="p">)</span><span class="o">:</span>
+    					<span class="c1">//echo $file." CSV file\n";</span>
+    					<span class="nb">fwrite</span><span class="p">(</span><span class="nv">$logfile</span><span class="p">,</span><span class="nv">$file</span><span class="o">.</span><span class="s2">" csv file :) </span><span class="se">\n</span><span class="s2">"</span><span class="p">);</span>
+    					<span class="nv">$data</span> <span class="o">=</span> <span class="nx">csv_parse_file</span> <span class="p">(</span> <span class="nv">$file</span><span class="p">,</span> <span class="nv">$logfile</span> <span class="p">);</span>
+
+    					<span class="nx">create_notes</span><span class="p">(</span><span class="nv">$data</span><span class="p">,</span> <span class="nv">$logfile</span><span class="p">);</span>
+						<span class="k">break</span><span class="p">;</span>
+					<span class="p">}</span>
+			<span class="p">}</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+    	<span class="nb">fclose</span><span class="p">(</span><span class="nv">$logfile</span><span class="p">);</span>
+<span class="cp">?&gt;</span></code></pre></figure>
+
+
+    	</div>
+    	<div id="menu1" class="">
+      					<p>Date: <time class="dt-published" datetime="2017-12-31T00:00:00+10:00">31 Dec 2017</time></p>
+<p>Permalink: <a class="u-uid u-url u-syndication" rel="syndication" href="/archive/2017/12/rhythmbox-notes-system.html">/archive/2017/12/rhythmbox-notes-system.html</a></p>
+
+
+
+  Also posted on:
+  
+  
+  <a href="https://news.indieweb.org/en" class="u-syndication" >https://news.indieweb.org/en</a>
+  
+  
+
+<div class="h-card" rel="me">
+	<img class="u-photo" rel="me" src="/about-me/photo.png" alt="my photo" />
+	<div>
+		<a rel="author" class="p-name u-url" rel="me" href="">Tom Sparks</a>
+		<a class="u-email" rel="me" href="mailto:">email</a>,<br />
+		<a class="u-email" rel="me" href="">tomasparks@21:1/164</a>, (<a href="http://www.bbs.geek.nz/#fsxNet">fsxnet</a>)<br />
+		<a class="u-email" rel="me" href="">tomasparks@fideonet</a>. (comming soon)<br />
+		<div class="p-note">I am a Alternative Technology Researcher, with a focus on Digital Communication Networks.</div>
+	</div>
+</div>
+
+
+    	</div>
+
+    	<div id="menu2" class="">
+    	
+      		<!-- page.comments == TRUE -->
+  <section class="post__comments">
+  <!-- site.repository =  -->
+  <!-- site.staticman.branch =  -->
+    <!-- staticman.branch =  -->
+    
+  </section>
+
+		
+    </div>
+    <div id="menu3" class="">
+				<!--{ include webmention.html }-->
+    </div>
+  </div>
+</div>
+
+<ul class="pager">
+  <li class="previous"><a href="/archive/2017/12/notes-system.html">&laquo; custom indieweb note system</a></li>  
+  <li class="next"><a href="/archive/2018/01/ny-resolution.html">My 2018 NY Resolution &raquo;</a></li>  
+</ul> 
+
+
+</main>
+<script>$( "#tabs" ).tabs();</script>
+<!-- end of post -->
+
+    <footer>
+    <table>
+<tr>
+<td class="text-left"><a href="/website/">(W)ebsite</a>
+</td>
+<td class="text-center">Standing by</td>
+<td class="text-right" ><form action="search/" method="get"><input type="text" id="search-query" name="q" placeholder="" autocomplete="off"></form>
+</td></tr>
+</table>
+    </footer>
+</body>
+
+</html>
+
+
