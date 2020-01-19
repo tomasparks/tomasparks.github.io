@@ -1,0 +1,1800 @@
+[
+    {
+        "type": "entry",
+        "published": "2019-08-16T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/build-log/work-area/camera-rig/icg-software/test-datasets/2019/08/16/notre-dame.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Download PhotoTourism Notre Dame image dataset",
+        "summary": {
+            "html": "\n",
+            "value": "\n"
+        },
+        "value": "\n",
+        "category": [
+            "work-area",
+            "camera-rig",
+            "ICG-software",
+            "test-datasets"
+        ],
+        "tags": [],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2019-08-14T21:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/build-log/work-area/camera-rig/icg-software/vm/2019/08/14/14-08-2019-stop-compling-opencv.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Stop compiling opencv, install pre-build version",
+        "summary": {
+            "html": "<blockquote>\n  <p>sudo apt-get install python-opencv</p>\n</blockquote>\n",
+            "value": "\n  sudo apt-get install python-opencv\n\n"
+        },
+        "value": "\n  sudo apt-get install python-opencv\n\n",
+        "category": [
+            "work-area",
+            "camera-rig",
+            "ICG-software",
+            "VM"
+        ],
+        "tags": [],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2019-08-03T18:36:04+10:00",
+        "url": "https://tomasparks.name/miniatures/build-log/work-area/camera-rig/icg-software/vm/2019/08/03/setup-VM.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Re-Setting up Virtual Machine",
+        "summary": {
+            "html": "\n",
+            "value": "\n"
+        },
+        "value": "\n",
+        "category": [
+            "work-area",
+            "camera-rig",
+            "ICG-software",
+            "VM"
+        ],
+        "tags": [],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2019-07-12T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/build-log/diorama/pirate-island/2019/07/12/features-wishlist.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "features wishlist",
+        "summary": {
+            "html": "<p>I would like to have these features on the Pirate island</p>\n\n",
+            "value": "I would like to have these features on the Pirate island\n\n"
+        },
+        "value": "I would like to have these features on the Pirate island\n\n",
+        "category": [
+            "diorama",
+            "pirate-island"
+        ],
+        "tags": [],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2019-07-09T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/build-log/diorama/castle/2019/07/09/castle.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Castle",
+        "summary": {
+            "html": "<p>After watching @TheNerdforge\u2019s <a href=\"https://www.youtube.com/watch?v=VbnHe-qDFUQ\">Making A Miniature Fantasy LANDSCAPE (For An Epic Castle?)</a> and <a href=\"https://www.youtube.com/watch?v=_2N-AL515rE\">Making an Epic Wizard Castle Using 2500+ Bricks!</a>,\nthe idea of doing a Castle is growing on me.</p>\n",
+            "value": "After watching @TheNerdforge\u2019s Making A Miniature Fantasy LANDSCAPE (For An Epic Castle?) and Making an Epic Wizard Castle Using 2500+ Bricks!,\nthe idea of doing a Castle is growing on me.\n"
+        },
+        "value": "After watching @TheNerdforge\u2019s Making A Miniature Fantasy LANDSCAPE (For An Epic Castle?) and Making an Epic Wizard Castle Using 2500+ Bricks!,\nthe idea of doing a Castle is growing on me.\n",
+        "category": [
+            "diorama",
+            "Castle"
+        ],
+        "tags": [],
+        "syndication": [
+            "https://twitter.com/tomasparksts/status/1148706235795017728"
+        ]
+    },
+    {
+        "type": "entry",
+        "published": "2019-07-08T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/build-log/work-area/2019/07/08/contact-mic.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "JrF C-SERIES pro contact microphone",
+        "summary": {
+            "html": "<p>yay, I got my <a href=\"https://jezrileyfrench.co.uk/contact-microphones.php\">contact mic</a> for recording the pen plotter sounds :)</p>\n\n",
+            "value": "yay, I got my contact mic for recording the pen plotter sounds :)\n\n"
+        },
+        "value": "yay, I got my contact mic for recording the pen plotter sounds :)\n\n",
+        "category": [
+            "work-area"
+        ],
+        "tags": [
+            "microphone",
+            "contact",
+            "JrF",
+            "PenPlotter"
+        ],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2019-06-28T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/build-log/diorama/myst-island/2019/06/28/sliceform-part-2.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Convert Planetarium model stl to sliceform papermodel part 2",
+        "summary": {
+            "html": "<p>After looking at the exported plans from @autodesk\u2019s fusion 360 <a href=\"https://apps.autodesk.com/FUSION/en/Detail/Index?id=8699194120463301363\">slicer</a>, they are unusable :(</p>\n\n",
+            "value": "After looking at the exported plans from @autodesk\u2019s fusion 360 slicer, they are unusable :(\n\n"
+        },
+        "value": "After looking at the exported plans from @autodesk\u2019s fusion 360 slicer, they are unusable :(\n\n",
+        "category": [
+            "diorama",
+            "myst-island"
+        ],
+        "tags": [
+            "Planetarium",
+            "Sliceform",
+            "Library",
+            "slicer"
+        ],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2019-06-21T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/build-log/diorama/myst-island/2019/06/21/Planetarium.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Convert Planetarium model stl to sliceform papermodel part 1",
+        "summary": {
+            "html": "<p>After the failed attempt with the Library model, I tried @autodesk\u2019s fusion 360 <a href=\"https://apps.autodesk.com/FUSION/en/Detail/Index?id=8699194120463301363\">slicer</a> on the Planetarium base model.\nI have had great success. :)</p>\n",
+            "value": "After the failed attempt with the Library model, I tried @autodesk\u2019s fusion 360 slicer on the Planetarium base model.\nI have had great success. :)\n"
+        },
+        "value": "After the failed attempt with the Library model, I tried @autodesk\u2019s fusion 360 slicer on the Planetarium base model.\nI have had great success. :)\n",
+        "category": [
+            "diorama",
+            "myst-island"
+        ],
+        "tags": [
+            "Planetarium",
+            "Sliceform",
+            "Library"
+        ],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2019-06-20T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/build-log/work-area/2019/06/20/Deliveries.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Deliveries",
+        "summary": {
+            "html": "<p>Yay, Deliveries</p>\n\n",
+            "value": "Yay, Deliveries\n\n"
+        },
+        "value": "Yay, Deliveries\n\n",
+        "category": [
+            "work-area"
+        ],
+        "tags": [],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2019-06-19T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/build-log/diorama/myst-island/2019/06/19/Library.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Convert Library model stl to papermodel",
+        "summary": {
+            "html": "<p>My Model unfolding <a href=\"https://tamasoft.co.jp/pepakura-en/index.html\">software</a> did not like the stl file uploaded to <a href=\"https://www.thingiverse.com/Cyan_Inc/designs\">thingiverse</a> by @cyanworlds.</p>\n",
+            "value": "My Model unfolding software did not like the stl file uploaded to thingiverse by @cyanworlds.\n"
+        },
+        "value": "My Model unfolding software did not like the stl file uploaded to thingiverse by @cyanworlds.\n",
+        "category": [
+            "diorama",
+            "myst-island"
+        ],
+        "tags": [
+            "Library",
+            "pepakura"
+        ],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2019-06-11T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/build-log/diorama/myst-island/2019/06/11/myst-island.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Myst Island",
+        "summary": {
+            "html": "<blockquote>\n  <p><a href=\"https://en.wikipedia.org/wiki/Myst\">Myst</a> is a graphic adventure puzzle video game designed by the Miller brothers, Robyn and Rand.\nIt was developed by <a href=\"https://cyan.com/\">Cyan, Inc</a>., published by Br\u00f8derbund, and released as a PC game for the Macintosh platform in 1993.\nIn the game, players are told that a special book has caused them to travel to Myst Island.\nThere, players solve puzzles and, by doing so, travel to four other worlds, known as Ages, which reveal the backstory of the game\u2019s characters.</p>\n</blockquote>\n\n",
+            "value": "\n  Myst is a graphic adventure puzzle video game designed by the Miller brothers, Robyn and Rand.\nIt was developed by Cyan, Inc., published by Br\u00f8derbund, and released as a PC game for the Macintosh platform in 1993.\nIn the game, players are told that a special book has caused them to travel to Myst Island.\nThere, players solve puzzles and, by doing so, travel to four other worlds, known as Ages, which reveal the backstory of the game\u2019s characters.\n\n\n"
+        },
+        "value": "\n  Myst is a graphic adventure puzzle video game designed by the Miller brothers, Robyn and Rand.\nIt was developed by Cyan, Inc., published by Br\u00f8derbund, and released as a PC game for the Macintosh platform in 1993.\nIn the game, players are told that a special book has caused them to travel to Myst Island.\nThere, players solve puzzles and, by doing so, travel to four other worlds, known as Ages, which reveal the backstory of the game\u2019s characters.\n\n\n",
+        "category": [
+            "diorama",
+            "myst-island"
+        ],
+        "tags": [],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2019-05-17T12:32:02+10:00",
+        "url": "https://tomasparks.name/miniatures/build-log/website/webtorrent/p2pvideo/2019/05/17/merge-p2pvideo-to-website.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Merge p2pvideo to website source code",
+        "summary": {
+            "html": "<p><a href=\"https://github.com/tomasparks/miniatures-src/commit/428389c22e800a89e53abbaf1483d50ebb7b8007\">Merge p2pvideo to website soruce code</a></p>\n",
+            "value": "Merge p2pvideo to website soruce code\n"
+        },
+        "value": "Merge p2pvideo to website soruce code\n",
+        "category": [
+            "website",
+            "webtorrent",
+            "p2pvideo"
+        ],
+        "tags": [],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2019-05-14T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/build-log/work-area/2019/05/14/setup-workarea.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Settting up my working area",
+        "summary": {
+            "html": "<p>I have two tables and a wire storage shelf arranged in a U-shape. <br />\nI am retooling two tower computers:</p>\n\n",
+            "value": "I have two tables and a wire storage shelf arranged in a U-shape. \nI am retooling two tower computers:\n\n"
+        },
+        "value": "I have two tables and a wire storage shelf arranged in a U-shape. \nI am retooling two tower computers:\n\n",
+        "category": [
+            "work-area"
+        ],
+        "tags": [],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2019-05-10T08:00:56+10:00",
+        "url": "https://tomasparks.name/miniatures/build-log/website/webtorrent/p2pvideo/2019/05/10/p2pvideo-Final-commit.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Final commit (gh-page) to github",
+        "summary": {
+            "html": "<p><a href=\"https://github.com/tomasparks/p2p-video/commit/96d7d9c57d33789f2b32c4582b1f139f015a64f6\">Final commit (gh-page)</a> to github</p>\n",
+            "value": "Final commit (gh-page) to github\n"
+        },
+        "value": "Final commit (gh-page) to github\n",
+        "category": [
+            "website",
+            "webtorrent",
+            "p2pvideo"
+        ],
+        "tags": [],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2019-05-10T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/build-log/website/webtorrent/2019/05/10/slashdot-effect.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "How I plan on dealing with the Slashdot effect",
+        "summary": {
+            "html": "<p>see <a href=\"https://tomasparks.name/miniatures/notebook/2019/05/slashdot.html\">How I plan on dealing with the Slashdot effect</a> in the notebook.</p>\n",
+            "value": "see How I plan on dealing with the Slashdot effect in the notebook.\n"
+        },
+        "value": "see How I plan on dealing with the Slashdot effect in the notebook.\n",
+        "category": [
+            "website",
+            "webtorrent"
+        ],
+        "tags": [],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2019-05-10T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/notebook/2019/05/slashdot.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "How I plan on dealing with the Slashdot effect",
+        "summary": {
+            "html": "<blockquote>\n  <p>The Slashdot effect, also known as slashdotting, occurs when a popular website links to a smaller website, causing a massive increase in traffic. This overloads the smaller site, causing it to slow down or even temporarily become unavailable. The name stems from the huge influx of web traffic which would result from the technology news site Slashdot linking to websites. The original circumstances have changed, as flash crowds from Slashdot were reported in 2005 to be diminishing due to competition from similar sites, and the general adoption of elastically scalable cloud hosting platforms. The effect has been associated with other websites or metablogs such as Fark, Digg, Drudge Report, Imgur, Reddit, and Twitter, leading to terms such as being \u201cfarked\u201d or \u201cdrudged\u201d, being under the \u201cReddit effect\u201d\u2014or receiving a \u201chug of death\u201d from the site in question. Google Doodles, which link to search results on the doodle topic, also result in high increases of traffic from the search results page. Typically, less robust sites are unable to cope with the huge increase in traffic and become unavailable \u2013 common causes are lack of sufficient data bandwidth, servers that fail to cope with the high number of requests, and traffic quotas. Sites that are maintained on shared hosting services often fail when confronted with the Slashdot effect.\nA flash crowd is a more generic term without using any specific name that describes a network phenomenon where a network or host suddenly receives a lot of traffic. This is sometimes due to the appearance of a website on a blog or news column.</p>\n</blockquote>\n\n",
+            "value": "\n  The Slashdot effect, also known as slashdotting, occurs when a popular website links to a smaller website, causing a massive increase in traffic. This overloads the smaller site, causing it to slow down or even temporarily become unavailable. The name stems from the huge influx of web traffic which would result from the technology news site Slashdot linking to websites. The original circumstances have changed, as flash crowds from Slashdot were reported in 2005 to be diminishing due to competition from similar sites, and the general adoption of elastically scalable cloud hosting platforms. The effect has been associated with other websites or metablogs such as Fark, Digg, Drudge Report, Imgur, Reddit, and Twitter, leading to terms such as being \u201cfarked\u201d or \u201cdrudged\u201d, being under the \u201cReddit effect\u201d\u2014or receiving a \u201chug of death\u201d from the site in question. Google Doodles, which link to search results on the doodle topic, also result in high increases of traffic from the search results page. Typically, less robust sites are unable to cope with the huge increase in traffic and become unavailable \u2013 common causes are lack of sufficient data bandwidth, servers that fail to cope with the high number of requests, and traffic quotas. Sites that are maintained on shared hosting services often fail when confronted with the Slashdot effect.\nA flash crowd is a more generic term without using any specific name that describes a network phenomenon where a network or host suddenly receives a lot of traffic. This is sometimes due to the appearance of a website on a blog or news column.\n\n\n"
+        },
+        "value": "\n  The Slashdot effect, also known as slashdotting, occurs when a popular website links to a smaller website, causing a massive increase in traffic. This overloads the smaller site, causing it to slow down or even temporarily become unavailable. The name stems from the huge influx of web traffic which would result from the technology news site Slashdot linking to websites. The original circumstances have changed, as flash crowds from Slashdot were reported in 2005 to be diminishing due to competition from similar sites, and the general adoption of elastically scalable cloud hosting platforms. The effect has been associated with other websites or metablogs such as Fark, Digg, Drudge Report, Imgur, Reddit, and Twitter, leading to terms such as being \u201cfarked\u201d or \u201cdrudged\u201d, being under the \u201cReddit effect\u201d\u2014or receiving a \u201chug of death\u201d from the site in question. Google Doodles, which link to search results on the doodle topic, also result in high increases of traffic from the search results page. Typically, less robust sites are unable to cope with the huge increase in traffic and become unavailable \u2013 common causes are lack of sufficient data bandwidth, servers that fail to cope with the high number of requests, and traffic quotas. Sites that are maintained on shared hosting services often fail when confronted with the Slashdot effect.\nA flash crowd is a more generic term without using any specific name that describes a network phenomenon where a network or host suddenly receives a lot of traffic. This is sometimes due to the appearance of a website on a blog or news column.\n\n\n",
+        "category": [
+            "documenting",
+            "Diorama",
+            "photograph",
+            "webtorrent"
+        ],
+        "tags": [
+            "website",
+            "webtorrent",
+            "krpano",
+            "videos"
+        ],
+        "syndication": [
+            "https://twitter.com/tomasparksts/status/1127175106265067520"
+        ]
+    },
+    {
+        "type": "entry",
+        "published": "2019-05-09T21:06:58+10:00",
+        "url": "https://tomasparks.name/miniatures/build-log/website/webtorrent/p2pvideo/2019/05/09/p2pvideo.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Initial commit (gh-page) to github",
+        "summary": {
+            "html": "<p><a href=\"https://github.com/tomasparks/p2p-video/commit/768b207371fdfc2733d0b4c5c7ee731b3491e9b6\">Initial commit (gh-page)</a> to github</p>\n",
+            "value": "Initial commit (gh-page) to github\n"
+        },
+        "value": "Initial commit (gh-page) to github\n",
+        "category": [
+            "website",
+            "webtorrent",
+            "p2pvideo"
+        ],
+        "tags": [],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2019-05-09T12:32:26+10:00",
+        "url": "https://tomasparks.name/miniatures/build-log/website/webtorrent/p2p-krpano-viewer/2019/05/09/2019-5-9.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "krpano black box bug",
+        "summary": {
+            "html": "<blockquote>\n  <p>VM5160:1 Uncaught RangeError: Invalid typed array length: 107961892351\nat new Uint8Array ()\nat qb (eval at embedpano (krpano.js:10), :1:59738)\nat Ga.p (eval at embedpano (krpano.js:10), :1:49008)\nat eval (eval at embedpano (krpano.js:10), :1:50289)\nat m (eval at embedpano (krpano.js:10), :1:63632)\nat eval (eval at embedpano (krpano.js:10), :1:65437)\nat Object.d [as loadxml] (eval at embedpano (krpano.js:10), :1:129797)\nat Function.k.loadxml (eval at embedpano (krpano.js:10), :1:98202)\nat Object.k.executeActions (eval at embedpano (krpano.js:10), :1:77876)\nat Object.k.callaction (eval at embedpano (krpano.js:10), :1:76712)\nat pd (eval at embedpano (krpano.js:10), :1:7126)\nat HTMLDivElement.jf [as call] (eval at embedpano (krpano.js:10), :1:7163)\nat js.js:76\nat Array.forEach ()\nat start (js.js:69) at onProgress (js.js:163)</p>\n</blockquote>\n",
+            "value": "\n  VM5160:1 Uncaught RangeError: Invalid typed array length: 107961892351\nat new Uint8Array ()\nat qb (eval at embedpano (krpano.js:10), :1:59738)\nat Ga.p (eval at embedpano (krpano.js:10), :1:49008)\nat eval (eval at embedpano (krpano.js:10), :1:50289)\nat m (eval at embedpano (krpano.js:10), :1:63632)\nat eval (eval at embedpano (krpano.js:10), :1:65437)\nat Object.d [as loadxml] (eval at embedpano (krpano.js:10), :1:129797)\nat Function.k.loadxml (eval at embedpano (krpano.js:10), :1:98202)\nat Object.k.executeActions (eval at embedpano (krpano.js:10), :1:77876)\nat Object.k.callaction (eval at embedpano (krpano.js:10), :1:76712)\nat pd (eval at embedpano (krpano.js:10), :1:7126)\nat HTMLDivElement.jf [as call] (eval at embedpano (krpano.js:10), :1:7163)\nat js.js:76\nat Array.forEach ()\nat start (js.js:69) at onProgress (js.js:163)\n\n"
+        },
+        "value": "\n  VM5160:1 Uncaught RangeError: Invalid typed array length: 107961892351\nat new Uint8Array ()\nat qb (eval at embedpano (krpano.js:10), :1:59738)\nat Ga.p (eval at embedpano (krpano.js:10), :1:49008)\nat eval (eval at embedpano (krpano.js:10), :1:50289)\nat m (eval at embedpano (krpano.js:10), :1:63632)\nat eval (eval at embedpano (krpano.js:10), :1:65437)\nat Object.d [as loadxml] (eval at embedpano (krpano.js:10), :1:129797)\nat Function.k.loadxml (eval at embedpano (krpano.js:10), :1:98202)\nat Object.k.executeActions (eval at embedpano (krpano.js:10), :1:77876)\nat Object.k.callaction (eval at embedpano (krpano.js:10), :1:76712)\nat pd (eval at embedpano (krpano.js:10), :1:7126)\nat HTMLDivElement.jf [as call] (eval at embedpano (krpano.js:10), :1:7163)\nat js.js:76\nat Array.forEach ()\nat start (js.js:69) at onProgress (js.js:163)\n\n",
+        "category": [
+            "website",
+            "webtorrent",
+            "p2p-krpano-viewer"
+        ],
+        "tags": [],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2019-05-06T10:29:13+10:00",
+        "url": "https://tomasparks.name/miniatures/build-log/website/webtorrent/p2p-krpano-viewer/2019/05/06/2019-5-6.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Initial commit (gh-page) to github",
+        "summary": {
+            "html": "<p><a href=\"https://github.com/tomasparks/krpano-and-webtorrent/commit/5e5d01999043c5936e647935e1e3cf161a1dfba6\">Initial commit (gh-page)</a> to github</p>\n",
+            "value": "Initial commit (gh-page) to github\n"
+        },
+        "value": "Initial commit (gh-page) to github\n",
+        "category": [
+            "website",
+            "webtorrent",
+            "p2p-krpano-viewer"
+        ],
+        "tags": [],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2019-05-05T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/build-log/work-area/software/krpano/krpano-viewer/2019/05/05/merge-to-p2p-krpano-viewer.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "merge to p2p-krpano-viewer",
+        "summary": {
+            "html": "\n",
+            "value": "\n"
+        },
+        "value": "\n",
+        "category": [
+            "work-area",
+            "software",
+            "krpano",
+            "krpano-viewer"
+        ],
+        "tags": [],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2019-05-05T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/build-log/website/webtorrent/2019/05/05/2019-5-5.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "webtorrent",
+        "summary": {
+            "html": "\n",
+            "value": "\n"
+        },
+        "value": "\n",
+        "category": [
+            "website",
+            "webtorrent"
+        ],
+        "tags": [],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2019-01-11T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/notebook/2019/01/sg-makerspace-email.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Sunshine Coast Maker Space - Architectural endoscope camera rig email",
+        "summary": {
+            "html": "<blockquote>\n  <p><em>Name:</em> tom sparks\n<em>Email Address:</em> tomasparks.ts@gmail.com\n<em>Subject:</em> Architectural endoscope camera rig\n<em>Message:</em> I would like to build an Architectural endoscope camera rig\nfor photographing my diorama.</p>\n\n  <ul>\n    <li>the rig needs to be automated to take panorama photos at each location</li>\n    <li>Controlled / adjustable lighting conditions eg: night, daylight, sunset, sunrise, etc (darkroom / lightbox )</li>\n    <li>interchangeable camera setup</li>\n  </ul>\n\n  <p>photographs of camera rigs:\nhttps://tomasparks.name/miniatures/notebook/2018/11/endoscope-camera-rig.html\nhttps://en.wikipedia.org/wiki/Architectural_endoscopy</p>\n\n  <p><em>Im interested in:</em> Inventor Support</p>\n\n  <p>(Sent via <em>Sunshine Coast Maker Space <a href=\"https://www.scmakerspace.com.au\">https://www.scmakerspace.com.au</a></em>)</p>\n</blockquote>\n\n",
+            "value": "\n  Name: tom sparks\nEmail Address: tomasparks.ts@gmail.com\nSubject: Architectural endoscope camera rig\nMessage: I would like to build an Architectural endoscope camera rig\nfor photographing my diorama.\n\n  \n    the rig needs to be automated to take panorama photos at each location\n    Controlled / adjustable lighting conditions eg: night, daylight, sunset, sunrise, etc (darkroom / lightbox )\n    interchangeable camera setup\n  \n\n  photographs of camera rigs:\nhttps://tomasparks.name/miniatures/notebook/2018/11/endoscope-camera-rig.html\nhttps://en.wikipedia.org/wiki/Architectural_endoscopy\n\n  Im interested in: Inventor Support\n\n  (Sent via Sunshine Coast Maker Space https://www.scmakerspace.com.au)\n\n\n"
+        },
+        "value": "\n  Name: tom sparks\nEmail Address: tomasparks.ts@gmail.com\nSubject: Architectural endoscope camera rig\nMessage: I would like to build an Architectural endoscope camera rig\nfor photographing my diorama.\n\n  \n    the rig needs to be automated to take panorama photos at each location\n    Controlled / adjustable lighting conditions eg: night, daylight, sunset, sunrise, etc (darkroom / lightbox )\n    interchangeable camera setup\n  \n\n  photographs of camera rigs:\nhttps://tomasparks.name/miniatures/notebook/2018/11/endoscope-camera-rig.html\nhttps://en.wikipedia.org/wiki/Architectural_endoscopy\n\n  Im interested in: Inventor Support\n\n  (Sent via Sunshine Coast Maker Space https://www.scmakerspace.com.au)\n\n\n",
+        "category": [
+            "Diorama",
+            "photograph"
+        ],
+        "tags": [
+            "Streetview",
+            "FPV",
+            "VR",
+            "Virtual tour",
+            "MakerSpace",
+            "email"
+        ],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2018-12-28T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/build-log/diorama/imperial-city/2018/12/28/ImperialCity.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Imperial City",
+        "summary": {
+            "html": "<p>After rewatching @LGR\u2019s reviews on <a href=\"https://en.wikipedia.org/wiki/The_Elder_Scrolls\">Elder scrolls</a> Video game series.\nI liked the look of The <a href=\"https://en.uesp.net/wiki/Oblivion:The_Imperial_City\">Imperial City</a> featured in <a href=\"https://en.wikipedia.org/wiki/The_Elder_Scrolls_IV:_Oblivion\">Elder Scrolls IV: Oblivion</a>.</p>\n",
+            "value": "After rewatching @LGR\u2019s reviews on Elder scrolls Video game series.\nI liked the look of The Imperial City featured in Elder Scrolls IV: Oblivion.\n"
+        },
+        "value": "After rewatching @LGR\u2019s reviews on Elder scrolls Video game series.\nI liked the look of The Imperial City featured in Elder Scrolls IV: Oblivion.\n",
+        "category": [
+            "diorama",
+            "Imperial-City"
+        ],
+        "tags": [],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2018-12-26T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/notebook/2018/12/krpano.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Why did I buy Krpano?",
+        "summary": {
+            "html": "<p>Why did I buy <a href=\"https://krpano.com/\">Krpano</a>?</p>\n\n",
+            "value": "Why did I buy Krpano?\n\n"
+        },
+        "value": "Why did I buy Krpano?\n\n",
+        "category": [
+            "photograph"
+        ],
+        "tags": [
+            "Streetview",
+            "FPV",
+            "VR",
+            "Virtual tour"
+        ],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2018-12-26T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/build-log/work-area/software/krpano/krpano-viewer/2018/12/26/merge-to-website.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "merge to website",
+        "summary": {
+            "html": "\n",
+            "value": "\n"
+        },
+        "value": "\n",
+        "category": [
+            "work-area",
+            "software",
+            "krpano",
+            "krpano-viewer"
+        ],
+        "tags": [],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2018-12-25T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/build-log/work-area/software/krpano/krpano-tools/2018/12/25/krpano-tools.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "krpano-tools",
+        "summary": {
+            "html": "\n",
+            "value": "\n"
+        },
+        "value": "\n",
+        "category": [
+            "work-area",
+            "software",
+            "krpano",
+            "krpano-tools"
+        ],
+        "tags": [],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2018-12-25T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/build-log/work-area/software/krpano/krpano-examples/2018/12/25/krpano-examples.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "krpano-examples",
+        "summary": {
+            "html": "\n",
+            "value": "\n"
+        },
+        "value": "\n",
+        "category": [
+            "work-area",
+            "software",
+            "krpano",
+            "krpano-examples"
+        ],
+        "tags": [],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2018-12-25T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/build-log/work-area/software/krpano/krpano-viewer/2018/12/25/krpano-viewer.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "krpano-viewer",
+        "summary": {
+            "html": "\n",
+            "value": "\n"
+        },
+        "value": "\n",
+        "category": [
+            "work-area",
+            "software",
+            "krpano",
+            "krpano-viewer"
+        ],
+        "tags": [],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2018-12-24T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/build-log/work-area/software/krpano/2018/12/24/krpano.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "krpano",
+        "summary": {
+            "html": "\n",
+            "value": "\n"
+        },
+        "value": "\n",
+        "category": [
+            "work-area",
+            "software",
+            "krpano"
+        ],
+        "tags": [],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2018-12-23T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/build-log/work-area/software/2018/12/23/software.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Software",
+        "summary": {
+            "html": "<ul>\n  <li><a href=\"https://krpano.com/\">krpano</a></li>\n  <li><a href=\"https://www.tamasoft.co.jp/pepakura-en/\">Pepakura Designer 4</a></li>\n</ul>\n",
+            "value": "\n  krpano\n  Pepakura Designer 4\n\n"
+        },
+        "value": "\n  krpano\n  Pepakura Designer 4\n\n",
+        "category": [
+            "work-area",
+            "software"
+        ],
+        "tags": [],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2018-12-01T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/notebook/2018/12/painting-methods.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Painting Methods",
+        "summary": {
+            "html": "<p>The painting methods I am going to use are:</p>\n\n",
+            "value": "The painting methods I am going to use are:\n\n"
+        },
+        "value": "The painting methods I am going to use are:\n\n",
+        "category": [
+            "painting",
+            "papercraft"
+        ],
+        "tags": [],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2018-11-30T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/notebook/2018/11/tools.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Tools",
+        "summary": {
+            "html": "<h2 id=\"electronics\">Electronics</h2>\n\n",
+            "value": "Electronics\n\n"
+        },
+        "value": "Electronics\n\n",
+        "category": [
+            "Diorama",
+            "tools"
+        ],
+        "tags": [
+            "papercraft",
+            "electronics"
+        ],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2018-11-27T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/notebook/2018/11/endoscope-camera-rig.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Endoscope Camera Rig",
+        "summary": {
+            "html": "<p>I looked through <a href=\"https://en.wikipedia.org/wiki/Architectural_endoscopy\">Architectural endoscopy</a> Articles, I came across these images</p>\n\n",
+            "value": "I looked through Architectural endoscopy Articles, I came across these images\n\n"
+        },
+        "value": "I looked through Architectural endoscopy Articles, I came across these images\n\n",
+        "category": [
+            "Diorama",
+            "photograph"
+        ],
+        "tags": [
+            "Streetview",
+            "FPV",
+            "VR",
+            "Virtual tour"
+        ],
+        "syndication": [
+            "https://twitter.com/tomasparksts/status/1128302698464464896"
+        ]
+    },
+    {
+        "type": "entry",
+        "published": "2018-11-27T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/build-log/work-area/camera-rig/2018/11/27/camera-rig-redesgin.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Camera-Rig Redesgin",
+        "summary": {
+            "html": "<p>see <a href=\"/miniatures/notebook/2018/11/endoscope-camera-rig.html\">Endoscope Camera Rig</a></p>\n",
+            "value": "see Endoscope Camera Rig\n"
+        },
+        "value": "see Endoscope Camera Rig\n",
+        "category": [
+            "work-area",
+            "camera-rig"
+        ],
+        "tags": [],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2018-11-24T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/notebook/2018/11/you-should-contact-x.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "You should contact / join X DRAFT",
+        "summary": {
+            "html": "<p>I am the person in that sits in the center of the <a href=\"https://en.wikipedia.org/wiki/Venn_diagram\">Venn digram</a> with most of my projects</p>\n\n",
+            "value": "I am the person in that sits in the center of the Venn digram with most of my projects\n\n"
+        },
+        "value": "I am the person in that sits in the center of the Venn digram with most of my projects\n\n",
+        "category": [
+            "Diorama",
+            "Other"
+        ],
+        "tags": [
+            "MHR emag",
+            "NMRA",
+            "Miniatur Wunderland"
+        ],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2018-11-19T20:05:11+10:00",
+        "url": "https://tomasparks.name/miniatures/build-log/website/2018/11/19/birth-of-website.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Birth of website",
+        "summary": {
+            "html": "<p>Birth of Website <a href=\"https://github.com/tomasparks/miniatures-src/\">souce code</a></p>\n",
+            "value": "Birth of Website souce code\n"
+        },
+        "value": "Birth of Website souce code\n",
+        "category": [
+            "website"
+        ],
+        "tags": [],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2018-11-10T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/build-log/work-area/camera-rig/icg-software/2018/11/10/camera-rig-software.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Camera-Rig software",
+        "summary": {
+            "html": "<p>see <a href=\"/miniatures/notebook/2018/11/streetview-diorama-update.html\">Creating a Streetview for Dioramas UPDATE</a></p>\n",
+            "value": "see Creating a Streetview for Dioramas UPDATE\n"
+        },
+        "value": "see Creating a Streetview for Dioramas UPDATE\n",
+        "category": [
+            "work-area",
+            "camera-rig",
+            "ICG-software"
+        ],
+        "tags": [],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2018-11-10T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/notebook/2018/11/streetview-diorama-update.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Creating a Streetview for Dioramas UPDATE",
+        "summary": {
+            "html": "<p>I have abandonned the <a href=\"http://phototour.cs.washington.edu/\">Photo tourism</a> software and I am looking at <a href=\"http://phototour.cs.washington.edu/imagegraphs/\">\u201cImage connectivity graph\u201d</a></p>\n\n",
+            "value": "I have abandonned the Photo tourism software and I am looking at \u201cImage connectivity graph\u201d\n\n"
+        },
+        "value": "I have abandonned the Photo tourism software and I am looking at \u201cImage connectivity graph\u201d\n\n",
+        "category": [
+            "Diorama",
+            "photograph"
+        ],
+        "tags": [
+            "Streetview",
+            "FPV",
+            "VR",
+            "Virtual tour",
+            "image connectivity graph"
+        ],
+        "syndication": [
+            "https://twitter.com/tomasparksts/status/1128304143708446720"
+        ]
+    },
+    {
+        "type": "entry",
+        "published": "2018-10-31T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/notebook/2018/10/darkroom-diorama.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Dark Room",
+        "summary": {
+            "html": "<p>I am starting to reliase I may need a darkroom to control the lighting of the diorama because I would like to do two different lighting enivorments\n ( day and night ) and I dont know how long the <a href=\"/miniatures/notebook/2018/10/streetview-diorama.html\">robot</a> well take to photograph each location.</p>\n",
+            "value": "I am starting to reliase I may need a darkroom to control the lighting of the diorama because I would like to do two different lighting enivorments\n ( day and night ) and I dont know how long the robot well take to photograph each location.\n"
+        },
+        "value": "I am starting to reliase I may need a darkroom to control the lighting of the diorama because I would like to do two different lighting enivorments\n ( day and night ) and I dont know how long the robot well take to photograph each location.\n",
+        "category": [
+            "Diorama",
+            "photograph"
+        ],
+        "tags": [
+            "Streetview",
+            "FPV",
+            "VR",
+            "Virtual tour",
+            "dark room"
+        ],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2018-10-23T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/notebook/2018/10/documenting.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "documenting the produce",
+        "summary": {
+            "html": "<h2 id=\"filming\">Filming</h2>\n\n<h3 id=\"computing\">Computing</h3>\n\n<p>I may not film the work I do on my computer.</p>\n\n<h3 id=\"live-action\">live action</h3>\n\n<p>Using a <a href=\"\">overhead camera rig</a> and camera, I can film the proccess</p>\n\n",
+            "value": "Filming\n\nComputing\n\nI may not film the work I do on my computer.\n\nlive action\n\nUsing a overhead camera rig and camera, I can film the proccess\n\n"
+        },
+        "value": "Filming\n\nComputing\n\nI may not film the work I do on my computer.\n\nlive action\n\nUsing a overhead camera rig and camera, I can film the proccess\n\n",
+        "category": [
+            "documenting"
+        ],
+        "tags": [],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2018-10-09T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/notebook/2018/10/deepzoom-map.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Creating a Deepzoom map for Dioramas",
+        "summary": {
+            "html": "<p>The goal is to create a <a href=\"https://en.wikipedia.org/wiki/Deep_Zoom\">\u201cDeep Zoom\u201d</a> map of my dioramas.</p>\n\n",
+            "value": "The goal is to create a \u201cDeep Zoom\u201d map of my dioramas.\n\n"
+        },
+        "value": "The goal is to create a \u201cDeep Zoom\u201d map of my dioramas.\n\n",
+        "category": [
+            "Diorama",
+            "photograph"
+        ],
+        "tags": [
+            "Streetview",
+            "Deep Zoom",
+            "map"
+        ],
+        "syndication": [
+            "https://twitter.com/tomasparksts/status/1129005679799394304"
+        ]
+    },
+    {
+        "type": "entry",
+        "published": "2018-10-08T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/build-log/work-area/camera-rig/2018/10/08/camera-rig.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Camera-Rig",
+        "summary": {
+            "html": "<p>see <a href=\"/miniatures/notebook/2018/10/streetview-diorama.html\">Creating a Streetview for Dioramas</a></p>\n",
+            "value": "see Creating a Streetview for Dioramas\n"
+        },
+        "value": "see Creating a Streetview for Dioramas\n",
+        "category": [
+            "work-area",
+            "camera-rig"
+        ],
+        "tags": [],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2018-10-08T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/notebook/2018/10/streetview-diorama.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Creating a Streetview for Dioramas",
+        "summary": {
+            "html": "<p>The goal is to create a <a href=\"https://en.wikipedia.org/wiki/Google_Street_View\">\u201cStreet View\u201d</a><sup id=\"fnref:1\"><a href=\"#fn:1\" class=\"footnote\">1</a></sup> of my dioramas.</p>\n\n<div class=\"footnotes\">\n  <ol>\n    <li id=\"fn:1\">\n      <p>there are program that can create panoramic <a href=\"https://en.wikipedia.org/wiki/Virtual_tour\">Virtual tour</a> software like easypano\u2019s <a href=\"https://www.easypano.com/virtual-tour-software.html\">Tourweaver</a>\u00a0<a href=\"#fnref:1\" class=\"reversefootnote\">&#8617;</a></p>\n    </li>\n  </ol>\n</div>\n",
+            "value": "The goal is to create a \u201cStreet View\u201d1 of my dioramas.\n\n\n  \n    \n      there are program that can create panoramic Virtual tour software like easypano\u2019s Tourweaver\u00a0&#8617;\n    \n  \n\n"
+        },
+        "value": "The goal is to create a \u201cStreet View\u201d1 of my dioramas.\n\n\n  \n    \n      there are program that can create panoramic Virtual tour software like easypano\u2019s Tourweaver\u00a0&#8617;\n    \n  \n\n",
+        "category": [
+            "Diorama",
+            "photograph"
+        ],
+        "tags": [
+            "Streetview",
+            "FPV",
+            "VR",
+            "Virtual tour"
+        ],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2018-10-01T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/build-log/work-area/2018/10/01/work-area.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Work-area",
+        "summary": {
+            "html": "\n",
+            "value": "\n"
+        },
+        "value": "\n",
+        "category": [
+            "work-area"
+        ],
+        "tags": [],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2018-09-26T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/build-log/diorama/pirate-island/2018/09/26/pirate-island-idea.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "pirate island idea",
+        "summary": {
+            "html": "\n",
+            "value": "\n"
+        },
+        "value": "\n",
+        "category": [
+            "diorama",
+            "pirate-island"
+        ],
+        "tags": [],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2018-09-25T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/notebook/2018/09/3d-topo-map.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "3D Topographic map inside of Shadowbox",
+        "summary": {
+            "html": "\n<div class=\"polaroid\">\n<img class=\"u-photo\" src=\"/miniatures/assets/images/3d-map.jpg\" alt=\"3D map\" srcset=\"    /miniatures/assets/images/resized/1024/3d-map.jpg 1024w,    /miniatures/assets/images/resized/768/3d-map.jpg 768w,    /miniatures/assets/images/resized/640/3d-map.jpg 640w, /miniatures/assets/images/3d-map.jpg 1280w\" style=\"width:100%\" />\n  <div class=\"container\">\n    <p>3D map</p>\n  </div>\n</div>\n\n",
+            "value": "\n\n\n  \n    3D map\n  \n\n\n"
+        },
+        "value": "\n\n\n  \n    3D map\n  \n\n\n",
+        "category": [
+            "Diorama"
+        ],
+        "tags": [
+            "Shadowbox",
+            "topo map",
+            "Topographic map",
+            "3D map"
+        ],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2018-09-19T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/notebook/2018/09/papercraft.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "papercraft / Papercraft rules",
+        "summary": {
+            "html": "<p>I\u2019ve been boucing the idea around of doing a few Diorama</p>\n\n<p>I started to look at the idea after I bought my 3d printer,\nbut it was <a href=\"/miniatures/notebook/2018/07/3dprinter-experiment.html\">unsucessfull</a></p>\n\n<p>I am relooking at the idea from a papercrafting view</p>\n\n<h2 id=\"papercraft-rules\">Papercraft rules</h2>\n\n<ul>\n  <li>95% of work needs to be done on the <a href=\"\">pen plotter</a></li>\n  <li>no ink/laser printer<sup id=\"fnref:1\"><a href=\"#fn:1\" class=\"footnote\">1</a></sup></li>\n</ul>\n\n<div class=\"footnotes\">\n  <ol>\n    <li id=\"fn:1\">\n      <p>Commercial printing for wallpaper/textured paper excluded.\u00a0<a href=\"#fnref:1\" class=\"reversefootnote\">&#8617;</a></p>\n    </li>\n  </ol>\n</div>\n",
+            "value": "I\u2019ve been boucing the idea around of doing a few Diorama\n\nI started to look at the idea after I bought my 3d printer,\nbut it was unsucessfull\n\nI am relooking at the idea from a papercrafting view\n\nPapercraft rules\n\n\n  95% of work needs to be done on the pen plotter\n  no ink/laser printer1\n\n\n\n  \n    \n      Commercial printing for wallpaper/textured paper excluded.\u00a0&#8617;\n    \n  \n\n"
+        },
+        "value": "I\u2019ve been boucing the idea around of doing a few Diorama\n\nI started to look at the idea after I bought my 3d printer,\nbut it was unsucessfull\n\nI am relooking at the idea from a papercrafting view\n\nPapercraft rules\n\n\n  95% of work needs to be done on the pen plotter\n  no ink/laser printer1\n\n\n\n  \n    \n      Commercial printing for wallpaper/textured paper excluded.\u00a0&#8617;\n    \n  \n\n",
+        "category": [
+            "papercraft"
+        ],
+        "tags": [
+            "pen plotter",
+            "Diorama",
+            "steampunk",
+            "retro-futurism"
+        ],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2018-08-15T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/notebook/2018/08/dcc.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "DCC (Digital Command Control) for non model railway uses",
+        "summary": {
+            "html": "<p>Currently <a href=\"https://en.wikipedia.org/wiki/Digital_Command_Control\">DCC (Digital Command Control)</a> is beening used in <a href=\"https://en.wikipedia.org/wiki/Rail_transport_modelling\">model railways setups</a>,\nbut I can see other uses within the widder modelling communtiy</p>\n\n<ul>\n  <li>static Displays</li>\n  <li>modular diaramas</li>\n  <li>wargaming</li>\n</ul>\n\n<h2 id=\"static-displays\">Static displays</h2>\n\n<p>there are modellers who put their \u201ccompleted\u201d<sup id=\"fnref:1\"><a href=\"#fn:1\" class=\"footnote\">1</a></sup> models in display cases/cabinets, the models are usally group together.</p>\n\n<h2 id=\"modular-diorama\">modular Diorama</h2>\n\n<p>I can think of two cases:</p>\n\n<ol>\n  <li>kit modellers<sup id=\"fnref:1:1\"><a href=\"#fn:1\" class=\"footnote\">1</a></sup></li>\n  <li>travelling diorama:</li>\n</ol>\n\n<h2 id=\"personal\">personal</h2>\n\n<ol>\n  <li>I was concepting a display for a community group that featured mainstream sci-fi models from TV/movie seires,</li>\n</ol>\n\n<ul>\n  <li>I want the model\u2019s to indercate:\n** \u201cOn This Day\u201d in-unverse events\n** X years till in-unverse event \n** death of Actors from series.</li>\n  <li>the models were going to hanging from the ceeling because of limited space\nSTALLED :(</li>\n</ul>\n\n<ol>\n  <li>\n    <p>I had started to desgin a Star trek DS9\u2019s Domaon Battle using a mixer of models and <a href=\"\">peeper ghost</a> effects\nSTALLED :(</p>\n  </li>\n  <li>\n    <p>I was researching a computer-assited [rpg] with shelf-moving mintures\nand with explodable picese { see <a href=\"https://en.wikipedia.org/wiki/The_Incredible_Crash_Dummies\">Crash Test Dummy toys</a>  }\nSTALLED :(</p>\n  </li>\n</ol>\n\n<div class=\"footnotes\">\n  <ol>\n    <li id=\"fn:1\">\n      <p>some models are never completed\u00a0<a href=\"#fnref:1\" class=\"reversefootnote\">&#8617;</a>\u00a0<a href=\"#fnref:1:1\" class=\"reversefootnote\">&#8617;<sup>2</sup></a></p>\n    </li>\n  </ol>\n</div>\n",
+            "value": "Currently DCC (Digital Command Control) is beening used in model railways setups,\nbut I can see other uses within the widder modelling communtiy\n\n\n  static Displays\n  modular diaramas\n  wargaming\n\n\nStatic displays\n\nthere are modellers who put their \u201ccompleted\u201d1 models in display cases/cabinets, the models are usally group together.\n\nmodular Diorama\n\nI can think of two cases:\n\n\n  kit modellers1\n  travelling diorama:\n\n\npersonal\n\n\n  I was concepting a display for a community group that featured mainstream sci-fi models from TV/movie seires,\n\n\n\n  I want the model\u2019s to indercate:\n** \u201cOn This Day\u201d in-unverse events\n** X years till in-unverse event \n** death of Actors from series.\n  the models were going to hanging from the ceeling because of limited space\nSTALLED :(\n\n\n\n  \n    I had started to desgin a Star trek DS9\u2019s Domaon Battle using a mixer of models and peeper ghost effects\nSTALLED :(\n  \n  \n    I was researching a computer-assited [rpg] with shelf-moving mintures\nand with explodable picese { see Crash Test Dummy toys  }\nSTALLED :(\n  \n\n\n\n  \n    \n      some models are never completed\u00a0&#8617;\u00a0&#8617;2\n    \n  \n\n"
+        },
+        "value": "Currently DCC (Digital Command Control) is beening used in model railways setups,\nbut I can see other uses within the widder modelling communtiy\n\n\n  static Displays\n  modular diaramas\n  wargaming\n\n\nStatic displays\n\nthere are modellers who put their \u201ccompleted\u201d1 models in display cases/cabinets, the models are usally group together.\n\nmodular Diorama\n\nI can think of two cases:\n\n\n  kit modellers1\n  travelling diorama:\n\n\npersonal\n\n\n  I was concepting a display for a community group that featured mainstream sci-fi models from TV/movie seires,\n\n\n\n  I want the model\u2019s to indercate:\n** \u201cOn This Day\u201d in-unverse events\n** X years till in-unverse event \n** death of Actors from series.\n  the models were going to hanging from the ceeling because of limited space\nSTALLED :(\n\n\n\n  \n    I had started to desgin a Star trek DS9\u2019s Domaon Battle using a mixer of models and peeper ghost effects\nSTALLED :(\n  \n  \n    I was researching a computer-assited [rpg] with shelf-moving mintures\nand with explodable picese { see Crash Test Dummy toys  }\nSTALLED :(\n  \n\n\n\n  \n    \n      some models are never completed\u00a0&#8617;\u00a0&#8617;2\n    \n  \n\n",
+        "category": [
+            "Electronics"
+        ],
+        "tags": [
+            "Digital Command Control",
+            "DCC"
+        ],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2018-08-06T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/build-log/diorama/retrofuturism/2018/08/06/retrofuturism-idea.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "retrofuturism idea",
+        "summary": {
+            "html": "\n",
+            "value": "\n"
+        },
+        "value": "\n",
+        "category": [
+            "diorama",
+            "retrofuturism"
+        ],
+        "tags": [],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2018-08-06T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/build-log/diorama/steampunk/2018/08/06/steampunk-idea.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "steampunk idea",
+        "summary": {
+            "html": "\n",
+            "value": "\n"
+        },
+        "value": "\n",
+        "category": [
+            "diorama",
+            "steampunk"
+        ],
+        "tags": [],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2018-08-01T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/build-log/decoupage-diorama/2018/08/01/decoupage-diorama.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Decoupage Diorama",
+        "summary": {
+            "html": "\n",
+            "value": "\n"
+        },
+        "value": "\n",
+        "category": [
+            "decoupage-diorama"
+        ],
+        "tags": [],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2018-08-01T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/build-log/diorama/2018/08/01/diorama.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Diorama",
+        "summary": {
+            "html": "\n",
+            "value": "\n"
+        },
+        "value": "\n",
+        "category": [
+            "diorama"
+        ],
+        "tags": [],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2018-07-24T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/notebook/2018/07/3dprinter-experiment.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "3D printer experiment",
+        "summary": {
+            "html": "<p>I bought a <a href=\"http://3dprintingsystems.com/products/3d-printers/up-mini-3d-printer/\">Up Mini 3D printer</a> a few years ago (TODO: Year)\nI printed the standard test models, the <a href=\"https://en.wikipedia.org/wiki/Stanford_bunny\">Stanford bunny</a> and the <a href=\"https://www.thingiverse.com/thing:53451\">gear bearing</a></p>\n\n<p>I started to print objects from <a href=\"https://www.thingiverse.com\">thingiverse</a> that I liked.\nBut the models need too much post-cleaning with sharp tools<sup id=\"fnref:1\"><a href=\"#fn:1\" class=\"footnote\">1</a></sup>.\nso I started looking for ways to eliminated as much of the post-clean up work as possible, I found slicing<sup id=\"fnref:2\"><a href=\"#fn:2\" class=\"footnote\">2</a></sup> <a href=\"https://www.netfabb.com\">software</a>, if the model was not pre-sliced.\nBut it introducted a new headace, joining the parts<sup id=\"fnref:3\"><a href=\"#fn:3\" class=\"footnote\">3</a></sup> by gluing/welding.\nThe other reason for slicing was to hollow the model for adding <a href=\"electronics-and-me.md\">electronics</a></p>\n\n<div class=\"footnotes\">\n  <ol>\n    <li id=\"fn:1\">\n      <p>I hate wearing gloves.\u00a0<a href=\"#fnref:1\" class=\"reversefootnote\">&#8617;</a></p>\n    </li>\n    <li id=\"fn:2\">\n      <p>cutting up the model into parts.\u00a0<a href=\"#fnref:2\" class=\"reversefootnote\">&#8617;</a></p>\n    </li>\n    <li id=\"fn:3\">\n      <p>due to variation in heating/temperature and alignment while printing.\u00a0<a href=\"#fnref:3\" class=\"reversefootnote\">&#8617;</a></p>\n    </li>\n  </ol>\n</div>\n",
+            "value": "I bought a Up Mini 3D printer a few years ago (TODO: Year)\nI printed the standard test models, the Stanford bunny and the gear bearing\n\nI started to print objects from thingiverse that I liked.\nBut the models need too much post-cleaning with sharp tools1.\nso I started looking for ways to eliminated as much of the post-clean up work as possible, I found slicing2 software, if the model was not pre-sliced.\nBut it introducted a new headace, joining the parts3 by gluing/welding.\nThe other reason for slicing was to hollow the model for adding electronics\n\n\n  \n    \n      I hate wearing gloves.\u00a0&#8617;\n    \n    \n      cutting up the model into parts.\u00a0&#8617;\n    \n    \n      due to variation in heating/temperature and alignment while printing.\u00a0&#8617;\n    \n  \n\n"
+        },
+        "value": "I bought a Up Mini 3D printer a few years ago (TODO: Year)\nI printed the standard test models, the Stanford bunny and the gear bearing\n\nI started to print objects from thingiverse that I liked.\nBut the models need too much post-cleaning with sharp tools1.\nso I started looking for ways to eliminated as much of the post-clean up work as possible, I found slicing2 software, if the model was not pre-sliced.\nBut it introducted a new headace, joining the parts3 by gluing/welding.\nThe other reason for slicing was to hollow the model for adding electronics\n\n\n  \n    \n      I hate wearing gloves.\u00a0&#8617;\n    \n    \n      cutting up the model into parts.\u00a0&#8617;\n    \n    \n      due to variation in heating/temperature and alignment while printing.\u00a0&#8617;\n    \n  \n\n",
+        "category": [
+            "Diorama"
+        ],
+        "tags": [
+            "3D printer",
+            "3D printed",
+            "Failed"
+        ],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2018-06-27T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/notebook/2018/06/electronics-and-me.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Electronics and me",
+        "summary": {
+            "html": "<p>I\u2019ve had a group of bad experience build electronics circuits</p>\n\n<p>in the early 1990:</p>\n<ul>\n  <li>I a build a few circuits from a beginner electronic books</li>\n</ul>\n\n<div class=\"polaroid\">\n<img class=\"u-photo\" src=\"/miniatures/assets/images/DSE_funway_vol1.jpg\" alt=\"Dick Smith Electronics Fun Way into Electronics Vol. 1\" srcset=\" /miniatures/assets/images/DSE_funway_vol1.jpg 388w\" style=\"width:100%\" />\n  <div class=\"container\">\n    <p>Dick Smith Electronics Fun Way into Electronics Vol. 1</p>\n  </div>\n</div>\n\n<div class=\"polaroid\">\n<img class=\"u-photo\" src=\"/miniatures/assets/images/DSE_funway_vol2.jpg\" alt=\"Dick Smith Electronics Fun Way into Electronics Vol. 2\" srcset=\"    /miniatures/assets/images/resized/1024/DSE_funway_vol2.jpg 1024w,    /miniatures/assets/images/resized/768/DSE_funway_vol2.jpg 768w,    /miniatures/assets/images/resized/640/DSE_funway_vol2.jpg 640w, /miniatures/assets/images/DSE_funway_vol2.jpg 1125w\" style=\"width:100%\" />\n  <div class=\"container\">\n    <p>Dick Smith Electronics Fun Way into Electronics Vol. 2</p>\n  </div>\n</div>\n\n<ul>\n  <li>At highschool i want to join electronic club, but the clubs teacher killed that dream.</li>\n</ul>\n\n<p>A few years ago: I relooked at getting back into electronics with the <a href=\"https://www.freetronics.com.au/collections/kits/products/experimenters-kit-for-arduino\">arduino starter kit</a>,\nthe LED lights requirements (polarity, resistors) killed it again for me.</p>\n\n<p>PS: I never wanted to learn how to <a href=\"https://www.makerspaces.com/how-to-solder/\">solder</a>, the <a href=\"https://www.bareconductive.com\">conductive paint</a> looked like my best option.\nPSS: I was also looking making my own <a href=\"https://en.wikipedia.org/wiki/Printed_circuit_board\">printed circuit boards (PCB)</a>, I found <a href=\"https://pcbfx.com\">heat-transfer method</a>\nI also found <a href=\"https://www.circuitscribe.com/\">conductive ink pen</a> that could use in my pen plotter</p>\n",
+            "value": "I\u2019ve had a group of bad experience build electronics circuits\n\nin the early 1990:\n\n  I a build a few circuits from a beginner electronic books\n\n\n\n\n  \n    Dick Smith Electronics Fun Way into Electronics Vol. 1\n  \n\n\n\n\n  \n    Dick Smith Electronics Fun Way into Electronics Vol. 2\n  \n\n\n\n  At highschool i want to join electronic club, but the clubs teacher killed that dream.\n\n\nA few years ago: I relooked at getting back into electronics with the arduino starter kit,\nthe LED lights requirements (polarity, resistors) killed it again for me.\n\nPS: I never wanted to learn how to solder, the conductive paint looked like my best option.\nPSS: I was also looking making my own printed circuit boards (PCB), I found heat-transfer method\nI also found conductive ink pen that could use in my pen plotter\n"
+        },
+        "value": "I\u2019ve had a group of bad experience build electronics circuits\n\nin the early 1990:\n\n  I a build a few circuits from a beginner electronic books\n\n\n\n\n  \n    Dick Smith Electronics Fun Way into Electronics Vol. 1\n  \n\n\n\n\n  \n    Dick Smith Electronics Fun Way into Electronics Vol. 2\n  \n\n\n\n  At highschool i want to join electronic club, but the clubs teacher killed that dream.\n\n\nA few years ago: I relooked at getting back into electronics with the arduino starter kit,\nthe LED lights requirements (polarity, resistors) killed it again for me.\n\nPS: I never wanted to learn how to solder, the conductive paint looked like my best option.\nPSS: I was also looking making my own printed circuit boards (PCB), I found heat-transfer method\nI also found conductive ink pen that could use in my pen plotter\n",
+        "category": [
+            "Electronics"
+        ],
+        "tags": [],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "2018-01-03 16:30:00 +1000",
+        "url": "/archive/2018/01/ny-resolution.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "My 2018 NY Resolution",
+        "summary": {
+            "html": "<h1 id=\"my-2018-ny-resolution-list\">My 2018 NY Resolution list</h1>\n\n<h2 id=\"my-website\">My Website</h2>\n\n<ul>\n  <li><a href=\"https://indieweb.org/Getting_Started\">Indiewbeb</a></li>\n  <li>tick off some <a href=\"https://indieweb.org/IndieMark\">IndieMarks</a></li>\n  <li>Complete website theming</li>\n  <li>Copy my facebook data to my website</li>\n</ul>\n\n<h2 id=\"internet\">Internet</h2>\n\n<ul>\n  <li>spend less time on youtube</li>\n</ul>\n\n<h2 id=\"myself\">Myself</h2>\n\n<ul>\n  <li>Do more Art work</li>\n  <li>Listen to music/podcast more</li>\n  <li>Read more books</li>\n</ul>\n",
+            "value": "My 2018 NY Resolution list\n\nMy Website\n\n\n  Indiewbeb\n  tick off some IndieMarks\n  Complete website theming\n  Copy my facebook data to my website\n\n\nInternet\n\n\n  spend less time on youtube\n\n\nMyself\n\n\n  Do more Art work\n  Listen to music/podcast more\n  Read more books\n\n"
+        },
+        "value": "<h1 id=\"my-2018-ny-resolution-list\">My 2018 NY Resolution list</h1>\n\n<h2 id=\"my-website\">My Website</h2>\n\n<ul>\n  <li><a href=\"https://indieweb.org/Getting_Started\">Indiewbeb</a></li>\n  <li>tick off some <a href=\"https://indieweb.org/IndieMark\">IndieMarks</a></li>\n  <li>Complete website theming</li>\n  <li>Copy my facebook data to my website</li>\n</ul>\n\n<h2 id=\"internet\">Internet</h2>\n\n<ul>\n  <li>spend less time on youtube</li>\n</ul>\n\n<h2 id=\"myself\">Myself</h2>\n\n<ul>\n  <li>Do more Art work</li>\n  <li>Listen to music/podcast more</li>\n  <li>Read more books</li>\n</ul>\n",
+        "category": [],
+        "tags": []
+    },
+    {
+        "type": "entry",
+        "published": "2017-12-31 00:00:00 +1000",
+        "url": "/archive/2017/12/rhythmbox-notes-system.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Rhythmbox scrobbling notes system",
+        "summary": {
+            "html": "<p>I\u2019ve just written <a href=\"https://en.wikipedia.org/wiki/Rhythmbox\">Rhythmbox</a> scrobbling system for my notes</p>\n\n",
+            "value": "I\u2019ve just written Rhythmbox scrobbling system for my notes\n\n"
+        },
+        "value": "<p>I\u2019ve just written <a href=\"https://en.wikipedia.org/wiki/Rhythmbox\">Rhythmbox</a> scrobbling system for my notes</p>\n\n",
+        "category": [],
+        "tags": []
+    },
+    {
+        "type": "entry",
+        "published": "2017-12-26 00:00:00 +1000",
+        "url": "/archive/2017/12/notes-system.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "custom indieweb note system",
+        "summary": {
+            "html": "<p>I am curently writing a custom indieweb <a href=\"https://indieweb.org/note\">note</a> system for my webiste, my requirements are different to most/all indieweb implementation as I need three different way of creating notes Text-editor, Browser and Offline</p>\n\n",
+            "value": "I am curently writing a custom indieweb note system for my webiste, my requirements are different to most/all indieweb implementation as I need three different way of creating notes Text-editor, Browser and Offline\n\n"
+        },
+        "value": "<p>I am curently writing a custom indieweb <a href=\"https://indieweb.org/note\">note</a> system for my webiste, my requirements are different to most/all indieweb implementation as I need three different way of creating notes Text-editor, Browser and Offline</p>\n\n",
+        "category": [],
+        "tags": []
+    },
+    {
+        "type": "entry",
+        "published": "2017-01-04 00:00:00 +1000",
+        "url": "/archive/2017/01/amiga-inc-shell-company.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "is Amiga inc a Shell corporation?",
+        "summary": {
+            "html": "<p>I\u2019ve been reading <a href=\"https://sites.google.com/site/amigadocuments/\">Amiga Documents</a>,</p>\n\n",
+            "value": "I\u2019ve been reading Amiga Documents,\n\n"
+        },
+        "value": "<p>I\u2019ve been reading <a href=\"https://sites.google.com/site/amigadocuments/\">Amiga Documents</a>,</p>\n\n",
+        "category": [],
+        "tags": []
+    },
+    {
+        "type": "entry",
+        "published": "2016-10-05 00:00:00 +1000",
+        "url": "/archive/2016/10/amazon-ec2.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Amazon EC2 and Art work",
+        "summary": {
+            "html": "<p>I been wanting to get back into do digital art again :) <br />\nBut I don\u2019t have the Patience for programs that max out my CPU for too long<sup id=\"fnref:1\"><a href=\"#fn:1\" class=\"footnote\">1</a></sup>:</p>\n\n<div class=\"footnotes\">\n  <ol>\n    <li id=\"fn:1\">\n      <p>I may have the cpu time on my desktop computer, but I rearly turn it on unless I need to use some windows software.\u00a0<a href=\"#fnref:1\" class=\"reversefootnote\">&#8617;</a></p>\n    </li>\n  </ol>\n</div>\n",
+            "value": "I been wanting to get back into do digital art again :) \nBut I don\u2019t have the Patience for programs that max out my CPU for too long1:\n\n\n  \n    \n      I may have the cpu time on my desktop computer, but I rearly turn it on unless I need to use some windows software.\u00a0&#8617;\n    \n  \n\n"
+        },
+        "value": "<p>I been wanting to get back into do digital art again :) <br />\nBut I don\u2019t have the Patience for programs that max out my CPU for too long<sup id=\"fnref:1\"><a href=\"#fn:1\" class=\"footnote\">1</a></sup>:</p>\n\n<div class=\"footnotes\">\n  <ol>\n    <li id=\"fn:1\">\n      <p>I may have the cpu time on my desktop computer, but I rearly turn it on unless I need to use some windows software.\u00a0<a href=\"#fnref:1\" class=\"reversefootnote\">&#8617;</a></p>\n    </li>\n  </ol>\n</div>\n",
+        "category": [],
+        "tags": []
+    },
+    {
+        "type": "entry",
+        "published": "2016-09-10 00:00:00 +1000",
+        "url": "/archive/2016/09/usenet-update-news-mozilla-org.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "usenet update news.mozilla.org",
+        "summary": {
+            "html": "<p>I have been trying unsucessfully to download news.mozilla.org with nget <br />\nit keeps redownload the same articles (Could be a bug with the news.mozilla.org server as new.povray.org and news.alaska-software.com works)</p>\n",
+            "value": "I have been trying unsucessfully to download news.mozilla.org with nget \nit keeps redownload the same articles (Could be a bug with the news.mozilla.org server as new.povray.org and news.alaska-software.com works)\n"
+        },
+        "value": "<p>I have been trying unsucessfully to download news.mozilla.org with nget <br />\nit keeps redownload the same articles (Could be a bug with the news.mozilla.org server as new.povray.org and news.alaska-software.com works)</p>\n",
+        "category": [],
+        "tags": []
+    },
+    {
+        "type": "entry",
+        "published": "2016-08-31 00:00:00 +1000",
+        "url": "/archive/2016/08/my-opinion-on-the-nbn.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "My opinion on the NBN (AU)",
+        "summary": {
+            "html": "<p>I have a problem with the NBN network it is out-of-date!!!  <br />\nIt Should be Called \u201cNation Broadcast Network\u201d NOT the \u201cNation Broadband Network\u201d because the Network is following the \u201cBroadcast\u201d model of thinking.</p>\n\n",
+            "value": "I have a problem with the NBN network it is out-of-date!!!  \nIt Should be Called \u201cNation Broadcast Network\u201d NOT the \u201cNation Broadband Network\u201d because the Network is following the \u201cBroadcast\u201d model of thinking.\n\n"
+        },
+        "value": "<p>I have a problem with the NBN network it is out-of-date!!!  <br />\nIt Should be Called \u201cNation Broadcast Network\u201d NOT the \u201cNation Broadband Network\u201d because the Network is following the \u201cBroadcast\u201d model of thinking.</p>\n\n",
+        "category": [],
+        "tags": []
+    },
+    {
+        "type": "entry",
+        "published": "2016-08-23 00:00:00 +1000",
+        "url": "/archive/2016/08/usenet-update.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Usenet Archiving Update",
+        "summary": {
+            "html": "<ul>\n  <li>I have given thunderbird the middle finger for download usenet articles<sup id=\"fnref:1\"><a href=\"#fn:1\" class=\"footnote\">1</a></sup></li>\n  <li>I found <a href=\"http://nget.sourceforge.net/\">nget</a>, its an old program, but still works :)</li>\n</ul>\n\n<div class=\"footnotes\">\n  <ol>\n    <li id=\"fn:1\">\n      <p>I still need to use it to create the group list :(\u00a0<a href=\"#fnref:1\" class=\"reversefootnote\">&#8617;</a></p>\n    </li>\n  </ol>\n</div>\n",
+            "value": "\n  I have given thunderbird the middle finger for download usenet articles1\n  I found nget, its an old program, but still works :)\n\n\n\n  \n    \n      I still need to use it to create the group list :(\u00a0&#8617;\n    \n  \n\n"
+        },
+        "value": "<ul>\n  <li>I have given thunderbird the middle finger for download usenet articles<sup id=\"fnref:1\"><a href=\"#fn:1\" class=\"footnote\">1</a></sup></li>\n  <li>I found <a href=\"http://nget.sourceforge.net/\">nget</a>, its an old program, but still works :)</li>\n</ul>\n\n<div class=\"footnotes\">\n  <ol>\n    <li id=\"fn:1\">\n      <p>I still need to use it to create the group list :(\u00a0<a href=\"#fnref:1\" class=\"reversefootnote\">&#8617;</a></p>\n    </li>\n  </ol>\n</div>\n",
+        "category": [
+            "compression",
+            "archiving",
+            "dtn"
+        ],
+        "tags": [
+            "ZPAQ",
+            "zpaq",
+            "backup",
+            "archive",
+            "archiving",
+            "dtn",
+            "usenet"
+        ]
+    },
+    {
+        "type": "entry",
+        "published": "2016-08-19 00:00:00 +1000",
+        "url": "/archive/2016/08/pov-ray-usenet-archive-complete.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Pov-Ray Usenet Archiving Completed",
+        "summary": {
+            "html": "<p>I\u2019ve completed the archive of <a href=\"http://news.povray.org/groups/\">Pov-ray\u2019s Usenet</a> :)</p>\n\n",
+            "value": "I\u2019ve completed the archive of Pov-ray\u2019s Usenet :)\n\n"
+        },
+        "value": "<p>I\u2019ve completed the archive of <a href=\"http://news.povray.org/groups/\">Pov-ray\u2019s Usenet</a> :)</p>\n\n",
+        "category": [
+            "compression",
+            "archiving",
+            "dtn"
+        ],
+        "tags": [
+            "ZPAQ",
+            "zpaq",
+            "backup",
+            "archive",
+            "archiving",
+            "dtn",
+            "usenet"
+        ]
+    },
+    {
+        "type": "entry",
+        "published": "2016-08-10 00:00:00 +1000",
+        "url": "/archive/2016/08/me-and-the-internet-ca-1997.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Me and the Internet ca 1997",
+        "summary": {
+            "html": "<h1 id=\"get-the-modem\">Get the modem</h1>\n<ul>\n  <li>I went down to the local computer realiter to get a modem with my father</li>\n  <li>I remeber pick up a US-Robotics 56k modem reading the description it include RealVideo<sup id=\"fnref:1\"><a href=\"#fn:1\" class=\"footnote\">1</a></sup> software</li>\n</ul>\n\n<div class=\"footnotes\">\n  <ol>\n    <li id=\"fn:1\">\n      <p>I remeber read a dead-tree maganize: it had a article about Real\u2019s New <a href=\"https://en.wikipedia.org/wiki/RealVideo\">RealVideo</a> Fractal Codec, I must of been in a trace\u00a0<a href=\"#fnref:1\" class=\"reversefootnote\">&#8617;</a></p>\n    </li>\n  </ol>\n</div>\n",
+            "value": "Get the modem\n\n  I went down to the local computer realiter to get a modem with my father\n  I remeber pick up a US-Robotics 56k modem reading the description it include RealVideo1 software\n\n\n\n  \n    \n      I remeber read a dead-tree maganize: it had a article about Real\u2019s New RealVideo Fractal Codec, I must of been in a trace\u00a0&#8617;\n    \n  \n\n"
+        },
+        "value": "<h1 id=\"get-the-modem\">Get the modem</h1>\n<ul>\n  <li>I went down to the local computer realiter to get a modem with my father</li>\n  <li>I remeber pick up a US-Robotics 56k modem reading the description it include RealVideo<sup id=\"fnref:1\"><a href=\"#fn:1\" class=\"footnote\">1</a></sup> software</li>\n</ul>\n\n<div class=\"footnotes\">\n  <ol>\n    <li id=\"fn:1\">\n      <p>I remeber read a dead-tree maganize: it had a article about Real\u2019s New <a href=\"https://en.wikipedia.org/wiki/RealVideo\">RealVideo</a> Fractal Codec, I must of been in a trace\u00a0<a href=\"#fnref:1\" class=\"reversefootnote\">&#8617;</a></p>\n    </li>\n  </ol>\n</div>\n",
+        "category": [
+            "personal",
+            "history",
+            "internet"
+        ],
+        "tags": [
+            "personal",
+            "history",
+            "internet",
+            "aol",
+            "ozemail",
+            "bigpond",
+            "australia",
+            "56k",
+            "modem"
+        ]
+    },
+    {
+        "type": "entry",
+        "published": "2016-08-09 00:00:00 +1000",
+        "url": "/archive/2016/08/pov-ray-usenet-archive.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Pov-Ray Usenet Archiving",
+        "summary": {
+            "html": "<p>I\u2019ve been trying to archive <a href=\"http://news.povray.org/groups/\">Pov-ray\u2019s Usenet</a> for the last fornight, but it has been give me hell especially the binary groups witch have over 78,000+ articles in each group</p>\n\n",
+            "value": "I\u2019ve been trying to archive Pov-ray\u2019s Usenet for the last fornight, but it has been give me hell especially the binary groups witch have over 78,000+ articles in each group\n\n"
+        },
+        "value": "<p>I\u2019ve been trying to archive <a href=\"http://news.povray.org/groups/\">Pov-ray\u2019s Usenet</a> for the last fornight, but it has been give me hell especially the binary groups witch have over 78,000+ articles in each group</p>\n\n",
+        "category": [
+            "compression",
+            "archiving",
+            "dtn"
+        ],
+        "tags": [
+            "ZPAQ",
+            "zpaq",
+            "backup",
+            "archive",
+            "archiving",
+            "dtn",
+            "usenet"
+        ]
+    },
+    {
+        "type": "entry",
+        "published": "2016-08-08 00:00:00 +1000",
+        "url": "/archive/2016/08/battlezone-98-redux.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Rembering Battlezone 98",
+        "summary": {
+            "html": "<iframe title=\"YouTube video player\" class=\"youtube-player\" type=\"text/html\" width=\"640\" height=\"390\" src=\"https://www.youtube.com/embed/QFmW6e-N288\" frameborder=\"0\" allowfullscreen=\"\"></iframe>\n\n",
+            "value": "\n\n"
+        },
+        "value": "<iframe title=\"YouTube video player\" class=\"youtube-player\" type=\"text/html\" width=\"640\" height=\"390\" src=\"https://www.youtube.com/embed/QFmW6e-N288\" frameborder=\"0\" allowfullscreen=\"\"></iframe>\n\n",
+        "category": [
+            "gaming",
+            "rts",
+            "fps"
+        ],
+        "tags": []
+    },
+    {
+        "type": "entry",
+        "published": "2016-08-08 00:00:00 +1000",
+        "url": "/archive/2016/08/zpaq.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "ZPAQ: Incremental Journaling Backup Utility and Archiver",
+        "summary": {
+            "html": "<p>I\u2019ve been using <a href=\"http://mattmahoney.net/dc/zpaq.html\">ZPAQ</a> for about a month now<br />\ni\u2019ve been using for:</p>\n\n",
+            "value": "I\u2019ve been using ZPAQ for about a month now\ni\u2019ve been using for:\n\n"
+        },
+        "value": "<p>I\u2019ve been using <a href=\"http://mattmahoney.net/dc/zpaq.html\">ZPAQ</a> for about a month now<br />\ni\u2019ve been using for:</p>\n\n",
+        "category": [
+            "compression"
+        ],
+        "tags": [
+            "ZPAQ",
+            "zpaq",
+            "backup",
+            "archive",
+            "archiving",
+            "dcn",
+            "dtn"
+        ]
+    },
+    {
+        "type": "entry",
+        "published": "2014-09-21 00:00:00 +1000",
+        "url": "/archive/2014/09/if-i-was-developing-pacer.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "if I was developing PACER....",
+        "summary": {
+            "html": "<p><a href=\"http://en.wikipedia.org/wiki/PACER_%28law%29\">PACER</a> (Public Access to Court Electronic Records) was in the news again today for being outdated and charging too much for public domain documents</p>\n\n",
+            "value": "PACER (Public Access to Court Electronic Records) was in the news again today for being outdated and charging too much for public domain documents\n\n"
+        },
+        "value": "<p><a href=\"http://en.wikipedia.org/wiki/PACER_%28law%29\">PACER</a> (Public Access to Court Electronic Records) was in the news again today for being outdated and charging too much for public domain documents</p>\n\n",
+        "category": [
+            "tech",
+            "law"
+        ],
+        "tags": []
+    },
+    {
+        "type": "entry",
+        "published": "1959-01-01T00:00:00+10:00",
+        "url": "https://tomasparks.name/miniatures/notebook/1959/01/pen-plotter.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Pen Plotters",
+        "summary": {
+            "html": "<blockquote>\n  <p>The plotter is a computer printer for printing vector graphics.\nIn the past, plotters were used in applications such as computer-aided design,\nthough they have generally been replaced with wide-format conventional printers.\nA plotter gives a hard copy of the output. It draws pictures on a paper using a pen.\nPlotters are used to print designs of ships and machines, plans for buildings and so on.</p>\n</blockquote>\n",
+            "value": "\n  The plotter is a computer printer for printing vector graphics.\nIn the past, plotters were used in applications such as computer-aided design,\nthough they have generally been replaced with wide-format conventional printers.\nA plotter gives a hard copy of the output. It draws pictures on a paper using a pen.\nPlotters are used to print designs of ships and machines, plans for buildings and so on.\n\n"
+        },
+        "value": "\n  The plotter is a computer printer for printing vector graphics.\nIn the past, plotters were used in applications such as computer-aided design,\nthough they have generally been replaced with wide-format conventional printers.\nA plotter gives a hard copy of the output. It draws pictures on a paper using a pen.\nPlotters are used to print designs of ships and machines, plans for buildings and so on.\n\n",
+        "category": [
+            "pen plotter",
+            "papercraft"
+        ],
+        "tags": [],
+        "syndication": []
+    },
+    {
+        "type": "entry",
+        "published": "1889-01-01T00:00:16+10:12",
+        "url": "https://tomasparks.name/miniatures/notebook/1889/01/space-1889-diorama.html",
+        "author": {
+            "type": "card",
+            "name": "Tom Sparks",
+            "url": "https://tomasparks.name",
+            "photo": "https://tomasparks.name/about-me/photo.png",
+            "note": "I am a Alternative Technology Researcher, with a focus on Digital Communication Networks."
+        },
+        "name": "Space 1889 themed diorama",
+        "summary": {
+            "html": "\n<div class=\"polaroid\">\n<img class=\"u-photo\" src=\"/miniatures/assets/images/Space1889Logo.png\" alt=\"Space 1889 logo\" srcset=\" /miniatures/assets/images/Space1889Logo.png 300w\" style=\"width:100%\" />\n  <div class=\"container\">\n    <p>Space 1889 logo</p>\n  </div>\n</div>\n\n",
+            "value": "\n\n\n  \n    Space 1889 logo\n  \n\n\n"
+        },
+        "value": "\n\n\n  \n    Space 1889 logo\n  \n\n\n",
+        "category": [
+            "Diorama",
+            "steampunk"
+        ],
+        "tags": [
+            "space 1889"
+        ],
+        "syndication": []
+    }
+]
